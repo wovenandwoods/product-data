@@ -16,13 +16,6 @@ Sell (Exc.) -> Sell Price (Tier 1 (Buy))
 [Blank] -> Subgroup 1 (Ignored for Updates)
 [Blank] -> Search Terms
 [Blank] -> Notes
-
-If given the -m command, any duplicate Installation Items are condensed
-into one Pre-Build item with the Category changed to General.
-
-If given the -c command, the data will be formatted for Catalogue import.
-
-If given the -p command, the data will be formatted for Pre Build import.
 """
 
 import pandas as pd
