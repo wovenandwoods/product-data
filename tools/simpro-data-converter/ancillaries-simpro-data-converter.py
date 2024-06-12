@@ -15,11 +15,11 @@ Additionally, the script:
     This list can be used to manually archive those ranges on simPRO.
 2.  Flags any products with duplicate Product Numbers.
 
-The script generates a master CSV containing all products from all suppliers, saved in the 'processed_data' folder.
+The script generates a master CSV containing all products from all suppliers, saved in the 'processed-data' folder.
 This file is for reference only and cannot be imported into simPRO.
 
 The script also creates a separate CSV for each supplier, containing all of their current products,
-saved in the 'processed_data/wood' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/wood' folder. These CSVs can be imported directly into simPRO.
 """
 
 import pandas as pd
@@ -30,13 +30,13 @@ from tkinter.filedialog import askopenfilename
 def export_supplier_data(df):
     """
     Creates an individual CSV file for every supplier detected in the XLSX file.
-    These files are saved to './processed_data/ancillaries'.
+    These files are saved to './processed-data/ancillaries'.
     """
     for supplier in df['Supplier'].unique():
         df[df['Supplier'] == supplier].to_csv(
-            f"./processed_data/ancillaries/{supplier.lower().replace(' ', '_')}_ancillaries_data.csv", index=False
+            f"./processed-data/ancillaries/{supplier.lower().replace(' ', '_')}_ancillaries_data.csv", index=False
         )
-    print("CSV files created successfully for all suppliers in ./processed_data/ancillaries/\n")
+    print("CSV files created successfully for all suppliers in ./processed-data/ancillaries/\n")
 
 
 def process_xlsx_to_csv(input_xlsx, output_csv):
@@ -117,7 +117,7 @@ Tk().withdraw()
 input_xlsx_file = askopenfilename()
 if input_xlsx_file:
     print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = "./processed_data/ancillaries_simpro_data.csv"
+    output_csv_file = "./processed-data/ancillaries_simpro_data.csv"
     process_xlsx_to_csv(input_xlsx_file, output_csv_file)
 else:
     print("No file selected.")

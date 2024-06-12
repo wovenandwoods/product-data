@@ -167,7 +167,7 @@ while format_response not in ("c", "p"):
         print("Invalid response.")
 
 # Make it so
-output_folder = "./processed_data/installation"
+output_folder = "./processed-data/installation"
 
 if merge_option:
     if catalogue_option:

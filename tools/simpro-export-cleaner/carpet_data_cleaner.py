@@ -54,9 +54,9 @@ def get_colour(description, range_name):
 def export_manufacturer_data(df):
     for manufacturer in df['Manufacturer'].unique():
         df[df['Manufacturer'] == manufacturer].to_csv(
-            f"./processed_data/carpet/{manufacturer.lower().replace(' ', '_')}"
+            f"./processed-data/carpet/{manufacturer.lower().replace(' ', '_')}"
             f"_carpet_data.csv", index=False)
-    print("CSV files created successfully for all manufacturers in ./processed_data/carpet/\n")
+    print("CSV files created successfully for all manufacturers in ./processed-data/carpet/\n")
 
 
 def get_width(description):
@@ -132,7 +132,7 @@ input_csv_file = askopenfilename()
 range_reference = askopenfilename()
 if input_csv_file:
     print(f"Selected file: {input_csv_file}")
-    output_file = "./processed_data/modified_carpet_simpro_data.csv"
+    output_file = "processed-data/modified_carpet_simpro_data.csv"
     process_data(input_csv_file)
 else:
     print("No file selected.")

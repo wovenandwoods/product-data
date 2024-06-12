@@ -21,11 +21,11 @@ Additionally, the script:
     This list can be used to manually archive those ranges on simPRO.
 2.  Flags any products with duplicate Product Numbers.
 
-The script generates a master CSV containing all products from all manufacturers, saved in the 'processed_data' folder.
+The script generates a master CSV containing all products from all manufacturers, saved in the 'processed-data' folder.
 This file is for reference only and cannot be imported into simPRO.
 
 The script also creates a separate CSV for each manufacturer, containing all of their current products,
-saved in the 'processed_data/carpet' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/carpet' folder. These CSVs can be imported directly into simPRO.
 """
 
 import pandas as pd
@@ -54,13 +54,13 @@ def lm_price(sqm_price, width):
 def export_manufacturer_data(df):
     """
     Creates an individual CSV file for every manufacturer detected in the XLSX file.
-    These files are saved to './processed_data/carpet'.
+    These files are saved to './processed-data/carpet'.
     """
     for manufacturer in df['Manufacturer'].unique():
         df[df['Manufacturer'] == manufacturer].to_csv(
-            f"./processed_data/carpet/{manufacturer.lower().replace(' ', '_')}_carpet_data.csv", index=False
+            f"./processed-data/carpet/{manufacturer.lower().replace(' ', '_')}_carpet_data.csv", index=False
         )
-    print("CSV files created successfully for all manufacturers in ./processed_data/carpet/\n")
+    print("CSV files created successfully for all manufacturers in ./processed-data/carpet/\n")
 
 
 def note_field(sell_price, twickenham, richmond):
@@ -186,7 +186,7 @@ Tk().withdraw()
 input_xlsx_file = askopenfilename()
 if input_xlsx_file:
     print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = "./processed_data/carpet_simpro_data.csv"
+    output_csv_file = "./processed-data/carpet_simpro_data.csv"
     process_xlsx_to_csv(input_xlsx_file, output_csv_file)
 else:
     print("No file selected.")
