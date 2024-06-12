@@ -1,0 +1,557 @@
+SKU,Product,Manufacturer,Category,Type,Species,Finish,Width,Length,Thickness,Sell ex VAT,Slug,Image URL
+WO24424LAM,Albi Biscuit,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,72.5,albi-biscuit,product-images/wood/lamett/albi-biscuit.jpg
+WO41619LAM,Albi Look Unfinished,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,72.5,albi-look-unfinished,product-images/wood/lamett/albi-look-unfinished.jpg
+WO46590LAM,Albi Smoked Invisible,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,72.5,albi-smoked-invisible,product-images/wood/lamett/albi-smoked-invisible.jpg
+WO45431LAM,Albi Vintage,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,72.5,albi-vintage,product-images/wood/lamett/albi-vintage.jpg
+WO24658LAM,Bergamo Black,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-black,product-images/wood/lamett/bergamo-black.jpg
+WO80353LAM,Bergamo Cotton White,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-cotton-white,product-images/wood/lamett/bergamo-cotton-white.jpg
+WO59115LAM,Bergamo Look Unfinished,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-look-unfinished,product-images/wood/lamett/bergamo-look-unfinished.jpg
+WO35771LAM,Bergamo Natural,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-natural,product-images/wood/lamett/bergamo-natural.jpg
+WO46021LAM,Bergamo Smoke,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-smoke,product-images/wood/lamett/bergamo-smoke.jpg
+WO53491LAM,Bergamo Titanium,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1900,14/3,85.0,bergamo-titanium,product-images/wood/lamett/bergamo-titanium.jpg
+WO95758LAM,Bergen 190 Invisible,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,15/3,73.33333333333333,bergen-190-invisible,product-images/wood/lamett/bergen-190-invisible.jpg
+WO75241LAM,Bergen 190 Mont Blanc,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,15/3,73.33333333333333,bergen-190-mont-blanc,product-images/wood/lamett/bergen-190-mont-blanc.jpg
+WO39244LAM,Bergen 190 Natural,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,15/3,73.33333333333333,bergen-190-natural,product-images/wood/lamett/bergen-190-natural.jpg
+WO39721LAM,Bergen 190 Pure,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,15/3,73.33333333333333,bergen-190-pure,product-images/wood/lamett/bergen-190-pure.jpg
+WO70904LAM,Carcassone Black,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,75.83333333333333,carcassone-black,product-images/wood/lamett/carcassone-black.jpg
+WO96447LAM,Carcassone Blanco,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,75.83333333333333,carcassone-blanco,product-images/wood/lamett/carcassone-blanco.jpg
+WO62515LAM,Carcassone Look Unfinished,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,75.83333333333333,carcassone-look-unfinished,product-images/wood/lamett/carcassone-look-unfinished.jpg
+WO46594LAM,Carcassone Natural,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,75.83333333333333,carcassone-natural,product-images/wood/lamett/carcassone-natural.jpg
+WO17708LAM,Carcassone DC Granola,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-granola,product-images/wood/lamett/carcassone-dc-granola.jpg
+WO95366LAM,Carcassone DC Caramel,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-caramel,product-images/wood/lamett/carcassone-dc-caramel.jpg
+WO90387LAM,Carcassone DC Crumble,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-crumble,product-images/wood/lamett/carcassone-dc-crumble.jpg
+WO74306LAM,Carcassone DC Café Au Lait,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-cafe-au-lait,product-images/wood/lamett/carcassone-dc-cafe-au-lait.jpg
+WO87364LAM,Carcassone DC Amaretto,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-amaretto,product-images/wood/lamett/carcassone-dc-amaretto.jpg
+WO34389LAM,Carcassone DC Latte,Lamett,Wood,Plank,European Oak,Oil,220,600 - 2200,15/4,102.5,carcassone-dc-latte,product-images/wood/lamett/carcassone-dc-latte.jpg
+WO88874LAM,Chalet 190 Invisible,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,52.5,chalet-190-invisible,product-images/wood/lamett/chalet-190-invisible.jpg
+WO91101LAM,Chalet 190 Natural,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1900,14/3,52.5,chalet-190-natural,product-images/wood/lamett/chalet-190-natural.jpg
+WO58453LAM,Chalet Herringbone Invisible,Lamett,Wood,Herringbone,European Oak,Oil,120,600 - 1900,14/4,55.83333333333333,chalet-herringbone-invisible,product-images/wood/lamett/chalet-herringbone-invisible.jpg
+WO15305LAM,Chalet Herringbone Natural,Lamett,Wood,Herringbone,European Oak,Oil,120,600 - 1900,14/5,55.83333333333333,chalet-herringbone-natural,product-images/wood/lamett/chalet-herringbone-natural.jpg
+WO50169LAM,Cottage 190 Invisible,Lamett,Wood,Plank,European Oak,Lacquer,190,650 - 1900,14/3,54.16666666666667,cottage-190-invisible,product-images/wood/lamett/cottage-190-invisible.jpg
+WO75834LAM,Cottage 190 Mont Blanc,Lamett,Wood,Plank,European Oak,Lacquer,190,650 - 1900,14/3,54.16666666666667,cottage-190-mont-blanc,product-images/wood/lamett/cottage-190-mont-blanc.jpg
+WO82723LAM,Cottage 190 Natural,Lamett,Wood,Plank,European Oak,Lacquer,190,650 - 1900,14/3,54.16666666666667,cottage-190-natural,product-images/wood/lamett/cottage-190-natural.jpg
+WO22888LAM,Cottage 190 Paris Brown,Lamett,Wood,Plank,European Oak,Lacquer,190,650 - 1900,14/3,49.16666666666667,cottage-190-paris-brown,product-images/wood/lamett/cottage-190-paris-brown.jpg
+WO89781LAM,Cottage 260 Invisible,Lamett,Wood,Plank,European Oak,Lacquer,260,600 - 2200,15/4,65.0,cottage-260-invisible,product-images/wood/lamett/cottage-260-invisible.jpg
+WO60629LAM,Cottage 260 Natural,Lamett,Wood,Plank,European Oak,Lacquer,260,600 - 2200,15/4,65.0,cottage-260-natural,product-images/wood/lamett/cottage-260-natural.jpg
+WO15637LAM,Cottage Herringbone Invisible,Lamett,Wood,Herringbone,European Oak,Lacquer,120,600,14/3,54.16666666666667,cottage-herringbone-invisible,product-images/wood/lamett/cottage-herringbone-invisible.jpg
+WO46986LAM,Cottage Herringbone Natural,Lamett,Wood,Herringbone,European Oak,Lacquer,120,600,14/3,54.16666666666667,cottage-herringbone-natural,product-images/wood/lamett/cottage-herringbone-natural.jpg
+WO60154LAM,Country Double Smoked Pure,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-double-smoked-pure,product-images/wood/lamett/country-double-smoked-pure.jpg
+WO39043LAM,Country Smoked Coffee,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-smoked-coffee,product-images/wood/lamett/country-smoked-coffee.jpg
+WO18883LAM,Country Smoked Grey,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-smoked-grey,product-images/wood/lamett/country-smoked-grey.jpg
+WO94406LAM,Country Smoked Natural,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-smoked-natural,product-images/wood/lamett/country-smoked-natural.jpg
+WO36561LAM,Country Smoked White,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-smoked-white,product-images/wood/lamett/country-smoked-white.jpg
+WO55968LAM,Country White,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,57.5,country-white,product-images/wood/lamett/country-white.jpg
+WO15099LAM,Farm Antique,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-antique,product-images/wood/lamett/farm-antique.jpg
+WO38068LAM,Farm Harvest,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-harvest,product-images/wood/lamett/farm-harvest.jpg
+WO56937LAM,Farm Herringbone Antique,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,80.0,farm-herringbone-antique,product-images/wood/lamett/farm-herringbone-antique.jpg
+WO57968LAM,Farm Herringbone Old Church,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,80.0,farm-herringbone-old-church,product-images/wood/lamett/farm-herringbone-old-church.jpg
+WO70668LAM,Farm Herringbone Pure,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,80.0,farm-herringbone-pure,product-images/wood/lamett/farm-herringbone-pure.jpg
+WO17207LAM,Farm Herringbone Traditions,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,80.0,farm-herringbone-traditions,product-images/wood/lamett/farm-herringbone-traditions.jpg
+WO81827LAM,Farm Herringbone White,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,80.0,farm-herringbone-white,product-images/wood/lamett/farm-herringbone-white.jpg
+WO93436LAM,Farm Old Church,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-old-church,product-images/wood/lamett/farm-old-church.jpg
+WO21150LAM,Farm Pure,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-pure,product-images/wood/lamett/farm-pure.jpg
+WO55351LAM,Farm Traditions,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-traditions,product-images/wood/lamett/farm-traditions.jpg
+WO48149LAM,Farm White,Lamett,Wood,Plank,European Oak,Oil,190,600 - 1860,15/3.5,70.0,farm-white,product-images/wood/lamett/farm-white.jpg
+WO19488LAM,New York Coffee,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-coffee,product-images/wood/lamett/new-york-coffee.jpg
+WO46820LAM,New York Natural,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-natural,product-images/wood/lamett/new-york-natural.jpg
+WO77772LAM,New York Pure Plus,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-pure-plus,product-images/wood/lamett/new-york-pure-plus.jpg
+WO16146LAM,New York Skyline,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-skyline,product-images/wood/lamett/new-york-skyline.jpg
+WO43964LAM,New York Sunset,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-sunset,product-images/wood/lamett/new-york-sunset.jpg
+WO68589LAM,New York Wheat,Lamett,Wood,Plank,European Oak,Lacquer,190,630 - 1860,14/3.5,75.83333333333333,new-york-wheat,product-images/wood/lamett/new-york-wheat.jpg
+WO98198LAM,Oslo 150 Mont Blanc,Lamett,Wood,Plank,European Oak,Oil,150,630 - 1860,15/3,60.0,oslo-150-mont-blanc,product-images/wood/lamett/oslo-150-mont-blanc.jpg
+WO90370LAM,Oslo 150 Natural,Lamett,Wood,Plank,European Oak,Oil,150,630 - 1860,15/3,60.0,oslo-150-natural,product-images/wood/lamett/oslo-150-natural.jpg
+WO65008LAM,Oslo 150 Pure,Lamett,Wood,Plank,European Oak,Oil,150,630 - 1860,15/3,60.0,oslo-150-pure,product-images/wood/lamett/oslo-150-pure.jpg
+WO53483LAM,Oslo 190 Authentic Brown,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1860,15/3.5,74.16666666666667,oslo-190-authentic-brown,product-images/wood/lamett/oslo-190-authentic-brown.jpg
+WO43864LAM,Oslo 190 Mont Blanc,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1860,15/3.5,74.16666666666667,oslo-190-mont-blanc,product-images/wood/lamett/oslo-190-mont-blanc.jpg
+WO63495LAM,Oslo 190 Natural,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1860,15/3.5,74.16666666666667,oslo-190-natural,product-images/wood/lamett/oslo-190-natural.jpg
+WO19548LAM,Oslo 190 Paris Brown,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1860,15/3.5,74.16666666666667,oslo-190-paris-brown,product-images/wood/lamett/oslo-190-paris-brown.jpg
+WO52166LAM,Oslo 190 Pure,Lamett,Wood,Plank,European Oak,Oil,190,630 - 1860,15/3.5,74.16666666666667,oslo-190-pure,product-images/wood/lamett/oslo-190-pure.jpg
+WO53785LAM,Oslo Herringbone Mont Blanc,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,77.5,oslo-herringbone-mont-blanc,product-images/wood/lamett/oslo-herringbone-mont-blanc.jpg
+WO74628LAM,Oslo Herringbone Natural,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,77.5,oslo-herringbone-natural,product-images/wood/lamett/oslo-herringbone-natural.jpg
+WO29798LAM,Oslo Herringbone Pure,Lamett,Wood,Herringbone,European Oak,Oil,125,625,15/3,77.5,oslo-herringbone-pure,product-images/wood/lamett/oslo-herringbone-pure.jpg
+WO48078LAM,Tenda 150 Invisible,Lamett,Wood,Plank,European Oak,Lacquer,150,600 - 1900,10/3,50.0,tenda-150-invisible,product-images/wood/lamett/tenda-150-invisible.jpg
+WO71282LAM,Tenda 150 Natural,Lamett,Wood,Plank,European Oak,Lacquer,150,600 - 1900,10/3,50.83333333333333,tenda-150-natural,product-images/wood/lamett/tenda-150-natural.jpg
+WO56755PAN,American Black Walnut (Matt) (Diva 139) 1021340,Panaget,Wood,Plank,American Walnut,Matt Lacquer,139,500 – 2000,14/3.4,100.0,american-black-walnut-matt-diva-139-1021340,product-images/wood/panaget/american-black-walnut-matt-diva-139-1021340.jpg
+WO19856PAN,American Black Walnut (Satin) (Herringbone 139) 1019564,Panaget,Wood,Herringbone,American Walnut,Satin Lacquer,139,800,14/2.5,111.66666666666666,american-black-walnut-satin-herringbone-139-1019564,product-images/wood/panaget/american-black-walnut-satin-herringbone-139-1019564.jpg
+WO74121PAN,Argile - Authentic (Diva 223) 1017303,Panaget,Wood,Plank,European Oak,Matt Lacquer,223,700 – 2000,15/4.5,101.66666666666666,argile-authentic-diva-223-1017303,product-images/wood/panaget/argile-authentic-diva-223-1017303.jpg
+WO84017PAN,Argile - Zenitude (Diva 184) 1016189,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,74.16666666666667,argile-zenitude-diva-184-1016189,product-images/wood/panaget/argile-zenitude-diva-184-1016189.jpg
+WO78112PAN,Bois Flotte - Authentic (Chevron 139) 1019821,Panaget,Wood,Chevron,European Oak,Matt Lacquer,139,500 – 2000,14/3.4,98.33333333333334,bois-flotte-authentic-chevron-139-1019821,product-images/wood/panaget/bois-flotte-authentic-chevron-139-1019821.jpg
+WO17345PAN,Bois Flotte - Authentic (Diva 139) 1017897,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,14/3.4,60.0,bois-flotte-authentic-diva-139-1017897,product-images/wood/panaget/bois-flotte-authentic-diva-139-1017897.jpg
+WO44295PAN,Bois Flotte - Authentic (Diva 184) 1016634,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,78.33333333333333,bois-flotte-authentic-diva-184-1016634,product-images/wood/panaget/bois-flotte-authentic-diva-184-1016634.jpg
+WO13281PAN,Bois Flotte - Authentic (Diva 223) 1016985,Panaget,Wood,Plank,European Oak,Matt Lacquer,223,700 – 2000,15/4.5,101.66666666666666,bois-flotte-authentic-diva-223-1016985,product-images/wood/panaget/bois-flotte-authentic-diva-223-1016985.jpg
+WO26750PAN,Bois Flotte - Authentic (Diva Click 184) 1000059,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,495 – 1992,12/2.5,71.66666666666667,bois-flotte-authentic-diva-click-184-1000059,product-images/wood/panaget/bois-flotte-authentic-diva-click-184-1000059.jpg
+WO73529PAN,Bois Flotte - Authentic (Herringbone 139) 1016617,Panaget,Wood,Herringbone,European Oak,Matt Lacquer,139,800,14/3.4,82.5,bois-flotte-authentic-herringbone-139-1016617,product-images/wood/panaget/bois-flotte-authentic-herringbone-139-1016617.jpg
+WO14239PAN,Bois Flotte - Classic (Diva 139) 1019701,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,14/3.4,69.16666666666667,bois-flotte-classic-diva-139-1019701,product-images/wood/panaget/bois-flotte-classic-diva-139-1019701.jpg
+WO96500PAN,Bois Flotte - Classic (Diva 184) 1006159,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,82.5,bois-flotte-classic-diva-184-1006159,product-images/wood/panaget/bois-flotte-classic-diva-184-1006159.jpg
+WO55719PAN,Bois Flotte - Classic (Diva Click 139) 1005774,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,12/2.5,64.16666666666667,bois-flotte-classic-diva-click-139-1005774,product-images/wood/panaget/bois-flotte-classic-diva-click-139-1005774.jpg
+WO35030PAN,Bois Flotte - Intenso (Diva 139) 1017017,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,12/2.5,54.16666666666667,bois-flotte-intenso-diva-139-1017017,product-images/wood/panaget/bois-flotte-intenso-diva-139-1017017.jpg
+WO97297PAN,Bois Flotte - Zenitude (Diva 139) 1007643,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,12/2.5,58.33333333333333,bois-flotte-zenitude-diva-139-1007643,product-images/wood/panaget/bois-flotte-zenitude-diva-139-1007643.jpg
+WO52768PAN,Bois Flotte - Zenitude (Diva 184) 1007330,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,500 – 2000,14/3.4,74.16666666666667,bois-flotte-zenitude-diva-184-1007330,product-images/wood/panaget/bois-flotte-zenitude-diva-184-1007330.jpg
+WO52271PAN,Bois Flotte - Zenitude (Diva 184) 1016424,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,495 – 1992,12/2.5,71.66666666666667,bois-flotte-zenitude-diva-184-1016424,product-images/wood/panaget/bois-flotte-zenitude-diva-184-1016424.jpg
+WO92846PAN,Bois Flotte - Zenitude (Sonate 140) 1007261,Panaget,Wood,Plank,European Oak,Matt Lacquer,140,400 – 1300,14 (Solid),80.0,bois-flotte-zenitude-sonate-140-1007261,product-images/wood/panaget/bois-flotte-zenitude-sonate-140-1007261.jpg
+WO26626PAN,Bois Flotte - Zenitude (Sonate 90) 1007293,Panaget,Wood,Plank,European Oak,Matt Lacquer,90,400 – 1300,14 (Solid),77.5,bois-flotte-zenitude-sonate-90-1007293,product-images/wood/panaget/bois-flotte-zenitude-sonate-90-1007293.jpg
+WO56818PAN,Bois Flotte – Tradition (Alto 139) 1017696,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,1210,12/2.5,70.0,bois-flotte-tradition-alto-139-1017696,product-images/wood/panaget/bois-flotte-tradition-alto-139-1017696.jpg
+WO17545PAN,Café Crème - Authentic (Chevron 139) 1019822,Panaget,Wood,Chevron,European Oak,Matt Lacquer,139,650,14/3.4,98.33333333333334,cafe-creme-authentic-chevron-139-1019822,product-images/wood/panaget/cafe-creme-authentic-chevron-139-1019822.jpg
+WO78263PAN,Café Crème - Zenitude (Diva 139) 1019168,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,12/2.5,58.33333333333333,cafe-creme-zenitude-diva-139-1019168,product-images/wood/panaget/cafe-creme-zenitude-diva-139-1019168.jpg
+WO15293PAN,Café Crème - Zenitude (Diva 184) 1019171,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,74.16666666666667,cafe-creme-zenitude-diva-184-1019171,product-images/wood/panaget/cafe-creme-zenitude-diva-184-1019171.jpg
+WO48625PAN,Café Crème - Zenitude (Sonate 140) 1019819,Panaget,Wood,Plank,European Oak,Matt Lacquer,140,400 – 1300,14 (Solid),80.0,cafe-creme-zenitude-sonate-140-1019819,product-images/wood/panaget/cafe-creme-zenitude-sonate-140-1019819.jpg
+WO99957PAN,Carmen No 2 - Classic (Panel) 1005714,Panaget,Wood,Design Panel,European Oak,Matt Lacquer,392,392,14/3.2,122.5,carmen-no-2-classic-panel-1005714,product-images/wood/panaget/carmen-no-2-classic-panel-1005714.jpg
+WO63925PAN,Carmen No 5 - Classic (Panel) 1005712,Panaget,Wood,Design Panel,European Oak,Matt Lacquer,392,392,14/3.2,122.5,carmen-no-5-classic-panel-1005712,product-images/wood/panaget/carmen-no-5-classic-panel-1005712.jpg
+WO44955PAN,Cuir - Authentic (Diva 184) 1014166,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,78.33333333333333,cuir-authentic-diva-184-1014166,product-images/wood/panaget/cuir-authentic-diva-184-1014166.jpg
+WO94576PAN,Cuir - Authentic (Diva 184) 1014182,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,15/4.5,108.33333333333334,cuir-authentic-diva-184-1014182,product-images/wood/panaget/cuir-authentic-diva-184-1014182.jpg
+WO73015PAN,Cuir - Origine (Diva 184) 1006550,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,80.83333333333334,cuir-origine-diva-184-1006550,product-images/wood/panaget/cuir-origine-diva-184-1006550.jpg
+WO65687PAN,Fauve - Zenitude (Diva 139) 1019709,Panaget,Wood,Plank,European Oak,Satin Lacquer,139,495 – 1992,14/3.4,61.66666666666667,fauve-zenitude-diva-139-1019709,product-images/wood/panaget/fauve-zenitude-diva-139-1019709.jpg
+WO39020PAN,Fauve - Zenitude (Diva 184) 1016472,Panaget,Wood,Plank,European Oak,Satin Lacquer,184,500 – 2000,14/3.4,74.16666666666667,fauve-zenitude-diva-184-1016472,product-images/wood/panaget/fauve-zenitude-diva-184-1016472.jpg
+WO60809PAN,Flamed Beech Cuivre (Diva 139) 1019714,Panaget,Wood,Plank,Beech,Oil,139,495 – 1992,14/3.4,63.33333333333333,flamed-beech-cuivre-diva-139-1019714,product-images/wood/panaget/flamed-beech-cuivre-diva-139-1019714.jpg
+WO42149PAN,Flamed Beech Satine (Diva 139) 1019711,Panaget,Wood,Plank,Beech,Satin Lacquer,139,495 – 1992,14/3.4,63.33333333333333,flamed-beech-satine-diva-139-1019711,product-images/wood/panaget/flamed-beech-satine-diva-139-1019711.jpg
+WO89103PAN,Flanelle - Authentic (Diva 184) 1014183,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,15/4.5,108.33333333333334,flanelle-authentic-diva-184-1014183,product-images/wood/panaget/flanelle-authentic-diva-184-1014183.jpg
+WO49935PAN,Flanelle - Zenitude (Diva 184) 1007324,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,74.16666666666667,flanelle-zenitude-diva-184-1007324,product-images/wood/panaget/flanelle-zenitude-diva-184-1007324.jpg
+WO66224PAN,Grey Oil - Zenitude (Diva 184) 1007332,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,74.16666666666667,grey-oil-zenitude-diva-184-1007332,product-images/wood/panaget/grey-oil-zenitude-diva-184-1007332.jpg
+WO96565PAN,Habano - Classic/Authentic (Herringbone 90) 1016742,Panaget,Wood,Herringbone,European Oak,Matt Lacquer,90,590,12/2.5,66.66666666666667,habano-classicauthentic-herringbone-90-1016742,product-images/wood/panaget/habano-classicauthentic-herringbone-90-1016742.jpg
+WO36594PAN,Linen - Authentic (Diva 139) 1000299,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,12/2.5,60.0,linen-authentic-diva-139-1000299,product-images/wood/panaget/linen-authentic-diva-139-1000299.jpg
+WO98998PAN,Linen - Classic (Diva 139) 1019702,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,14/3.4,69.16666666666667,linen-classic-diva-139-1019702,product-images/wood/panaget/linen-classic-diva-139-1019702.jpg
+WO16279PAN,Linen - Classic/Authentic (Herringbone 90) 1005924,Panaget,Wood,Herringbone,European Oak,Matt Lacquer,90,590,12/2.5,66.66666666666667,linen-classicauthentic-herringbone-90-1005924,product-images/wood/panaget/linen-classicauthentic-herringbone-90-1005924.jpg
+WO44391PAN,Linen - Zenitude (Diva 184) 1007314,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,74.16666666666667,linen-zenitude-diva-184-1007314,product-images/wood/panaget/linen-zenitude-diva-184-1007314.jpg
+WO40805PAN,Linen - Zenitude (Sonate 140) 1007268,Panaget,Wood,Plank,European Oak,Matt Lacquer,140,400 – 1300,14 (Solid),80.0,linen-zenitude-sonate-140-1007268,product-images/wood/panaget/linen-zenitude-sonate-140-1007268.jpg
+WO60706PAN,Miel - Authentic (Diva 139 Click) 1019705,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,14/3.4,62.5,miel-authentic-diva-139-click-1019705,product-images/wood/panaget/miel-authentic-diva-139-click-1019705.jpg
+WO21964PAN,Miel - Authentic (Diva 184) 1019170,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,78.33333333333333,miel-authentic-diva-184-1019170,product-images/wood/panaget/miel-authentic-diva-184-1019170.jpg
+WO13133PAN,Natural Oil - Authentic (Sonate 90) 1000026,Panaget,Wood,Plank,European Oak,Oil,90,400 – 1300,14 (Solid),85.0,natural-oil-authentic-sonate-90-1000026,product-images/wood/panaget/natural-oil-authentic-sonate-90-1000026.jpg
+WO99719PAN,Natural Oil - Salvaggio (Diva 139) 1014172,Panaget,Wood,Plank,European Oak,Oil,139,500 – 2000,14/3.4,84.16666666666666,natural-oil-salvaggio-diva-139-1014172,product-images/wood/panaget/natural-oil-salvaggio-diva-139-1014172.jpg
+WO94446PAN,Opale - Authentic (Diva 184) 1000060,Panaget,Wood,Plank,European Oak,Satin Lacquer,184,495 – 1992,12/2.5,71.66666666666667,opale-authentic-diva-184-1000060,product-images/wood/panaget/opale-authentic-diva-184-1000060.jpg
+WO99698PAN,Opale - Classic (Diva 139) 1006162,Panaget,Wood,Plank,European Oak,Satin Lacquer,139,495 – 1992,14/3.4,69.16666666666667,opale-classic-diva-139-1006162,product-images/wood/panaget/opale-classic-diva-139-1006162.jpg
+WO19963PAN,Rafia - Zenitude (Diva 184) 1007325,Panaget,Wood,Plank,European Oak,Oil,500 – 2000,500 – 2000,14/3.4,74.16666666666667,rafia-zenitude-diva-184-1007325,product-images/wood/panaget/rafia-zenitude-diva-184-1007325.jpg
+WO47556PAN,Sable - Authentic (Diva 223) 1017302,Panaget,Wood,Plank,European Oak,Oil,223,700 – 2000,15/4.5,101.66666666666666,sable-authentic-diva-223-1017302,product-images/wood/panaget/sable-authentic-diva-223-1017302.jpg
+WO74187PAN,Sable - Origine (Diva 184) 1016635,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,80.83333333333334,sable-origine-diva-184-1016635,product-images/wood/panaget/sable-origine-diva-184-1016635.jpg
+WO14989PAN,Sable - Zenitude (Diva 139) 1016633,Panaget,Wood,Plank,European Oak,Oil,139,495 – 1992,14/3.4,71.66666666666667,sable-zenitude-diva-139-1016633,product-images/wood/panaget/sable-zenitude-diva-139-1016633.jpg
+WO32944PAN,Sable - Zenitude (Diva 139) 1017898,Panaget,Wood,Plank,European Oak,Oil,139,495 – 1992,12/2.5,58.33333333333333,sable-zenitude-diva-139-1017898,product-images/wood/panaget/sable-zenitude-diva-139-1017898.jpg
+WO86817PAN,Saphir - Authentic (Diva 139) 1019706,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,495 – 1992,14/3.4,62.5,saphir-authentic-diva-139-1019706,product-images/wood/panaget/saphir-authentic-diva-139-1019706.jpg
+WO55092PAN,Saphir - Authentic (Diva 184) 1000069,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,78.33333333333333,saphir-authentic-diva-184-1000069,product-images/wood/panaget/saphir-authentic-diva-184-1000069.jpg
+WO89971PAN,Satin - Authentic (Sonate 90) 1000027,Panaget,Wood,Plank,European Oak,Satin Lacquer,90,400 – 1300,14 (Solid),85.0,satin-authentic-sonate-90-1000027,product-images/wood/panaget/satin-authentic-sonate-90-1000027.jpg
+WO33441PAN,Satin - Classic (Diva 139) 1005748,Panaget,Wood,Plank,European Oak,Satin Lacquer,139,500 – 2000,14/3.4,95.0,satin-classic-diva-139-1005748,product-images/wood/panaget/satin-classic-diva-139-1005748.jpg
+WO35992PAN,Satin - Classic (Diva 90) 1005768,Panaget,Wood,Plank,European Oak,Satin Lacquer,90,385 – 1180,12/2.5,71.66666666666667,satin-classic-diva-90-1005768,product-images/wood/panaget/satin-classic-diva-90-1005768.jpg
+WO83439PAN,Shabi Chaux - Zenitude (Alto 139) 1017702,Panaget,Wood,Plank,European Oak,Oil,139,1210,12/2.5,70.0,shabi-chaux-zenitude-alto-139-1017702,product-images/wood/panaget/shabi-chaux-zenitude-alto-139-1017702.jpg
+WO47702PAN,Topaze - Authentic (Diva 139) 1000297,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,500 – 2000,14/3.4,68.33333333333333,topaze-authentic-diva-139-1000297,product-images/wood/panaget/topaze-authentic-diva-139-1000297.jpg
+WO78511PAN,Topaze - Authentic (Diva 184) 1000070,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,78.33333333333333,topaze-authentic-diva-184-1000070,product-images/wood/panaget/topaze-authentic-diva-184-1000070.jpg
+WO37940PAN,Topaze - Authentic (Diva 223) 1016986,Panaget,Wood,Plank,European Oak,Matt Lacquer,223,700 – 2000,15/4.5,101.66666666666666,topaze-authentic-diva-223-1016986,product-images/wood/panaget/topaze-authentic-diva-223-1016986.jpg
+WO46287PAN,Topaze - Authentic (Herringbone 139) 1016618,Panaget,Wood,Herringbone,European Oak,Matt Lacquer,139,800,14/3.4,82.5,topaze-authentic-herringbone-139-1016618,product-images/wood/panaget/topaze-authentic-herringbone-139-1016618.jpg
+WO80712PAN,Topaze - Authentic (Sonate 140) 1000034,Panaget,Wood,Plank,European Oak,Matt Lacquer,140,400 – 1300,14 (Solid),92.5,topaze-authentic-sonate-140-1000034,product-images/wood/panaget/topaze-authentic-sonate-140-1000034.jpg
+WO73772PAN,Topaze - Classic (Chevron 90) 1005735,Panaget,Wood,Chevron,European Oak,Matt Lacquer,90,500,14/3.4,98.33333333333334,topaze-classic-chevron-90-1005735,product-images/wood/panaget/topaze-classic-chevron-90-1005735.jpg
+WO77551PAN,Topaze - Classic (Diva 184) 1006158,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,82.5,topaze-classic-diva-184-1006158,product-images/wood/panaget/topaze-classic-diva-184-1006158.jpg
+WO11235PAN,Topaze - Classic/Authentic (Herringbone 90) 1020644,Panaget,Wood,Herringbone,European Oak,Matt Lacquer,90,590,12/2.5,66.66666666666667,topaze-classicauthentic-herringbone-90-1020644,product-images/wood/panaget/topaze-classicauthentic-herringbone-90-1020644.jpg
+WO29524PAN,Topaze - Tradition (Alto 139) 1017700,Panaget,Wood,Plank,European Oak,Matt Lacquer,139,1210,12/2.5,70.0,topaze-tradition-alto-139-1017700,product-images/wood/panaget/topaze-tradition-alto-139-1017700.jpg
+WO62056PAN,Tourbe - Zenitude (Diva 184) 1014165,Panaget,Wood,Plank,European Oak,Matt Lacquer,184,500 – 2000,14/3.4,74.16666666666667,tourbe-zenitude-diva-184-1014165,product-images/wood/panaget/tourbe-zenitude-diva-184-1014165.jpg
+WO86987PAN,Tourbe - Zenitude/Origine (Diva 184) 1006552,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,80.83333333333334,tourbe-zenitudeorigine-diva-184-1006552,product-images/wood/panaget/tourbe-zenitudeorigine-diva-184-1006552.jpg
+WO96380PAN,Tufeau - Authentic (Diva 139) 1019707,Panaget,Wood,Plank,European Oak,Oil,139,495 – 1992,14/3.4,62.5,tufeau-authentic-diva-139-1019707,product-images/wood/panaget/tufeau-authentic-diva-139-1019707.jpg
+WO75688PAN,Tufeau - Authentic (Diva 184) 1014185,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,15/4.5,108.33333333333334,tufeau-authentic-diva-184-1014185,product-images/wood/panaget/tufeau-authentic-diva-184-1014185.jpg
+WO88305PAN,Tufeau - Authentic (Herringbone 90) 1016743,Panaget,Wood,Herringbone,European Oak,Oil,90,590,12/2.5,66.66666666666667,tufeau-authentic-herringbone-90-1016743,product-images/wood/panaget/tufeau-authentic-herringbone-90-1016743.jpg
+WO73968PAN,Tufeau - Zenitude (Diva 184) 1006551,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,80.83333333333334,tufeau-zenitude-diva-184-1006551,product-images/wood/panaget/tufeau-zenitude-diva-184-1006551.jpg
+WO31883PAN,Tufeau - Zenitude (Diva 184) 1007326,Panaget,Wood,Plank,European Oak,Oil,184,500 – 2000,14/3.4,74.16666666666667,tufeau-zenitude-diva-184-1007326,product-images/wood/panaget/tufeau-zenitude-diva-184-1007326.jpg
+WO91511PAN,Tufeau - Zenitude/Origine (Herringbone 139) 1007658,Panaget,Wood,Herringbone,European Oak,Oil,139,800,14/3.4,74.16666666666667,tufeau-zenitudeorigine-herringbone-139-1007658,product-images/wood/panaget/tufeau-zenitudeorigine-herringbone-139-1007658.jpg
+WO28556PAN,White Oil - Zenitude (Diva 184) 1007644,Panaget,Wood,Plank,European Oak,Oil,139,495 – 1992,14/3.4,58.33333333333333,white-oil-zenitude-diva-184-1007644,product-images/wood/panaget/white-oil-zenitude-diva-184-1007644.jpg
+WO82868PAR,Classic 3025 - Brushed & Matt Lacquer 1744854,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/2.5,61.66666666666667,classic-3025-brushed-matt-lacquer-1744854,product-images/wood/parador/classic-3025-brushed-matt-lacquer-1744854.jpg
+WO55496PAR,Classic 3025 - Oak Matt Lacquer 1744847,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/2.5,59.16666666666667,classic-3025-oak-matt-lacquer-1744847,product-images/wood/parador/classic-3025-oak-matt-lacquer-1744847.jpg
+WO35589PAR,Classic 3025 - Oak Soft Texture 1744846,Parador,Wood,Plank,European Oak,Oil,2200,185,13/2.5,62.5,classic-3025-oak-soft-texture-1744846,product-images/wood/parador/classic-3025-oak-soft-texture-1744846.jpg
+WO54207PAR,Classic 3025 - Oak White Natural Oil 1744853,Parador,Wood,Plank,European Oak,Oil,2200,185,13/2.5,61.66666666666667,classic-3025-oak-white-natural-oil-1744853,product-images/wood/parador/classic-3025-oak-white-natural-oil-1744853.jpg
+WO85242PAR,Classic 3060 - Graphite 3-Strip 1739901,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,50.0,classic-3060-graphite-3-strip-1739901,product-images/wood/parador/classic-3060-graphite-3-strip-1739901.jpg
+WO93824PAR,Classic 3060 - Indian Breeze 1744434,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/3.6,120.83333333333334,classic-3060-indian-breeze-1744434,product-images/wood/parador/classic-3060-indian-breeze-1744434.jpg
+WO58768PAR,Classic 3060 - Oak 3-Strip 1247126,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/3.6,49.16666666666667,classic-3060-oak-3-strip-1247126,product-images/wood/parador/classic-3060-oak-3-strip-1247126.jpg
+WO97693PAR,Classic 3060 - Oak Brushed & Natural Oil 1739910,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,60.0,classic-3060-oak-brushed-natural-oil-1739910,product-images/wood/parador/classic-3060-oak-brushed-natural-oil-1739910.jpg
+WO48778PAR,Classic 3060 - Oak Pure 1739912,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,60.0,classic-3060-oak-pure-1739912,product-images/wood/parador/classic-3060-oak-pure-1739912.jpg
+WO35313PAR,Classic 3060 - Oak Smoked 1518242,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/3.6,75.83333333333333,classic-3060-oak-smoked-1518242,product-images/wood/parador/classic-3060-oak-smoked-1518242.jpg
+WO61251PAR,Classic 3060 - Oak Soft Texture 1739902,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,61.66666666666667,classic-3060-oak-soft-texture-1739902,product-images/wood/parador/classic-3060-oak-soft-texture-1739902.jpg
+WO65243PAR,Classic 3060 - Oak White 1518128,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,61.66666666666667,classic-3060-oak-white-1518128,product-images/wood/parador/classic-3060-oak-white-1518128.jpg
+WO95455PAR,Classic 3060 - Sanded Extra Matt 1744433,Parador,Wood,Plank,European Oak,Lacquer,2200,185,13/3.6,71.66666666666667,classic-3060-sanded-extra-matt-1744433,product-images/wood/parador/classic-3060-sanded-extra-matt-1744433.jpg
+WO85513PAR,Classic 3060 - Thermo Oak 1739924,Parador,Wood,Plank,European Oak,Oil,2200,185,13/3.6,75.83333333333333,classic-3060-thermo-oak-1739924,product-images/wood/parador/classic-3060-thermo-oak-1739924.jpg
+WO37770PAR,Trendtime 3 (Herringbone) - Black 1601584,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-black-1601584,product-images/wood/parador/trendtime-3-herringbone-black-1601584.jpg
+WO13996PAR,Trendtime 3 (Herringbone) - Castle Extra Matt 1744422,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-castle-extra-matt-1744422,product-images/wood/parador/trendtime-3-herringbone-castle-extra-matt-1744422.jpg
+WO87654PAR,Trendtime 3 (Herringbone) - Chalet Extra Matt 1744423,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-chalet-extra-matt-1744423,product-images/wood/parador/trendtime-3-herringbone-chalet-extra-matt-1744423.jpg
+WO59748PAR,Trendtime 3 (Herringbone) - Nougat 1739933,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-nougat-1739933,product-images/wood/parador/trendtime-3-herringbone-nougat-1739933.jpg
+WO97263PAR,Trendtime 3 (Herringbone) - Oak Cream 1739932,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-oak-cream-1739932,product-images/wood/parador/trendtime-3-herringbone-oak-cream-1739932.jpg
+WO38690PAR,Trendtime 3 (Herringbone) - Oak Matt 1601582,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.0,trendtime-3-herringbone-oak-matt-1601582,product-images/wood/parador/trendtime-3-herringbone-oak-matt-1601582.jpg
+WO80284PAR,Trendtime 3 (Herringbone) - Oak Natural Oil 1739935,Parador,Wood,Herringbone,European Oak,Oil,570,95,10.5/2.5,70.83333333333333,trendtime-3-herringbone-oak-natural-oil-1739935,product-images/wood/parador/trendtime-3-herringbone-oak-natural-oil-1739935.jpg
+WO58036PAR,Trendtime 3 (Herringbone) - Oak Pure 1601580,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,70.0,trendtime-3-herringbone-oak-pure-1601580,product-images/wood/parador/trendtime-3-herringbone-oak-pure-1601580.jpg
+WO67729PAR,Trendtime 3 (Herringbone) - Oak Smoked 1744419,Parador,Wood,Herringbone,European Oak,Lacquer,570,95,10.5/2.5,72.5,trendtime-3-herringbone-oak-smoked-1744419,product-images/wood/parador/trendtime-3-herringbone-oak-smoked-1744419.jpg
+WO17279PAR,Trendtime 3 (Herringbone) - Walnut 1743195,Parador,Wood,Herringbone,American Walnut,Lacquer,570,95,10.5/2.5,85.0,trendtime-3-herringbone-walnut-1743195,product-images/wood/parador/trendtime-3-herringbone-walnut-1743195.jpg
+WO45983PAR,Trendtime 4 - Askada Extra Matt 1744426,Parador,Wood,Plank,European Oak,Lacquer,160,2010,13/3.6,65.0,trendtime-4-askada-extra-matt-1744426,product-images/wood/parador/trendtime-4-askada-extra-matt-1744426.jpg
+WO19732PAR,Trendtime 4 - Castle Extra Matt 1744425,Parador,Wood,Plank,European Oak,Lacquer,160,2010,13/3.6,65.0,trendtime-4-castle-extra-matt-1744425,product-images/wood/parador/trendtime-4-castle-extra-matt-1744425.jpg
+WO12123PAR,Trendtime 4 - Chalet Extra Matt 1744427,Parador,Wood,Plank,European Oak,Lacquer,160,2010,13/3.6,65.0,trendtime-4-chalet-extra-matt-1744427,product-images/wood/parador/trendtime-4-chalet-extra-matt-1744427.jpg
+WO86088PAR,Trendtime 4 - Nougat 1739938,Parador,Wood,Plank,European Oak,Lacquer,160,2010,13/3.6,65.0,trendtime-4-nougat-1739938,product-images/wood/parador/trendtime-4-nougat-1739938.jpg
+WO44870PAR,Trendtime 4 - Oak Cream 1739937,Parador,Wood,Plank,European Oak,Lacquer,160,2010,13/3.6,65.0,trendtime-4-oak-cream-1739937,product-images/wood/parador/trendtime-4-oak-cream-1739937.jpg
+WO78742PAR,Trendtime 4 - Walnut Antique 1518200,Parador,Wood,Plank,American Walnut,Lacquer,160,2010,13/3.6,105.0,trendtime-4-walnut-antique-1518200,product-images/wood/parador/trendtime-4-walnut-antique-1518200.jpg
+WO83554PAR,Trendtime 4 - Walnut Matt 1257369,Parador,Wood,Plank,American Walnut,Lacquer,160,2010,13/3.6,114.16666666666666,trendtime-4-walnut-matt-1257369,product-images/wood/parador/trendtime-4-walnut-matt-1257369.jpg
+WO84219PAR,Trendtime 6 - Beech White Sawn 1739940,Parador,Wood,Plank,Beech,Lacquer,185,2200,13/3.6,53.33333333333333,trendtime-6-beech-white-sawn-1739940,product-images/wood/parador/trendtime-6-beech-white-sawn-1739940.jpg
+WO28696PAR,Trendtime 6 - Maple 3-Strip Vintage Sawn 1744428,Parador,Wood,Plank,Maple,Lacquer,185,2200,13/3.6,49.16666666666667,trendtime-6-maple-3-strip-vintage-sawn-1744428,product-images/wood/parador/trendtime-6-maple-3-strip-vintage-sawn-1744428.jpg
+WO84087PAR,Trendtime 6 - Noir Sawn 1739943,Parador,Wood,Plank,European Oak,Oil,185,2200,13/3.6,71.66666666666667,trendtime-6-noir-sawn-1739943,product-images/wood/parador/trendtime-6-noir-sawn-1739943.jpg
+WO42824PAR,Trendtime 8 - Elephant Skin 1739952,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.0,trendtime-8-elephant-skin-1739952,product-images/wood/parador/trendtime-8-elephant-skin-1739952.jpg
+WO65782PAR,Trendtime 8 - Handscraped & Brushed 1739953,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,68.33333333333333,trendtime-8-handscraped-brushed-1739953,product-images/wood/parador/trendtime-8-handscraped-brushed-1739953.jpg
+WO49160PAR,Trendtime 8 - Limed Handcrafted 1739950,Parador,Wood,Plank,European Oak,Oil,190,1882,14/3.0,61.66666666666667,trendtime-8-limed-handcrafted-1739950,product-images/wood/parador/trendtime-8-limed-handcrafted-1739950.jpg
+WO68083PAR,Trendtime 8 - Multiplank 1744429,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.0,trendtime-8-multiplank-1744429,product-images/wood/parador/trendtime-8-multiplank-1744429.jpg
+WO86852PAR,Trendtime 8 - Natural Oil Handcrafted 1739944,Parador,Wood,Plank,European Oak,Oil,190,1882,14/3.0,61.66666666666667,trendtime-8-natural-oil-handcrafted-1739944,product-images/wood/parador/trendtime-8-natural-oil-handcrafted-1739944.jpg
+WO79651PAR,Trendtime 8 - Pinot Loft Plank 1744430,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.0,trendtime-8-pinot-loft-plank-1744430,product-images/wood/parador/trendtime-8-pinot-loft-plank-1744430.jpg
+WO32931PAR,Trendtime 8 - Smoked Elephant Skin 1739954,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.83333333333333,trendtime-8-smoked-elephant-skin-1739954,product-images/wood/parador/trendtime-8-smoked-elephant-skin-1739954.jpg
+WO70582PAR,Trendtime 8 - Smoked Grey Handcrafted 1739951,Parador,Wood,Plank,European Oak,Oil,190,1882,14/3.0,60.83333333333333,trendtime-8-smoked-grey-handcrafted-1739951,product-images/wood/parador/trendtime-8-smoked-grey-handcrafted-1739951.jpg
+WO23978PAR,Trendtime 8 - Smoked Handscraped 1739955,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,73.33333333333333,trendtime-8-smoked-handscraped-1739955,product-images/wood/parador/trendtime-8-smoked-handscraped-1739955.jpg
+WO14785PAR,Trendtime 8 - Smoked Natural Oil 1739945,Parador,Wood,Plank,European Oak,Oil,190,1882,14/3.0,60.83333333333333,trendtime-8-smoked-natural-oil-1739945,product-images/wood/parador/trendtime-8-smoked-natural-oil-1739945.jpg
+WO25683PAR,Trendtime 8 - Smoked Stone Handcrafted 1744432,Parador,Wood,Plank,European Oak,Oil,190,1882,14/3.0,60.83333333333333,trendtime-8-smoked-stone-handcrafted-1744432,product-images/wood/parador/trendtime-8-smoked-stone-handcrafted-1744432.jpg
+WO72228PAR,Trendtime 8 - Smoked Trre Plank 1739956,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.83333333333333,trendtime-8-smoked-trre-plank-1739956,product-images/wood/parador/trendtime-8-smoked-trre-plank-1739956.jpg
+WO34247PAR,Trendtime 8 - Tree Plank 1739957,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,70.0,trendtime-8-tree-plank-1739957,product-images/wood/parador/trendtime-8-tree-plank-1739957.jpg
+WO14044PAR,Trendtime 8 - White Oil Handscraped 1739959,Parador,Wood,Plank,European Oak,Oil,190,1882,15/4.0,69.16666666666667,trendtime-8-white-oil-handscraped-1739959,product-images/wood/parador/trendtime-8-white-oil-handscraped-1739959.jpg
+WO75456TED,Glenariff Herringbone (70 mm),Ted Todd,Wood,Herringbone,European Oak,Lacquer,70,490,10,57.5,glenariff-herringbone-70-mm,product-images/wood/ted-todd/glenariff-herringbone-70-mm.jpg
+WO51060TED,Selborne Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Lacquer,220,2400,20,115.0,selborne-extra-wide-plank-220-mm,product-images/wood/ted-todd/selborne-extra-wide-plank-220-mm.jpg
+WO46865TED,Kielder Herringbone (100 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,100,500,20,100.83333333333334,kielder-herringbone-100-mm,product-images/wood/ted-todd/kielder-herringbone-100-mm.jpg
+WO72096TED,Kielder Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,96.66666666666666,kielder-plank-220-mm,product-images/wood/ted-todd/kielder-plank-220-mm.jpg
+WO38387TED,Arundel Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,540,20,89.16666666666666,arundel-herringbone-90-mm,product-images/wood/ted-todd/arundel-herringbone-90-mm.jpg
+WO90991TED,Arundel Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,20,82.5,arundel-plank-190-mm,product-images/wood/ted-todd/arundel-plank-190-mm.jpg
+WO68987TED,Attingham Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,360,20,84.16666666666666,attingham-herringbone-90-mm,product-images/wood/ted-todd/attingham-herringbone-90-mm.jpg
+WO56210TED,Attingham Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,82.5,attingham-plank-220-mm,product-images/wood/ted-todd/attingham-plank-220-mm.jpg
+WO47933TED,Bembridge Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,360,20,84.16666666666666,bembridge-herringbone-90-mm,product-images/wood/ted-todd/bembridge-herringbone-90-mm.jpg
+WO75586TED,Bembridge Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,82.5,bembridge-plank-220-mm,product-images/wood/ted-todd/bembridge-plank-220-mm.jpg
+WO67533TED,Dunham Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,20,93.33333333333334,dunham-plank-190-mm,product-images/wood/ted-todd/dunham-plank-190-mm.jpg
+WO92008TED,Holton Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,104.16666666666666,holton-plank-220-mm,product-images/wood/ted-todd/holton-plank-220-mm.jpg
+WO97117TED,Netley Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,360,20,84.16666666666666,netley-herringbone-90-mm,product-images/wood/ted-todd/netley-herringbone-90-mm.jpg
+WO11680TED,Netley Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,82.5,netley-plank-220-mm,product-images/wood/ted-todd/netley-plank-220-mm.jpg
+WO34593TED,Standen Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,540,20,89.16666666666666,standen-herringbone-90-mm,product-images/wood/ted-todd/standen-herringbone-90-mm.jpg
+WO40733TED,Standen Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,20,82.5,standen-plank-190-mm,product-images/wood/ted-todd/standen-plank-190-mm.jpg
+WO81506TED,Swinley Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,360,20,84.16666666666666,swinley-herringbone-90-mm,product-images/wood/ted-todd/swinley-herringbone-90-mm.jpg
+WO88273TED,Swinley Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,82.5,swinley-plank-220-mm,product-images/wood/ted-todd/swinley-plank-220-mm.jpg
+WO68477TED,Sheringham Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,93.33333333333334,sheringham-plank-220-mm,product-images/wood/ted-todd/sheringham-plank-220-mm.jpg
+WO81254TED,Cashmere Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,cashmere-chevron-90-mm,product-images/wood/ted-todd/cashmere-chevron-90-mm.jpg
+WO42422TED,Cashmere Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,78.33333333333333,cashmere-herringbone-127-mm,product-images/wood/ted-todd/cashmere-herringbone-127-mm.jpg
+WO76155TED,Cashmere Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,70.83333333333333,cashmere-plank-180-mm,product-images/wood/ted-todd/cashmere-plank-180-mm.jpg
+WO40446TED,Cortado Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,78.33333333333333,cortado-herringbone-127-mm,product-images/wood/ted-todd/cortado-herringbone-127-mm.jpg
+WO49518TED,Cortado Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,75.0,cortado-plank-180-mm,product-images/wood/ted-todd/cortado-plank-180-mm.jpg
+WO68419TED,Fawn Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,fawn-chevron-90-mm,product-images/wood/ted-todd/fawn-chevron-90-mm.jpg
+WO65624TED,Fawn Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,78.33333333333333,fawn-herringbone-127-mm,product-images/wood/ted-todd/fawn-herringbone-127-mm.jpg
+WO84012TED,Fawn Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,70.83333333333333,fawn-plank-180-mm,product-images/wood/ted-todd/fawn-plank-180-mm.jpg
+WO47829TED,Jute Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,jute-chevron-90-mm,product-images/wood/ted-todd/jute-chevron-90-mm.jpg
+WO99076TED,Jute Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,82.5,jute-herringbone-127-mm,product-images/wood/ted-todd/jute-herringbone-127-mm.jpg
+WO14329TED,Jute Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,70.83333333333333,jute-plank-180-mm,product-images/wood/ted-todd/jute-plank-180-mm.jpg
+WO38056TED,Liquorice Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,75.0,liquorice-herringbone-127-mm,product-images/wood/ted-todd/liquorice-herringbone-127-mm.jpg
+WO35939TED,Liquorice Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,68.33333333333333,liquorice-plank-180-mm,product-images/wood/ted-todd/liquorice-plank-180-mm.jpg
+WO47863TED,Paperback Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,78.33333333333333,paperback-herringbone-127-mm,product-images/wood/ted-todd/paperback-herringbone-127-mm.jpg
+WO69740TED,Paperback Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,70.83333333333333,paperback-plank-180-mm,product-images/wood/ted-todd/paperback-plank-180-mm.jpg
+WO59071TED,Sandbank Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,sandbank-chevron-90-mm,product-images/wood/ted-todd/sandbank-chevron-90-mm.jpg
+WO74211TED,Sandbank Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,78.33333333333333,sandbank-herringbone-127-mm,product-images/wood/ted-todd/sandbank-herringbone-127-mm.jpg
+WO68927TED,Sandbank Plank (180mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,70.83333333333333,sandbank-plank-180mm,product-images/wood/ted-todd/sandbank-plank-180mm.jpg
+WO14232TED,Satchel Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,71.66666666666667,satchel-herringbone-127-mm,product-images/wood/ted-todd/satchel-herringbone-127-mm.jpg
+WO64529TED,Satchel Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,68.33333333333333,satchel-plank-180-mm,product-images/wood/ted-todd/satchel-plank-180-mm.jpg
+WO24351TED,Smoke Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,smoke-chevron-90-mm,product-images/wood/ted-todd/smoke-chevron-90-mm.jpg
+WO45919TED,Smoke Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,82.5,smoke-herringbone-127-mm,product-images/wood/ted-todd/smoke-herringbone-127-mm.jpg
+WO27314TED,Smoke Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,75.0,smoke-plank-180-mm,product-images/wood/ted-todd/smoke-plank-180-mm.jpg
+WO23072TED,Stonewash Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,480,15,85.83333333333334,stonewash-chevron-90-mm,product-images/wood/ted-todd/stonewash-chevron-90-mm.jpg
+WO11980TED,Stonewash Herringbone (127 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,127,508,15,75.0,stonewash-herringbone-127-mm,product-images/wood/ted-todd/stonewash-herringbone-127-mm.jpg
+WO82672TED,Stonewash Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Oil,180,2200,15,71.66666666666667,stonewash-plank-180-mm,product-images/wood/ted-todd/stonewash-plank-180-mm.jpg
+WO12926TED,Alabaster Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,60.0,alabaster-plank-190-mm,product-images/wood/ted-todd/alabaster-plank-190-mm.jpg
+WO46862TED,Almond Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,61.66666666666667,almond-herringbone-90-mm,product-images/wood/ted-todd/almond-herringbone-90-mm.jpg
+WO55663TED,Almond Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,57.5,almond-plank-190-mm,product-images/wood/ted-todd/almond-plank-190-mm.jpg
+WO93885TED,Almond Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,75.0,almond-extra-wide-plank-260-mm,product-images/wood/ted-todd/almond-extra-wide-plank-260-mm.jpg
+WO76374TED,Brindle Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,61.66666666666667,brindle-plank-190-mm,product-images/wood/ted-todd/brindle-plank-190-mm.jpg
+WO63466TED,Brindle Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,64.16666666666667,brindle-herringbone-90-mm,product-images/wood/ted-todd/brindle-herringbone-90-mm.jpg
+WO72056TED,Brindle Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,78.33333333333333,brindle-extra-wide-plank-260-mm,product-images/wood/ted-todd/brindle-extra-wide-plank-260-mm.jpg
+WO15016TED,Bourne Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,57.5,bourne-plank-190-mm,product-images/wood/ted-todd/bourne-plank-190-mm.jpg
+WO97374TED,Calico Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,55.83333333333333,calico-plank-190-mm,product-images/wood/ted-todd/calico-plank-190-mm.jpg
+WO23165TED,Calico Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,75.0,calico-extra-wide-plank-260-mm,product-images/wood/ted-todd/calico-extra-wide-plank-260-mm.jpg
+WO56964TED,Caramel Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,62.5,caramel-herringbone-90-mm,product-images/wood/ted-todd/caramel-herringbone-90-mm.jpg
+WO44956TED,Caramel Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,60.0,caramel-plank-190-mm,product-images/wood/ted-todd/caramel-plank-190-mm.jpg
+WO86609TED,Creech Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,57.5,creech-plank-190-mm,product-images/wood/ted-todd/creech-plank-190-mm.jpg
+WO73838TED,Haling Plank (Prime) (Absolute Matt Lacq.) (190 mm) ,Ted Todd,Wood,Plank,European Oak,Matt Lacquer,190,1900,14,71.66666666666667,haling-plank-prime-absolute-matt-lacq-190-mm,product-images/wood/ted-todd/haling-plank-prime-absolute-matt-lacq-190-mm.jpg
+WO31877TED,Kennet Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,62.5,kennet-herringbone-90-mm,product-images/wood/ted-todd/kennet-herringbone-90-mm.jpg
+WO17099TED,Kennet Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,60.0,kennet-plank-190-mm,product-images/wood/ted-todd/kennet-plank-190-mm.jpg
+WO21889TED,Kinsley Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,60.0,kinsley-plank-190-mm,product-images/wood/ted-todd/kinsley-plank-190-mm.jpg
+WO71343TED,Linton Plank (Absolute Matt Lacquer) (190 mm) ,Ted Todd,Wood,Plank,European Oak,Matt Lacquer,190,1900,14,57.5,linton-plank-absolute-matt-lacquer-190-mm,product-images/wood/ted-todd/linton-plank-absolute-matt-lacquer-190-mm.jpg
+WO54511TED,Ollerton Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,62.5,ollerton-herringbone-90-mm,product-images/wood/ted-todd/ollerton-herringbone-90-mm.jpg
+WO25996TED,Ollerton Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,60.0,ollerton-plank-190-mm,product-images/wood/ted-todd/ollerton-plank-190-mm.jpg
+WO55706TED,Petworth Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,62.5,petworth-herringbone-90-mm,product-images/wood/ted-todd/petworth-herringbone-90-mm.jpg
+WO76622TED,Petworth Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,61.66666666666667,petworth-plank-190-mm,product-images/wood/ted-todd/petworth-plank-190-mm.jpg
+WO41684TED,Petworth Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,76.66666666666667,petworth-extra-wide-plank-260-mm,product-images/wood/ted-todd/petworth-extra-wide-plank-260-mm.jpg
+WO87221TED,Porcelain Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,57.5,porcelain-plank-190-mm,product-images/wood/ted-todd/porcelain-plank-190-mm.jpg
+WO78962TED,Ryhill Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,64.16666666666667,ryhill-plank-190-mm,product-images/wood/ted-todd/ryhill-plank-190-mm.jpg
+WO53629TED,Ryhill Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,66.66666666666667,ryhill-herringbone-90-mm,product-images/wood/ted-todd/ryhill-herringbone-90-mm.jpg
+WO69655TED,Ryhill Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,82.5,ryhill-extra-wide-plank-260-mm,product-images/wood/ted-todd/ryhill-extra-wide-plank-260-mm.jpg
+WO51896TED,Tattenhall Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,62.5,tattenhall-herringbone-90-mm,product-images/wood/ted-todd/tattenhall-herringbone-90-mm.jpg
+WO58003TED,Tattenhall Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,61.66666666666667,tattenhall-plank-190-mm,product-images/wood/ted-todd/tattenhall-plank-190-mm.jpg
+WO85664TED,Tattenhall Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,European Oak,Oil,260,2200,15,76.66666666666667,tattenhall-extra-wide-plank-260-mm,product-images/wood/ted-todd/tattenhall-extra-wide-plank-260-mm.jpg
+WO21793TED,Clevedon Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,14,52.5,clevedon-herringbone-90-mm,product-images/wood/ted-todd/clevedon-herringbone-90-mm.jpg
+WO87938TED,Clevedon Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,14,49.16666666666667,clevedon-plank-190-mm,product-images/wood/ted-todd/clevedon-plank-190-mm.jpg
+WO44786TED,Torelli Herringbone (100 mm),Ted Todd,Wood,Herringbone,European Oak,Satin Lacquer,100,500,20,89.16666666666666,torelli-herringbone-100-mm,product-images/wood/ted-todd/torelli-herringbone-100-mm.jpg
+WO74685TED,Torelli Plank (180 mm),Ted Todd,Wood,Plank,European Oak,Satin Lacquer,180,2200,20,82.5,torelli-plank-180-mm,product-images/wood/ted-todd/torelli-plank-180-mm.jpg
+WO43101TED,Darwin Plank (Morado) (135 mm),Ted Todd,Wood,Plank,Morado,Satin Lacquer,135,1400,19,152.5,darwin-plank-morado-135-mm,product-images/wood/ted-todd/darwin-plank-morado-135-mm.jpg
+WO67197TED,Birnham Narrow Plank (135 mm),Ted Todd,Wood,Plank,Tajibo,Satin Lacquer,135,1400,19,131.66666666666666,birnham-narrow-plank-135-mm,product-images/wood/ted-todd/birnham-narrow-plank-135-mm.jpg
+WO43923TED,Blackmuir Unfinished Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,American Walnut,Unfinished,220,1860,20,111.66666666666666,blackmuir-unfinished-extra-wide-plank-220-mm,product-images/wood/ted-todd/blackmuir-unfinished-extra-wide-plank-220-mm.jpg
+WO33013TED,Ibis Douglas Fir Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,Douglas Fir,Satin Lacquer,260,600 – 3000,30,137.5,ibis-douglas-fir-extra-wide-plank-260-mm,product-images/wood/ted-todd/ibis-douglas-fir-extra-wide-plank-260-mm.jpg
+WO34223TED,Neckar Herringbone (70 mm),Ted Todd,Wood,Herringbone,European Oak,Unfinished,100,500,20,104.16666666666666,neckar-herringbone-70-mm,product-images/wood/ted-todd/neckar-herringbone-70-mm.jpg
+WO13883TED,Flax Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,71.66666666666667,flax-extra-wide-plank-220-mm,product-images/wood/ted-todd/flax-extra-wide-plank-220-mm.jpg
+WO47072TED,Fleece Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,540,15,76.66666666666667,fleece-chevron-90-mm,product-images/wood/ted-todd/fleece-chevron-90-mm.jpg
+WO71146TED,Fleece Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,15,73.33333333333333,fleece-herringbone-90-mm,product-images/wood/ted-todd/fleece-herringbone-90-mm.jpg
+WO70649TED,Fleece Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,15,66.66666666666667,fleece-plank-190-mm,product-images/wood/ted-todd/fleece-plank-190-mm.jpg
+WO35496TED,Fleece Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,84.16666666666666,fleece-extra-wide-plank-220-mm,product-images/wood/ted-todd/fleece-extra-wide-plank-220-mm.jpg
+WO50501TED,Flint Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Matt Lacquer,190,1900,15,66.66666666666667,flint-plank-190-mm,product-images/wood/ted-todd/flint-plank-190-mm.jpg
+WO45769TED,Flint Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Matt Lacquer,90,450,15,73.33333333333333,flint-herringbone-90-mm,product-images/wood/ted-todd/flint-herringbone-90-mm.jpg
+WO45904TED,Furrow Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,540,15,80.83333333333334,furrow-chevron-90-mm,product-images/wood/ted-todd/furrow-chevron-90-mm.jpg
+WO66392TED,Furrow Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,15,76.66666666666667,furrow-herringbone-90-mm,product-images/wood/ted-todd/furrow-herringbone-90-mm.jpg
+WO31092TED,Furrow Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,15,70.0,furrow-plank-190-mm,product-images/wood/ted-todd/furrow-plank-190-mm.jpg
+WO34001TED,Furrow Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,85.83333333333334,furrow-extra-wide-plank-220-mm,product-images/wood/ted-todd/furrow-extra-wide-plank-220-mm.jpg
+WO22405TED,Husk Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,540,15,76.66666666666667,husk-chevron-90-mm,product-images/wood/ted-todd/husk-chevron-90-mm.jpg
+WO95484TED,Husk Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,15,73.33333333333333,husk-herringbone-90-mm,product-images/wood/ted-todd/husk-herringbone-90-mm.jpg
+WO74303TED,Husk Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,15,66.66666666666667,husk-plank-190-mm,product-images/wood/ted-todd/husk-plank-190-mm.jpg
+WO81085TED,Husk Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,84.16666666666666,husk-extra-wide-plank-220-mm,product-images/wood/ted-todd/husk-extra-wide-plank-220-mm.jpg
+WO50726TED,Malting Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Lacquer,190,1900,15,66.66666666666667,malting-plank-190-mm,product-images/wood/ted-todd/malting-plank-190-mm.jpg
+WO86933TED,Raw Cotton Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,540,15,76.66666666666667,raw-cotton-chevron-90-mm,product-images/wood/ted-todd/raw-cotton-chevron-90-mm.jpg
+WO95774TED,Raw Cotton Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,15,73.33333333333333,raw-cotton-herringbone-90-mm,product-images/wood/ted-todd/raw-cotton-herringbone-90-mm.jpg
+WO34913TED,Raw Cotton Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,15,66.66666666666667,raw-cotton-plank-190-mm,product-images/wood/ted-todd/raw-cotton-plank-190-mm.jpg
+WO19334TED,Raw Cotton Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,84.16666666666666,raw-cotton-extra-wide-plank-220-mm,product-images/wood/ted-todd/raw-cotton-extra-wide-plank-220-mm.jpg
+WO52614TED,Strand Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,15,66.66666666666667,strand-plank-190-mm,product-images/wood/ted-todd/strand-plank-190-mm.jpg
+WO90329TED,Sugar Cane Chevron (90 mm),Ted Todd,Wood,Chevron,European Oak,Oil,90,540,15,76.66666666666667,sugar-cane-chevron-90-mm,product-images/wood/ted-todd/sugar-cane-chevron-90-mm.jpg
+WO80226TED,Sugar Cane Herringbone (90 mm),Ted Todd,Wood,Herringbone,European Oak,Oil,90,450,15,73.33333333333333,sugar-cane-herringbone-90-mm,product-images/wood/ted-todd/sugar-cane-herringbone-90-mm.jpg
+WO76071TED,Sugar Cane Plank (190 mm),Ted Todd,Wood,Plank,European Oak,Oil,190,1900,20,66.66666666666667,sugar-cane-plank-190-mm,product-images/wood/ted-todd/sugar-cane-plank-190-mm.jpg
+WO80688TED,Sugar Cane Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,84.16666666666666,sugar-cane-extra-wide-plank-220-mm,product-images/wood/ted-todd/sugar-cane-extra-wide-plank-220-mm.jpg
+WO73419TED,Woodworks Lauzes Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,137.5,woodworks-lauzes-plank-220-mm,product-images/wood/ted-todd/woodworks-lauzes-plank-220-mm.jpg
+WO98764TED,Woodworks Quissac Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,137.5,woodworks-quissac-plank-220-mm,product-images/wood/ted-todd/woodworks-quissac-plank-220-mm.jpg
+WO17234TED,Woodworks Tolland Plank (220 mm),Ted Todd,Wood,Plank,European Oak,Oil,220,2200,20,173.33333333333331,woodworks-tolland-plank-220-mm,product-images/wood/ted-todd/woodworks-tolland-plank-220-mm.jpg
+WO94948VFX,Alpine Broad Oak,V4,Wood,Plank,European Oak,Oil,220,2200,20,66.66666666666667,alpine-broad-oak,product-images/wood/v4/alpine-broad-oak.jpg
+WO35967VFX,Alpine Brushed Oak,V4,Wood,Plank,European Oak,Lacquer,190,300 – 1200,14,50.83333333333333,alpine-brushed-oak,product-images/wood/v4/alpine-brushed-oak.jpg
+WO72218VFX,Alpine Canyon Oak,V4,Wood,Plank,European Oak,Oil,190,1900,18,61.66666666666667,alpine-canyon-oak,product-images/wood/v4/alpine-canyon-oak.jpg
+WO19040VFX,Alpine Forest Oak,V4,Wood,Plank,European Oak,Oil,150,300 – 1200,18,55.0,alpine-forest-oak,product-images/wood/v4/alpine-forest-oak.jpg
+WO41238VFX,Alpine Glade Oak,V4,Wood,Plank,European Oak,Lacquer,190,1900,14,57.5,alpine-glade-oak,product-images/wood/v4/alpine-glade-oak.jpg
+WO47891VFX,Alpine Golden Oak,V4,Wood,Plank,European Oak,Oil,125,300 – 1200,18,56.66666666666667,alpine-golden-oak,product-images/wood/v4/alpine-golden-oak.jpg
+WO35895VFX,Alpine Hillside Oak,V4,Wood,Plank,European Oak,Lacquer,190,1900,18,61.66666666666667,alpine-hillside-oak,product-images/wood/v4/alpine-hillside-oak.jpg
+WO24681VFX,Alpine Sunlit Oak,V4,Wood,Plank,European Oak,Satin Lacquer,125,300 – 1200,18,53.33333333333333,alpine-sunlit-oak,product-images/wood/v4/alpine-sunlit-oak.jpg
+WO63914VFX,Alpine Upland Oak,V4,Wood,Plank,European Oak,Oil,150,1900,14,55.0,alpine-upland-oak,product-images/wood/v4/alpine-upland-oak.jpg
+WO26491VFX,Alpine Vale Oak,V4,Wood,Plank,European Oak,Oil,150,1900,14,55.0,alpine-vale-oak,product-images/wood/v4/alpine-vale-oak.jpg
+WO44992VFX,Baristi Herringbone Baba Buden,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-baba-buden,product-images/wood/v4/baristi-herringbone-baba-buden.jpg
+WO25551VFX,Baristi Herringbone Blue Mountain,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-blue-mountain,product-images/wood/v4/baristi-herringbone-blue-mountain.jpg
+WO58918VFX,Baristi Herringbone Catuai,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-catuai,product-images/wood/v4/baristi-herringbone-catuai.jpg
+WO78532VFX,Baristi Herringbone Caturra,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-caturra,product-images/wood/v4/baristi-herringbone-caturra.jpg
+WO59466VFX,Baristi Herringbone Geisha,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-geisha,product-images/wood/v4/baristi-herringbone-geisha.jpg
+WO51249VFX,Baristi Herringbone Mandheling,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-mandheling,product-images/wood/v4/baristi-herringbone-mandheling.jpg
+WO83461VFX,Baristi Herringbone Pacamera,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-pacamera,product-images/wood/v4/baristi-herringbone-pacamera.jpg
+WO38311VFX,Baristi Herringbone Sidamo,V4,Wood,Herringbone,European Oak,Oil,100,600,15,104.16666666666666,baristi-herringbone-sidamo,product-images/wood/v4/baristi-herringbone-sidamo.jpg
+WO32047VFX,Baristi Herringbone Smoked Villalobos,V4,Wood,Herringbone,European Oak,Oil,100,600,15,117.5,baristi-herringbone-smoked-villalobos,product-images/wood/v4/baristi-herringbone-smoked-villalobos.jpg
+WO30547VFX,Baristi Herringbone Smoked Yunnan,V4,Wood,Herringbone,European Oak,Oil,100,600,15,117.5,baristi-herringbone-smoked-yunnan,product-images/wood/v4/baristi-herringbone-smoked-yunnan.jpg
+WO85876VFX,Baristi Plank Baba Buden,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-baba-buden,product-images/wood/v4/baristi-plank-baba-buden.jpg
+WO91778VFX,Baristi Plank Blue Mountain,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-blue-mountain,product-images/wood/v4/baristi-plank-blue-mountain.jpg
+WO81514VFX,Baristi Plank Catuai,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-catuai,product-images/wood/v4/baristi-plank-catuai.jpg
+WO82988VFX,Baristi Plank Caturra,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-caturra,product-images/wood/v4/baristi-plank-caturra.jpg
+WO77459VFX,Baristi Plank Geisha,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-geisha,product-images/wood/v4/baristi-plank-geisha.jpg
+WO74133VFX,Baristi Plank Mandheling,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-mandheling,product-images/wood/v4/baristi-plank-mandheling.jpg
+WO34462VFX,Baristi Plank Pacamera,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-pacamera,product-images/wood/v4/baristi-plank-pacamera.jpg
+WO24371VFX,Baristi Plank Sidamo,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,104.16666666666666,baristi-plank-sidamo,product-images/wood/v4/baristi-plank-sidamo.jpg
+WO61606VFX,Baristi Plank Smoked Villalobos,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,117.5,baristi-plank-smoked-villalobos,product-images/wood/v4/baristi-plank-smoked-villalobos.jpg
+WO75482VFX,Baristi Plank Smoked Yunnan,V4,Wood,Plank,European Oak,Oil,180,600 - 2300,15,117.5,baristi-plank-smoked-yunnan,product-images/wood/v4/baristi-plank-smoked-yunnan.jpg
+WO48167VFX,Bjelin® Earth Grey Ash,V4,Wood,Plank,Ash,Lacquer,206,2200,14,67.5,bjelin-earth-grey-ash,product-images/wood/v4/bjelin-earth-grey-ash.jpg
+WO53407VFX,Bjelin® Earth Grey Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-earth-grey-oak,product-images/wood/v4/bjelin-earth-grey-oak.jpg
+WO38944VFX,Bjelin® Mineral Grey Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-mineral-grey-oak,product-images/wood/v4/bjelin-mineral-grey-oak.jpg
+WO26358VFX,Bjelin® Misty White Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-misty-white-oak,product-images/wood/v4/bjelin-misty-white-oak.jpg
+WO39244VFX,Bjelin® Natural Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-natural-oak,product-images/wood/v4/bjelin-natural-oak.jpg
+WO28546VFX,Bjelin® Powder White Ash,V4,Wood,Plank,Ash,Lacquer,206,2200,14,67.5,bjelin-powder-white-ash,product-images/wood/v4/bjelin-powder-white-ash.jpg
+WO70997VFX,Bjelin® Powder White Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-powder-white-oak,product-images/wood/v4/bjelin-powder-white-oak.jpg
+WO11389VFX,Bjelin® Terra Brown Oak,V4,Wood,Plank,European Oak,Lacquer,206,2200,14,61.66666666666667,bjelin-terra-brown-oak,product-images/wood/v4/bjelin-terra-brown-oak.jpg
+WO70859VFX,Deco Herringbone Black Walnut,V4,Wood,Herringbone,American Walnut,Oil,90,400,14,64.16666666666667,deco-herringbone-black-walnut,product-images/wood/v4/deco-herringbone-black-walnut.jpg
+WO51437VFX,Deco Herringbone Brushed Matt,V4,Wood,Herringbone,European Oak,Lacquer,90,400,14,60.0,deco-herringbone-brushed-matt,product-images/wood/v4/deco-herringbone-brushed-matt.jpg
+WO73647VFX,Deco Herringbone Frozen Umber,V4,Wood,Herringbone,European Oak,Oil,90,400,14,60.83333333333333,deco-herringbone-frozen-umber,product-images/wood/v4/deco-herringbone-frozen-umber.jpg
+WO58736VFX,Deco Herringbone Natural,V4,Wood,Herringbone,European Oak,Oil,90,400,14,60.0,deco-herringbone-natural,product-images/wood/v4/deco-herringbone-natural.jpg
+WO88462VFX,Deco Herringbone Nordic Beach,V4,Wood,Herringbone,European Oak,Oil,90,400,14,60.83333333333333,deco-herringbone-nordic-beach,product-images/wood/v4/deco-herringbone-nordic-beach.jpg
+WO97742VFX,Deco Herringbone Shore Drift Oak,V4,Wood,Herringbone,European Oak,Lacquer,90,400,14,63.33333333333333,deco-herringbone-shore-drift-oak,product-images/wood/v4/deco-herringbone-shore-drift-oak.jpg
+WO39971VFX,Deco Herringbone Silver Haze,V4,Wood,Herringbone,European Oak,Oil,90,400,14,60.83333333333333,deco-herringbone-silver-haze,product-images/wood/v4/deco-herringbone-silver-haze.jpg
+WO36566VFX,Deco Herringbone Smoked Oak,V4,Wood,Herringbone,European Oak,Oil,90,400,14,63.33333333333333,deco-herringbone-smoked-oak,product-images/wood/v4/deco-herringbone-smoked-oak.jpg
+WO90568VFX,Deco Herringbone Smoked White Oak,V4,Wood,Herringbone,European Oak,Oil,90,400,14,63.33333333333333,deco-herringbone-smoked-white-oak,product-images/wood/v4/deco-herringbone-smoked-white-oak.jpg
+WO31306VFX,Deco Herringbone Tannery Brown,V4,Wood,Herringbone,European Oak,Oil,90,400,14,63.33333333333333,deco-herringbone-tannery-brown,product-images/wood/v4/deco-herringbone-tannery-brown.jpg
+WO11418VFX,Deco Plank Black Walnut,V4,Wood,Plank,American Walnut,Oil,190,1900,14,69.16666666666667,deco-plank-black-walnut,product-images/wood/v4/deco-plank-black-walnut.jpg
+WO68306VFX,Deco Plank Brushed Matt,V4,Wood,Plank,European Oak,Lacquer,190,1900,14,60.83333333333333,deco-plank-brushed-matt,product-images/wood/v4/deco-plank-brushed-matt.jpg
+WO74464VFX,Deco Plank Frozen Umber,V4,Wood,Plank,European Oak,Oil,190,1900,14,62.5,deco-plank-frozen-umber,product-images/wood/v4/deco-plank-frozen-umber.jpg
+WO73470VFX,Deco Plank Natural,V4,Wood,Plank,European Oak,Oil,190,1900,14,60.0,deco-plank-natural,product-images/wood/v4/deco-plank-natural.jpg
+WO57763VFX,Deco Plank Nordic Beach,V4,Wood,Plank,European Oak,Oil,190,1900,14,62.5,deco-plank-nordic-beach,product-images/wood/v4/deco-plank-nordic-beach.jpg
+WO74809VFX,Deco Plank Shore Drift Oak,V4,Wood,Plank,European Oak,Lacquer,190,1900,14,63.33333333333333,deco-plank-shore-drift-oak,product-images/wood/v4/deco-plank-shore-drift-oak.jpg
+WO44011VFX,Deco Plank Silver Haze,V4,Wood,Plank,European Oak,Oil,190,1900,14,62.5,deco-plank-silver-haze,product-images/wood/v4/deco-plank-silver-haze.jpg
+WO42041VFX,Deco Plank Smoked Oak,V4,Wood,Plank,European Oak,Oil,190,1900,14,63.33333333333333,deco-plank-smoked-oak,product-images/wood/v4/deco-plank-smoked-oak.jpg
+WO96805VFX,Deco Plank Smoked White Oak,V4,Wood,Plank,European Oak,Oil,190,1900,14,63.33333333333333,deco-plank-smoked-white-oak,product-images/wood/v4/deco-plank-smoked-white-oak.jpg
+WO53340VFX,Deco Plank Tannery Brown,V4,Wood,Plank,European Oak,Oil,190,1900,14,63.33333333333333,deco-plank-tannery-brown,product-images/wood/v4/deco-plank-tannery-brown.jpg
+WO95455VFX,Driftwood Brushed Oak,V4,Wood,Plank,European Oak,Lacquer,180,2200,14,55.83333333333333,driftwood-brushed-oak,product-images/wood/v4/driftwood-brushed-oak.jpg
+WO50482VFX,Driftwood Burnt Bracken,V4,Wood,Plank,European Oak,Lacquer,180,2200,14,57.5,driftwood-burnt-bracken,product-images/wood/v4/driftwood-burnt-bracken.jpg
+WO63066VFX,Driftwood Deckboard Oak,V4,Wood,Plank,European Oak,Satin Lacquer,207,2200,14,44.16666666666667,driftwood-deckboard-oak,product-images/wood/v4/driftwood-deckboard-oak.jpg
+WO70709VFX,Driftwood Embered Oak,V4,Wood,Plank,European Oak,Lacquer,207,2200,14,64.16666666666667,driftwood-embered-oak,product-images/wood/v4/driftwood-embered-oak.jpg
+WO25286VFX,Driftwood Fjordic Shore,V4,Wood,Plank,European Oak,Lacquer,180,2200,14,57.5,driftwood-fjordic-shore,product-images/wood/v4/driftwood-fjordic-shore.jpg
+WO18003VFX,Driftwood Jetsam Oak,V4,Wood,Plank,European Oak,Lacquer,180,2200,14,57.5,driftwood-jetsam-oak,product-images/wood/v4/driftwood-jetsam-oak.jpg
+WO21954VFX,Driftwood Lichen White Oak,V4,Wood,Plank,European Oak,Lacquer,207,2200,14,64.16666666666667,driftwood-lichen-white-oak,product-images/wood/v4/driftwood-lichen-white-oak.jpg
+WO88331VFX,Driftwood Marsh Grey,V4,Wood,Plank,European Oak,Lacquer,207,2200,14,64.16666666666667,driftwood-marsh-grey,product-images/wood/v4/driftwood-marsh-grey.jpg
+WO11940VFX,Driftwood Pebble Grey,V4,Wood,Plank,European Oak,Lacquer,155,2200,14,55.83333333333333,driftwood-pebble-grey,product-images/wood/v4/driftwood-pebble-grey.jpg
+WO45369VFX,Driftwood Silver Sands,V4,Wood,Plank,European Oak,Oil,180,2200,14,60.83333333333333,driftwood-silver-sands,product-images/wood/v4/driftwood-silver-sands.jpg
+WO50527VFX,Heritage Bisham,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-bisham,product-images/wood/v4/heritage-bisham.jpg
+WO16986VFX,Heritage Brampton,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-brampton,product-images/wood/v4/heritage-brampton.jpg
+WO51448VFX,Heritage Cairngorns,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-cairngorns,product-images/wood/v4/heritage-cairngorns.jpg
+WO26247VFX,Heritage Delamere,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-delamere,product-images/wood/v4/heritage-delamere.jpg
+WO97710VFX,Heritage Enbourne,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-enbourne,product-images/wood/v4/heritage-enbourne.jpg
+WO19171VFX,Heritage Grasmere,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-grasmere,product-images/wood/v4/heritage-grasmere.jpg
+WO93610VFX,Heritage Kingswood,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-kingswood,product-images/wood/v4/heritage-kingswood.jpg
+WO34129VFX,Heritage Lomond,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-lomond,product-images/wood/v4/heritage-lomond.jpg
+WO36621WOO,York White Washed Oak,Woodpecker,Wood,Plank,European Oak,Oil,150,700,18,71.66666666666667,york-white-washed-oak,product-images/wood/woodpecker/york-white-washed-oak.jpg
+WO54599WOO,York Select Oak,Woodpecker,Wood,Plank,European Oak,Oil,150,700,18,87.5,york-select-oak,product-images/wood/woodpecker/york-select-oak.jpg
+WO60794WOO,York Rustic Oak (Oiled),Woodpecker,Wood,Plank,European Oak,Oil,150,700,18,67.5,york-rustic-oak-oiled,product-images/wood/woodpecker/york-rustic-oak-oiled.jpg
+WO59243WOO,York Rustic Oak (Lacquered),Woodpecker,Wood,Plank,European Oak,Lacquer,150,700,18,67.5,york-rustic-oak-lacquered,product-images/wood/woodpecker/york-rustic-oak-lacquered.jpg
+WO78935WOO,York Tawny Oak,Woodpecker,Wood,Plank,European Oak,Oil,150,700,18,71.66666666666667,york-tawny-oak,product-images/wood/woodpecker/york-tawny-oak.jpg
+WO95354WOO,York Antique Oak,Woodpecker,Wood,Plank,European Oak,Oil,150,700,18,76.66666666666667,york-antique-oak,product-images/wood/woodpecker/york-antique-oak.jpg
+WO64272WOO,Salcombe Pearl Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-pearl-oak,product-images/wood/woodpecker/salcombe-pearl-oak.jpg
+WO58650WOO,Salcombe Seashore Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-seashore-oak,product-images/wood/woodpecker/salcombe-seashore-oak.jpg
+WO65009WOO,Salcombe Natural Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-natural-oak,product-images/wood/woodpecker/salcombe-natural-oak.jpg
+WO25204WOO,Salcombe Riviero Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-riviero-oak,product-images/wood/woodpecker/salcombe-riviero-oak.jpg
+WO13458WOO,Salcombe Sandora Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-sandora-oak,product-images/wood/woodpecker/salcombe-sandora-oak.jpg
+WO49373WOO,Salcombe Headland Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-headland-oak,product-images/wood/woodpecker/salcombe-headland-oak.jpg
+WO39131WOO,Salcombe Dune Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,14,58.33333333333333,salcombe-dune-oak,product-images/wood/woodpecker/salcombe-dune-oak.jpg
+WO71389WOO,Harlech White Oiled Oak (190),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,15,73.33333333333333,harlech-white-oiled-oak-190,product-images/wood/woodpecker/harlech-white-oiled-oak-190.jpg
+WO85915WOO,Harlech White Smoked Oak (190),Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-white-smoked-oak-190,product-images/wood/woodpecker/harlech-white-smoked-oak-190.jpg
+WO52828WOO,Harlech White Smoked Oak (240),Woodpecker,Wood,Plank,European Oak,Lacquer,240,2200,15,85.0,harlech-white-smoked-oak-240,product-images/wood/woodpecker/harlech-white-smoked-oak-240.jpg
+WO38137WOO,Harlech Feather Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-feather-oak,product-images/wood/woodpecker/harlech-feather-oak.jpg
+WO51730WOO,Harlech Ecru Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-ecru-oak,product-images/wood/woodpecker/harlech-ecru-oak.jpg
+WO48596WOO,Harlech Raw Oak (190),Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-raw-oak-190,product-images/wood/woodpecker/harlech-raw-oak-190.jpg
+WO75497WOO,Harlech Raw Oak (240),Woodpecker,Wood,Plank,European Oak,Lacquer,240,2200,15,85.0,harlech-raw-oak-240,product-images/wood/woodpecker/harlech-raw-oak-240.jpg
+WO42981WOO,Harlech Rustic Oak (Oiled) (150),Woodpecker,Wood,Plank,European Oak,Oil,150,1900,15,67.5,harlech-rustic-oak-oiled-150,product-images/wood/woodpecker/harlech-rustic-oak-oiled-150.jpg
+WO28372WOO,Harlech Rustic Oak (Oiled) (190),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,15,70.83333333333333,harlech-rustic-oak-oiled-190,product-images/wood/woodpecker/harlech-rustic-oak-oiled-190.jpg
+WO20881WOO,Harlech Rustic Oak (Oiled) (240),Woodpecker,Wood,Plank,European Oak,Oil,240,2200,15,82.5,harlech-rustic-oak-oiled-240,product-images/wood/woodpecker/harlech-rustic-oak-oiled-240.jpg
+WO18297WOO,Harlech Rustic Oak (Brushed & Lacq.) (150),Woodpecker,Wood,Plank,European Oak,Lacquer,150,1900,15,67.5,harlech-rustic-oak-brushed-lacq-150,product-images/wood/woodpecker/harlech-rustic-oak-brushed-lacq-150.jpg
+WO53653WOO,Harlech Rustic Oak (Brushed & Lacq.) (190),Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,70.83333333333333,harlech-rustic-oak-brushed-lacq-190,product-images/wood/woodpecker/harlech-rustic-oak-brushed-lacq-190.jpg
+WO85462WOO,Harlech Rustic Oak (Brushed & Lacq.) (240),Woodpecker,Wood,Plank,European Oak,Lacquer,240,2200,15,82.5,harlech-rustic-oak-brushed-lacq-240,product-images/wood/woodpecker/harlech-rustic-oak-brushed-lacq-240.jpg
+WO43461WOO,Harlech Select Oak (Oiled),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,15,89.16666666666666,harlech-select-oak-oiled,product-images/wood/woodpecker/harlech-select-oak-oiled.jpg
+WO95378WOO,Harlech Select Oak (Lacq.),Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,89.16666666666666,harlech-select-oak-lacq,product-images/wood/woodpecker/harlech-select-oak-lacq.jpg
+WO19484WOO,Harlech Smoked Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-smoked-oak,product-images/wood/woodpecker/harlech-smoked-oak.jpg
+WO68453WOO,Harlech Biscotti Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-biscotti-oak,product-images/wood/woodpecker/harlech-biscotti-oak.jpg
+WO40045WOO,Harlech Coffee Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-coffee-oak,product-images/wood/woodpecker/harlech-coffee-oak.jpg
+WO94140WOO,Harlech Cognac Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-cognac-oak,product-images/wood/woodpecker/harlech-cognac-oak.jpg
+WO98332WOO,Harlech Chocolate Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-chocolate-oak,product-images/wood/woodpecker/harlech-chocolate-oak.jpg
+WO75708WOO,Harlech Stormy Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,82.5,harlech-stormy-oak,product-images/wood/woodpecker/harlech-stormy-oak.jpg
+WO68715WOO,Goodrich Whitened Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,76.66666666666667,goodrich-whitened-oak,product-images/wood/woodpecker/goodrich-whitened-oak.jpg
+WO72878WOO,Goodrich Feather Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-feather-oak,product-images/wood/woodpecker/goodrich-feather-oak.jpg
+WO19400WOO,Goodrich Feather Oak (Chevron),Woodpecker,Wood,Chevron,European Oak,Lacquer,90,400,15,93.33333333333334,goodrich-feather-oak-chevron,product-images/wood/woodpecker/goodrich-feather-oak-chevron.jpg
+WO80021WOO,Goodrich Biscotti Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-biscotti-oak,product-images/wood/woodpecker/goodrich-biscotti-oak.jpg
+WO83762WOO,Goodrich Ecru Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,76.66666666666667,goodrich-ecru-oak,product-images/wood/woodpecker/goodrich-ecru-oak.jpg
+WO42241WOO,Goodrich Raw Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-raw-oak,product-images/wood/woodpecker/goodrich-raw-oak.jpg
+WO50391WOO,Goodrich Raw Oak (Chevron),Woodpecker,Wood,Chevron,European Oak,Lacquer,90,400,15,93.33333333333334,goodrich-raw-oak-chevron,product-images/wood/woodpecker/goodrich-raw-oak-chevron.jpg
+WO51433WOO,Goodrich White Smoked Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-white-smoked-oak,product-images/wood/woodpecker/goodrich-white-smoked-oak.jpg
+WO67960WOO,Goodrich Natural Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,70.0,goodrich-natural-oak,product-images/wood/woodpecker/goodrich-natural-oak.jpg
+WO78355WOO,Goodrich Coffee Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,76.66666666666667,goodrich-coffee-oak,product-images/wood/woodpecker/goodrich-coffee-oak.jpg
+WO78074WOO,Goodrich Smoked Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-smoked-oak,product-images/wood/woodpecker/goodrich-smoked-oak.jpg
+WO14635WOO,Goodrich Espresso Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,79.16666666666667,goodrich-espresso-oak,product-images/wood/woodpecker/goodrich-espresso-oak.jpg
+WO21246WOO,Goodrich Salted Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,90.0,goodrich-salted-oak,product-images/wood/woodpecker/goodrich-salted-oak.jpg
+WO68873WOO,Goodrich Barn Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,90,400,15,93.33333333333334,goodrich-barn-oak,product-images/wood/woodpecker/goodrich-barn-oak.jpg
+WO77974WOO,Goodrich Charred Oak,Woodpecker,Wood,Herringbone,European Oak,Oil,90,400,15,93.33333333333334,goodrich-charred-oak,product-images/wood/woodpecker/goodrich-charred-oak.jpg
+WO36973WOO,Goodrich Spiced Oak,Woodpecker,Wood,Herringbone,European Oak,Oil,90,400,15,93.33333333333334,goodrich-spiced-oak,product-images/wood/woodpecker/goodrich-spiced-oak.jpg
+WO15674WOO,Goodrich Foundry Oak,Woodpecker,Wood,Herringbone,European Oak,Oil,90,400,15,93.33333333333334,goodrich-foundry-oak,product-images/wood/woodpecker/goodrich-foundry-oak.jpg
+WO52821WOO,Goodrich Cathedral Oak,Woodpecker,Wood,Herringbone,European Oak,Oil,90,400,15,93.33333333333334,goodrich-cathedral-oak,product-images/wood/woodpecker/goodrich-cathedral-oak.jpg
+WO64162WOO,Highclere Feather Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,120,600,15,82.5,highclere-feather-oak,product-images/wood/woodpecker/highclere-feather-oak.jpg
+WO14546WOO,Highclere Natural Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,120,600,15,76.66666666666667,highclere-natural-oak,product-images/wood/woodpecker/highclere-natural-oak.jpg
+WO70230WOO,Highclere Coffee Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,120,600,15,82.5,highclere-coffee-oak,product-images/wood/woodpecker/highclere-coffee-oak.jpg
+WO73955WOO,Highclere Biscotti Oak,Woodpecker,Wood,Herringbone,European Oak,Lacquer,120,600,15,82.5,highclere-biscotti-oak,product-images/wood/woodpecker/highclere-biscotti-oak.jpg
+WO79535WOO,Chepstow Planed Grey Oak,Woodpecker,Wood,Plank,European Oak,Oil,189,1860,21,94.16666666666666,chepstow-planed-grey-oak,product-images/wood/woodpecker/chepstow-planed-grey-oak.jpg
+WO93485WOO,Chepstow Rustic Oak (Unfinished),Woodpecker,Wood,Plank,European Oak,Unfinished,189,1860,21,85.0,chepstow-rustic-oak-unfinished,product-images/wood/woodpecker/chepstow-rustic-oak-unfinished.jpg
+WO62110WOO,Chepstow Rustic Oak (Lacq.),Woodpecker,Wood,Plank,European Oak,Lacquer,189,1860,21,85.83333333333334,chepstow-rustic-oak-lacq,product-images/wood/woodpecker/chepstow-rustic-oak-lacq.jpg
+WO72433WOO,Chepstow Rustic Oak (Oiled),Woodpecker,Wood,Plank,European Oak,Oil,189,1860,21,85.83333333333334,chepstow-rustic-oak-oiled,product-images/wood/woodpecker/chepstow-rustic-oak-oiled.jpg
+WO55781WOO,Chepstow Rustic Oak (240),Woodpecker,Wood,Plank,European Oak,Oil,240,2200,21,100.0,chepstow-rustic-oak-240,product-images/wood/woodpecker/chepstow-rustic-oak-240.jpg
+WO85946WOO,Chepstow Washed Oak (190),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,94.16666666666666,chepstow-washed-oak-190,product-images/wood/woodpecker/chepstow-washed-oak-190.jpg
+WO17510WOO,Chepstow Washed Oak (240),Woodpecker,Wood,Plank,European Oak,Oil,240,2200,21,108.33333333333334,chepstow-washed-oak-240,product-images/wood/woodpecker/chepstow-washed-oak-240.jpg
+WO57551WOO,Chepstow Antique Oak (190),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,94.16666666666666,chepstow-antique-oak-190,product-images/wood/woodpecker/chepstow-antique-oak-190.jpg
+WO21724WOO,Chepstow Antique Oak (240),Woodpecker,Wood,Plank,European Oak,Oil,240,2200,21,106.66666666666666,chepstow-antique-oak-240,product-images/wood/woodpecker/chepstow-antique-oak-240.jpg
+WO19999WOO,Chepstow Flaxen Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,106.66666666666666,chepstow-flaxen-oak,product-images/wood/woodpecker/chepstow-flaxen-oak.jpg
+WO95338WOO,Chepstow Shale Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,106.66666666666666,chepstow-shale-oak,product-images/wood/woodpecker/chepstow-shale-oak.jpg
+WO48054WOO,Chepstow Silverglade Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,106.66666666666666,chepstow-silverglade-oak,product-images/wood/woodpecker/chepstow-silverglade-oak.jpg
+WO66768WOO,Chepstow Distressed Charcoal Oak (190),Woodpecker,Wood,Plank,European Oak,Oil,190,1900,21,106.66666666666666,chepstow-distressed-charcoal-oak-190,product-images/wood/woodpecker/chepstow-distressed-charcoal-oak-190.jpg
+WO99050WOO,Chepstow Distressed Charcoal Oak (240),Woodpecker,Wood,Plank,European Oak,Oil,240,2200,21,115.83333333333334,chepstow-distressed-charcoal-oak-240,product-images/wood/woodpecker/chepstow-distressed-charcoal-oak-240.jpg
+WO84516WOO,Berkeley White Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,85.83333333333334,berkeley-white-oak,product-images/wood/woodpecker/berkeley-white-oak.jpg
+WO18566WOO,Berkeley Grey Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,85.83333333333334,berkeley-grey-oak,product-images/wood/woodpecker/berkeley-grey-oak.jpg
+WO26409WOO,Berkeley Smoked Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,85.83333333333334,berkeley-smoked-oak,product-images/wood/woodpecker/berkeley-smoked-oak.jpg
+WO92791WOO,Berkeley Cathedral Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1860,15,105.0,berkeley-cathedral-oak,product-images/wood/woodpecker/berkeley-cathedral-oak.jpg
+WO92659WOO,Berkeley Archway Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,16,105.0,berkeley-archway-oak,product-images/wood/woodpecker/berkeley-archway-oak.jpg
+WO59348WOO,Berkeley Burnt Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,85.83333333333334,berkeley-burnt-oak,product-images/wood/woodpecker/berkeley-burnt-oak.jpg
+WO56911WOO,Berkeley Cottage Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,105.0,berkeley-cottage-oak,product-images/wood/woodpecker/berkeley-cottage-oak.jpg
+WO14846WOO,Berkeley Calico Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1860,15,105.0,berkeley-calico-oak,product-images/wood/woodpecker/berkeley-calico-oak.jpg
+WO84822WOO,Berkeley Classic Walnut,Woodpecker,Wood,Plank,American Walnut,Lacquer,190,1860,15,105.0,berkeley-classic-walnut,product-images/wood/woodpecker/berkeley-classic-walnut.jpg
+WO41191WOO,Berkeley Rugged Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1860,15,105.0,berkeley-rugged-oak,product-images/wood/woodpecker/berkeley-rugged-oak.jpg
+WO61203WOO,Berkeley Charterhouse Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1860,15,105.0,berkeley-charterhouse-oak,product-images/wood/woodpecker/berkeley-charterhouse-oak.jpg
+WO68468WOO,Berkeley Priory Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1860,15,105.0,berkeley-priory-oak,product-images/wood/woodpecker/berkeley-priory-oak.jpg
+WO16233WOO,Berkeley Cellar Oak,Woodpecker,Wood,Plank,European Oak,Oil,190,1860,15,105.0,berkeley-cellar-oak,product-images/wood/woodpecker/berkeley-cellar-oak.jpg
+WO45851WOO,Design Panels (750 X 750) Sandringham Limed Oak Multi Micro Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-sandringham-limed-oak-multi-micro-bevel,product-images/wood/woodpecker/design-panels-750-x-750-sandringham-limed-oak-multi-micro-bevel.jpg
+WO28160WOO,Design Panels (750 X 750) Sandringham Royal Oak Multi Micro Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-sandringham-royal-oak-multi-micro-bevel,product-images/wood/woodpecker/design-panels-750-x-750-sandringham-royal-oak-multi-micro-bevel.jpg
+WO77318WOO,Design Panels (750 X 750) Sandringham Aged Oak Multi Micro Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-sandringham-aged-oak-multi-micro-bevel,product-images/wood/woodpecker/design-panels-750-x-750-sandringham-aged-oak-multi-micro-bevel.jpg
+WO85448WOO,Design Panels (750 X 750) Highgrove Limed Oak No Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-highgrove-limed-oak-no-bevel,product-images/wood/woodpecker/design-panels-750-x-750-highgrove-limed-oak-no-bevel.jpg
+WO62907WOO,Design Panels (750 X 750) Highgrove Royal Oak No Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-highgrove-royal-oak-no-bevel,product-images/wood/woodpecker/design-panels-750-x-750-highgrove-royal-oak-no-bevel.jpg
+WO80640WOO,Design Panels (750 X 750) Highgrove Aged Oak No Bevel,Woodpecker,Wood,Panel,European Oak,Oil,750,750,15,208.33333333333331,design-panels-750-x-750-highgrove-aged-oak-no-bevel,product-images/wood/woodpecker/design-panels-750-x-750-highgrove-aged-oak-no-bevel.jpg
+WO67612VFX,Heritage Rockingham,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-rockingham,product-images/wood/v4/heritage-rockingham.jpg
+WO71853VFX,Heritage Toridan,V4,Wood,Plank,European Oak,Oil,190,1900,14,68.33333333333333,heritage-toridan,product-images/wood/v4/heritage-toridan.jpg
+WO95621VFX,Tundra Chevron Misty Grey,V4,Wood,Chevron,European Oak,Oil,90,610,9,85.83333333333334,tundra-chevron-misty-grey,product-images/wood/v4/tundra-chevron-misty-grey.jpg
+WO36045VFX,Tundra Chevron Natural,V4,Wood,Chevron,European Oak,Oil,90,610,9,83.33333333333334,tundra-chevron-natural,product-images/wood/v4/tundra-chevron-natural.jpg
+WO66013VFX,Tundra Chevron Seashell,V4,Wood,Chevron,European Oak,Oil,90,610,9,85.83333333333334,tundra-chevron-seashell,product-images/wood/v4/tundra-chevron-seashell.jpg
+WO20441VFX,Tundra Chevron Smoked,V4,Wood,Chevron,European Oak,Oil,90,610,10,98.33333333333334,tundra-chevron-smoked,product-images/wood/v4/tundra-chevron-smoked.jpg
+WO51598VFX,Tundra Chevron Thermo,V4,Wood,Chevron,European Oak,Oil,90,610,10,91.66666666666666,tundra-chevron-thermo,product-images/wood/v4/tundra-chevron-thermo.jpg
+WO93934VFX,Tundra Herringbone Misty Grey,V4,Wood,Herringbone,European Oak,Oil,70,490,11,55.0,tundra-herringbone-misty-grey,product-images/wood/v4/tundra-herringbone-misty-grey.jpg
+WO14281VFX,Tundra Herringbone Natural,V4,Wood,Herringbone,European Oak,Oil,70,490,11,55.83333333333333,tundra-herringbone-natural,product-images/wood/v4/tundra-herringbone-natural.jpg
+WO24358VFX,Tundra Herringbone Seashell,V4,Wood,Herringbone,European Oak,Oil,70,490,11,55.0,tundra-herringbone-seashell,product-images/wood/v4/tundra-herringbone-seashell.jpg
+WO40437VFX,Tundra Herringbone Smoked,V4,Wood,Herringbone,European Oak,Oil,70,490,11,63.33333333333333,tundra-herringbone-smoked,product-images/wood/v4/tundra-herringbone-smoked.jpg
+WO64023VFX,Tundra Herringbone Thermo,V4,Wood,Herringbone,European Oak,Oil,70,490,11,59.16666666666667,tundra-herringbone-thermo,product-images/wood/v4/tundra-herringbone-thermo.jpg
+WO82587VFX,Tundra Plank Misty Grey,V4,Wood,Plank,European Oak,Oil,190,1700 – 2000,14,83.33333333333334,tundra-plank-misty-grey,product-images/wood/v4/tundra-plank-misty-grey.jpg
+WO33031VFX,Tundra Plank Natural,V4,Wood,Plank,European Oak,Oil,190,1700 – 2000,14,80.83333333333334,tundra-plank-natural,product-images/wood/v4/tundra-plank-natural.jpg
+WO32205VFX,Tundra Plank Seashell,V4,Wood,Plank,European Oak,Oil,190,1700 – 2000,14,83.33333333333334,tundra-plank-seashell,product-images/wood/v4/tundra-plank-seashell.jpg
+WO90033VFX,Tundra Plank Smoked,V4,Wood,Plank,European Oak,Oil,190,1700 – 2000,14,93.33333333333334,tundra-plank-smoked,product-images/wood/v4/tundra-plank-smoked.jpg
+WO16957VFX,Tundra Plank Thermo,V4,Wood,Plank,European Oak,Oil,190,1700 – 2000,14,89.16666666666666,tundra-plank-thermo,product-images/wood/v4/tundra-plank-thermo.jpg
+WO17682WOO ,Harlech Espresso Oak,Woodpecker,Wood,Plank,European Oak,Lacquer,190,1900,15,73.33333333333333,harlech-espresso-oak,product-images/wood/woodpecker/harlech-espresso-oak.jpg
+WO76304BES,Bridlington Buff (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,bridlington-buff-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/bridlington-buff-solid-parquet.jpg
+WO27971BES,Gateholm Grey (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,gateholm-grey-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/gateholm-grey-solid-parquet.jpg
+WO22834BES,Fistral Fawn (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,71.66666666666667,fistral-fawn-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/fistral-fawn-solid-parquet.jpg
+WO77525BES,Barleycove Beige (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,barleycove-beige-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/barleycove-beige-solid-parquet.jpg
+WO87053BES,Tawnyard Tan (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,tawnyard-tan-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/tawnyard-tan-solid-parquet.jpg
+WO46884BES,Woolacombe White (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,71.66666666666667,woolacombe-white-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/woolacombe-white-solid-parquet.jpg
+WO95786BES,Clevedon Cream (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,clevedon-cream-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/clevedon-cream-solid-parquet.jpg
+WO62246BES,Bempton Brown (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,bempton-brown-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/bempton-brown-solid-parquet.jpg
+WO70899BES,Cogley Carob (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,71.66666666666667,cogley-carob-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/cogley-carob-solid-parquet.jpg
+WO83520BES,Mealt Loch Mocha (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,280,10,72.5,mealt-loch-mocha-solid-parquet,product-images/wood/bespoke-by-woven-&-woods/mealt-loch-mocha-solid-parquet.jpg
+WO26206BES,Sardinia Villamar (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-villamar-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-villamar-180.jpg
+WO67432BES,Sardinia Soelli (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-soelli-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-soelli-180.jpg
+WO26164BES,Sardinia Guspini (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-guspini-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-guspini-180.jpg
+WO57957BES,Sardinia Posada (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-posada-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-posada-180.jpg
+WO60019BES,Sardinia Pula (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,80.0,sardinia-pula-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-pula-180.jpg
+WO17541BES,Sardinia Neoneli (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-neoneli-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-neoneli-180.jpg
+WO17192BES,Sardinia Pietra (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,80.0,sardinia-pietra-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-pietra-180.jpg
+WO24030BES,Sardinia Florinas (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,80.0,sardinia-florinas-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-florinas-180.jpg
+WO48666BES,Sardinia Loceri (180),Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,180,600 – 2400,12/3,86.66666666666666,sardinia-loceri-180,product-images/wood/bespoke-by-woven-&-woods/sardinia-loceri-180.jpg
+WO89232BES,Sardinia Villamar (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,92.5,sardinia-villamar-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-villamar-herringbone.jpg
+WO94970BES,Sardinia Soelli (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,92.5,sardinia-soelli-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-soelli-herringbone.jpg
+WO34975BES,Sardinia Guspini (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,92.5,sardinia-guspini-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-guspini-herringbone.jpg
+WO46369BES,Sardinia Posada (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,85.0,sardinia-posada-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-posada-herringbone.jpg
+WO74227BES,Sardinia Pula (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,85.0,sardinia-pula-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-pula-herringbone.jpg
+WO63918BES,Sardinia Neoneli (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,92.5,sardinia-neoneli-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-neoneli-herringbone.jpg
+WO62371BES,Sardinia Pietra (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,85.0,sardinia-pietra-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-pietra-herringbone.jpg
+WO74194BES,Sardinia Florinas (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,85.0,sardinia-florinas-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-florinas-herringbone.jpg
+WO68765BES,Sardinia Loceri (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,120,600,12/3,92.5,sardinia-loceri-herringbone,product-images/wood/bespoke-by-woven-&-woods/sardinia-loceri-herringbone.jpg
+WO87225BES,Richmond Clarence (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,80.0,richmond-clarence-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-clarence-herringbone-rustic.jpg
+WO85789BES,Richmond Wick (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,72.5,richmond-wick-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-wick-herringbone-rustic.jpg
+WO42665BES,Richmond Ormeley (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,80.0,richmond-ormeley-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-ormeley-herringbone-rustic.jpg
+WO25476BES,Richmond Pembroke (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,72.5,richmond-pembroke-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-pembroke-herringbone-rustic.jpg
+WO70467BES,Richmond Sandycombe (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,72.5,richmond-sandycombe-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-sandycombe-herringbone-rustic.jpg
+WO98828BES,Richmond Syon (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,80.0,richmond-syon-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-syon-herringbone-rustic.jpg
+WO61570BES,Richmond Temperate (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,69.16666666666667,richmond-temperate-herringbone-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-temperate-herringbone-rustic.jpg
+WO38758BES,Richmond Clarence (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,84.16666666666666,richmond-clarence-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-clarence-herringbone-prime.jpg
+WO46511BES,Richmond Wick (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,76.66666666666667,richmond-wick-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-wick-herringbone-prime.jpg
+WO96711BES,Richmond Ormeley (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,84.16666666666666,richmond-ormeley-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-ormeley-herringbone-prime.jpg
+WO36268BES,Richmond Pembroke (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,76.66666666666667,richmond-pembroke-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-pembroke-herringbone-prime.jpg
+WO49101BES,Richmond Sandycombe (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,76.66666666666667,richmond-sandycombe-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-sandycombe-herringbone-prime.jpg
+WO68884BES,Richmond Syon (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,84.16666666666666,richmond-syon-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-syon-herringbone-prime.jpg
+WO66861BES,"Richmond Temperate (Herringbone, Prime)",Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,73.33333333333333,richmond-temperate-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-temperate-herringbone-prime.jpg
+WO24553BES,"Richmond Garrick (Herringbone, Prime)",Bespoke by Woven & Woods,Wood,Herringbone,European Oak,Oil,70,490,10/4,85.0,richmond-garrick-herringbone-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-garrick-herringbone-prime.jpg
+WO43923BES,Richmond Clarence (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,109.16666666666666,richmond-clarence-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-clarence-chevron-rustic.jpg
+WO91342BES,Richmond Wick (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,102.5,richmond-wick-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-wick-chevron-rustic.jpg
+WO25174BES,Richmond Ormeley (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,109.16666666666666,richmond-ormeley-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-ormeley-chevron-rustic.jpg
+WO38994BES,Richmond Pembroke (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,102.5,richmond-pembroke-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-pembroke-chevron-rustic.jpg
+WO38448BES,Richmond Sandycombe (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,102.5,richmond-sandycombe-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-sandycombe-chevron-rustic.jpg
+WO73643BES,Richmond Syon (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,109.16666666666666,richmond-syon-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-syon-chevron-rustic.jpg
+WO20267BES,"Richmond Temperate (Chevron, Rustic)",Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,94.16666666666666,richmond-temperate-chevron-rustic,product-images/wood/bespoke-by-woven-&-woods/richmond-temperate-chevron-rustic.jpg
+WO48837BES,Richmond Clarence (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,107.5,richmond-clarence-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-clarence-chevron-prime.jpg
+WO73387BES,Richmond Wick (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,107.5,richmond-wick-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-wick-chevron-prime.jpg
+WO62962BES,Richmond Ormeley (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,107.5,richmond-ormeley-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-ormeley-chevron-prime.jpg
+WO32632BES,Richmond Pembroke (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,107.5,richmond-pembroke-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-pembroke-chevron-prime.jpg
+WO40860BES,Richmond Sandycombe (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,107.5,richmond-sandycombe-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-sandycombe-chevron-prime.jpg
+WO77719BES,Richmond Syon (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,110.83333333333334,richmond-syon-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-syon-chevron-prime.jpg
+WO57081BES,"Richmond Temperate (Chevron, Prime)",Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,99.16666666666666,richmond-temperate-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-temperate-chevron-prime.jpg
+WO91831BES,"Richmond Garrick (Chevron, Prime)",Bespoke by Woven & Woods,Wood,Chevron,European Oak,Oil,90,500,10/4,85.0,richmond-garrick-chevron-prime,product-images/wood/bespoke-by-woven-&-woods/richmond-garrick-chevron-prime.jpg
+WO51087BES,Century Matt,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,103.33333333333334,century-matt,product-images/wood/bespoke-by-woven-&-woods/century-matt.jpg
+WO25865BES,Century Natural,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,98.33333333333334,century-natural,product-images/wood/bespoke-by-woven-&-woods/century-natural.jpg
+WO59407BES,Century Light Smoked,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,103.33333333333334,century-light-smoked,product-images/wood/bespoke-by-woven-&-woods/century-light-smoked.jpg
+WO33978BES,Century Medium Smoked,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,103.33333333333334,century-medium-smoked,product-images/wood/bespoke-by-woven-&-woods/century-medium-smoked.jpg
+WO12340BES,Century Dark Smoked,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,103.33333333333334,century-dark-smoked,product-images/wood/bespoke-by-woven-&-woods/century-dark-smoked.jpg
+WO57856BES,Century Black,Bespoke by Woven & Woods,Wood,Plank,European Oak,Oil,200,500 – 2200,15/3,103.33333333333334,century-black,product-images/wood/bespoke-by-woven-&-woods/century-black.jpg
