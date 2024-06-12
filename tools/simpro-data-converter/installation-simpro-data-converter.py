@@ -148,16 +148,20 @@ merge_response = None
 while merge_response not in ("y", "n"):
     merge_response = input("Would you like to merge duplicate items? (y/n)").lower()
     if merge_response == "y":
+        print("Duplicate items will be merged.")
         merge_option = True
     else:
+        print("Duplicate items will NOT be merged.")
         merge_option = False
 
 format_response = None
 while format_response not in ("c", "p"):
     format_response = input("Would you like the data to be in Catalogue or Pre Build format? (c/p)").lower()
     if format_response == "c":
+        print("Data will be formatted for Catalogue import.")
         catalogue_option = True
     elif format_response == "p":
+        print("Data will be formatted for Pre Build import.")
         prebuild_option = "True"
     else:
         print("Invalid response.")
