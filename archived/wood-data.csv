@@ -1,0 +1,612 @@
+﻿SKU,Product,Manufacturer,Category,Type,Thickness,Pack Quantity,Species,Finish,Width,Length,Cost ex VAT,Sell ex VAT,Sell inc VAT,Twickenham,Richmond,Discontinued?,Show on Website?
+WO24424LAM,Albi Biscuit,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,600 - 1900,51.56,72.50,87.00,,Yes,,Yes
+WO41619LAM,Albi Look Unfinished,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,600 - 1900,51.56,72.50,87.00,,Yes,,Yes
+WO46590LAM,Albi Smoked Invisible,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,600 - 1900,51.56,72.50,87.00,,Yes,,Yes
+WO45431LAM,Albi Vintage,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,600 - 1900,51.56,72.50,87.00,,Yes,,Yes
+WO24658LAM,Bergamo Black,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO80353LAM,Bergamo Cotton White,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO59115LAM,Bergamo Look Unfinished,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO35771LAM,Bergamo Natural,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO46021LAM,Bergamo Smoke,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO53491LAM,Bergamo Titanium,Lamett,Wood,Plank,14/3,2.166,European Oak,Oil,190,630 - 1900,60.79,85.00,102.00,Yes,Yes,,Yes
+WO95758LAM,Bergen 190 Invisible,Lamett,Wood,Plank,15/3,2.12,European Oak,Lacquer,190,630 - 1860,48.74,73.33,88.00,,,,Yes
+WO75241LAM,Bergen 190 Mont Blanc,Lamett,Wood,Plank,15/3,2.12,European Oak,Lacquer,190,630 - 1860,48.74,73.33,88.00,,Yes,,Yes
+WO39244LAM,Bergen 190 Natural,Lamett,Wood,Plank,15/3,2.12,European Oak,Lacquer,190,630 - 1860,48.74,73.33,88.00,,Yes,,Yes
+WO39721LAM,Bergen 190 Pure,Lamett,Wood,Plank,15/3,2.12,European Oak,Lacquer,190,630 - 1860,48.74,73.33,88.00,,Yes,,Yes
+WO70904LAM,Carcassone Black,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,54.00,75.83,91.00,Yes,Yes,,Yes
+WO96447LAM,Carcassone Blanco,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,54.00,75.83,91.00,Yes,Yes,,Yes
+WO62515LAM,Carcassone Look Unfinished,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,54.00,75.83,91.00,Yes,Yes,,Yes
+WO46594LAM,Carcassone Natural,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,54.00,75.83,91.00,Yes,Yes,,Yes
+WO17708LAM,Carcassone DC Granola,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO95366LAM,Carcassone DC Caramel,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO90387LAM,Carcassone DC Crumble,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO74306LAM,Carcassone DC Café Au Lait,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO87364LAM,Carcassone DC Amaretto,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO34389LAM,Carcassone DC Latte,Lamett,Wood,Plank,15/4,2.904,European Oak,Oil,220,600 - 2200,72.93,102.50,123.00,,Yes,,Yes
+WO88874LAM,Chalet 190 Invisible,Lamett,Wood,Plank,14/3,2.888,European Oak,Oil,190,600 - 1900,31.88,52.50,63.00,,Yes,,Yes
+WO91101LAM,Chalet 190 Natural,Lamett,Wood,Plank,14/3,2.888,European Oak,Oil,190,600 - 1900,31.88,52.50,63.00,,Yes,,Yes
+WO58453LAM,Chalet Herringbone Invisible,Lamett,Wood,Herringbone,14/4,1.44,European Oak,Oil,120,600 - 1900,33.81,55.83,67.00,Yes,,,Yes
+WO15305LAM,Chalet Herringbone Natural,Lamett,Wood,Herringbone,14/5,1.44,European Oak,Oil,120,600 - 1900,33.81,55.83,67.00,Yes,,,Yes
+WO50169LAM,Cottage 190 Invisible,Lamett,Wood,Plank,14/3,2.12,European Oak,Lacquer,190,650 - 1900,33.00,54.17,65.00,Yes,Yes,,Yes
+WO75834LAM,Cottage 190 Mont Blanc,Lamett,Wood,Plank,14/3,2.12,European Oak,Lacquer,190,650 - 1900,33.00,54.17,65.00,Yes,Yes,,Yes
+WO82723LAM,Cottage 190 Natural,Lamett,Wood,Plank,14/3,2.12,European Oak,Lacquer,190,650 - 1900,33.00,54.17,65.00,Yes,Yes,,Yes
+WO22888LAM,Cottage 190 Paris Brown,Lamett,Wood,Plank,14/3,2.12,European Oak,Lacquer,190,650 - 1900,29.92,49.17,59.00,Yes,Yes,,Yes
+WO89781LAM,Cottage 260 Invisible,Lamett,Wood,Plank,15/4,3.432,European Oak,Lacquer,260,600 - 2200,43.20,65.00,78.00,Yes,Yes,,Yes
+WO60629LAM,Cottage 260 Natural,Lamett,Wood,Plank,15/4,3.432,European Oak,Lacquer,260,600 - 2200,43.20,65.00,78.00,Yes,Yes,,Yes
+WO15637LAM,Cottage Herringbone Invisible,Lamett,Wood,Herringbone,14/3,1.44,European Oak,Lacquer,120,600,35.00,54.17,65.00,Yes,,,Yes
+WO46986LAM,Cottage Herringbone Natural,Lamett,Wood,Herringbone,14/3,1.44,European Oak,Lacquer,120,600,35.00,54.17,65.00,Yes,,,Yes
+WO60154LAM,Country Double Smoked Pure,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,Yes,Yes,,Yes
+WO39043LAM,Country Smoked Coffee,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,Yes,Yes,,Yes
+WO18883LAM,Country Smoked Grey,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,Yes,Yes,,Yes
+WO94406LAM,Country Smoked Natural,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,Yes,Yes,,Yes
+WO36561LAM,Country Smoked White,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,Yes,Yes,,Yes
+WO55968LAM,Country White,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,37.21,57.50,69.00,,Yes,,Yes
+WO15099LAM,Farm Antique,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO38068LAM,Farm Harvest,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO56937LAM,Farm Herringbone Antique,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,56.95,80.00,96.00,Yes,Yes,,Yes
+WO57968LAM,Farm Herringbone Old Church,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,56.95,80.00,96.00,Yes,Yes,,Yes
+WO70668LAM,Farm Herringbone Pure,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,56.95,80.00,96.00,,Yes,,Yes
+WO17207LAM,Farm Herringbone Traditions,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,56.95,80.00,96.00,Yes,Yes,,Yes
+WO81827LAM,Farm Herringbone White,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,56.95,80.00,96.00,,Yes,,Yes
+WO93436LAM,Farm Old Church,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO21150LAM,Farm Pure,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO55351LAM,Farm Traditions,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO48149LAM,Farm White,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,600 - 1860,46.64,70.00,84.00,Yes,Yes,,Yes
+WO19488LAM,New York Coffee,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO46820LAM,New York Natural,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO77772LAM,New York Pure Plus,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO16146LAM,New York Skyline,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO43964LAM,New York Sunset,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO68589LAM,New York Wheat,Lamett,Wood,Plank,14/3.5,2.12,European Oak,Lacquer,190,630 - 1860,54.23,75.83,91.00,Yes,,,Yes
+WO98198LAM,Oslo 150 Mont Blanc,Lamett,Wood,Plank,15/3,2.232,European Oak,Oil,150,630 - 1860,38.47,60.00,72.00,,Yes,,Yes
+WO90370LAM,Oslo 150 Natural,Lamett,Wood,Plank,15/3,2.232,European Oak,Oil,150,630 - 1860,38.47,60.00,72.00,,Yes,,Yes
+WO65008LAM,Oslo 150 Pure,Lamett,Wood,Plank,15/3,2.232,European Oak,Oil,150,630 - 1860,38.47,60.00,72.00,,Yes,,Yes
+WO53483LAM,Oslo 190 Authentic Brown,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,630 - 1860,49.58,74.17,89.00,Yes,,,Yes
+WO43864LAM,Oslo 190 Mont Blanc,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,630 - 1860,49.58,74.17,89.00,Yes,,,Yes
+WO63495LAM,Oslo 190 Natural,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,630 - 1860,49.58,74.17,89.00,Yes,,,Yes
+WO19548LAM,Oslo 190 Paris Brown,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,630 - 1860,49.58,74.17,89.00,Yes,,,Yes
+WO52166LAM,Oslo 190 Pure,Lamett,Wood,Plank,15/3.5,2.12,European Oak,Oil,190,630 - 1860,49.58,74.17,89.00,Yes,,,Yes
+WO53785LAM,Oslo Herringbone Mont Blanc,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,55.27,77.50,93.00,Yes,Yes,,Yes
+WO74628LAM,Oslo Herringbone Natural,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,55.27,77.50,93.00,Yes,Yes,,Yes
+WO29798LAM,Oslo Herringbone Pure,Lamett,Wood,Herringbone,15/3,1.25,European Oak,Oil,125,625,55.27,77.50,93.00,Yes,Yes,,Yes
+WO48078LAM,Tenda 150 Invisible,Lamett,Wood,Plank,10/3,2.85,European Oak,Lacquer,150,600 - 1900,28.75,50.00,60.00,,Yes,,Yes
+WO71282LAM,Tenda 150 Natural,Lamett,Wood,Plank,10/3,2.85,European Oak,Lacquer,150,600 - 1900,30.92,50.83,61.00,,Yes,,Yes
+WO56755PAN,American Black Walnut (Matt) (Diva 139) 1021340,Panaget,Wood,Plank,14/3.4,1.39,American Walnut,Matt Lacquer,139,500 – 2000,71.55,100.00,120.00,,Yes,,Yes
+WO19856PAN,American Black Walnut (Satin) (Herringbone 139) 1019564,Panaget,Wood,Herringbone,14/2.5,2.22,American Walnut,Satin Lacquer,139,800,79.90,111.67,134.00,,Yes,,Yes
+WO74121PAN,Argile - Authentic (Diva 223) 1017303,Panaget,Wood,Plank,15/4.5,1.78,European Oak,Matt Lacquer,223,700 – 2000,72.85,101.67,122.00,,Yes,,Yes
+WO84017PAN,Argile - Zenitude (Diva 184) 1016189,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO78112PAN,Bois Flotte - Authentic (Chevron 139) 1019821,Panaget,Wood,Chevron,14/3.4,1.45,European Oak,Matt Lacquer,139,500 – 2000,70.35,98.33,118.00,,Yes,,Yes
+WO17345PAN,Bois Flotte - Authentic (Diva 139) 1017897,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Matt Lacquer,139,495 – 1992,40.15,60.00,72.00,,Yes,,Yes
+WO44295PAN,Bois Flotte - Authentic (Diva 184) 1016634,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,56.10,78.33,94.00,,Yes,,Yes
+WO13281PAN,Bois Flotte - Authentic (Diva 223) 1016985,Panaget,Wood,Plank,15/4.5,1.78,European Oak,Matt Lacquer,223,700 – 2000,72.85,101.67,122.00,Yes,Yes,,Yes
+WO26750PAN,Bois Flotte - Authentic (Diva Click 184) 1000059,Panaget,Wood,Plank,12/2.5,2.2,European Oak,Matt Lacquer,184,495 – 1992,51.30,71.67,86.00,,Yes,,Yes
+WO73529PAN,Bois Flotte - Authentic (Herringbone 139) 1016617,Panaget,Wood,Herringbone,14/3.4,2.22,European Oak,Matt Lacquer,139,800,58.90,82.50,99.00,,Yes,,Yes
+WO14239PAN,Bois Flotte - Classic (Diva 139) 1019701,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Matt Lacquer,139,495 – 1992,45.95,69.17,83.00,,Yes,,Yes
+WO96500PAN,Bois Flotte - Classic (Diva 184) 1006159,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,59.00,82.50,99.00,,Yes,,Yes
+WO55719PAN,Bois Flotte - Classic (Diva Click 139) 1005774,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Matt Lacquer,139,495 – 1992,43.00,64.17,77.00,,Yes,,Yes
+WO35030PAN,Bois Flotte - Intenso (Diva 139) 1017017,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Matt Lacquer,139,495 – 1992,32.87,54.17,65.00,,Yes,,Yes
+WO97297PAN,Bois Flotte - Zenitude (Diva 139) 1007643,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Matt Lacquer,139,495 – 1992,37.65,58.33,70.00,,Yes,,Yes
+WO52768PAN,Bois Flotte - Zenitude (Diva 184) 1007330,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,139,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO52271PAN,Bois Flotte - Zenitude (Diva 184) 1016424,Panaget,Wood,Plank,12/2.5,2.2,European Oak,Matt Lacquer,184,495 – 1992,47.55,71.67,86.00,,Yes,,Yes
+WO92846PAN,Bois Flotte - Zenitude (Sonate 140) 1007261,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Matt Lacquer,140,400 – 1300,57.43,80.00,96.00,,Yes,,Yes
+WO26626PAN,Bois Flotte - Zenitude (Sonate 90) 1007293,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Matt Lacquer,90,400 – 1300,55.38,77.50,93.00,,Yes,,Yes
+WO56818PAN,Bois Flotte – Tradition (Alto 139) 1017696,Panaget,Wood,Plank,12/2.5,1.85,European Oak,Matt Lacquer,139,1210,46.52,70.00,84.00,,Yes,,Yes
+WO17545PAN,Café Crème - Authentic (Chevron 139) 1019822,Panaget,Wood,Chevron,14/3.4,1.45,European Oak,Matt Lacquer,139,650,70.35,98.33,118.00,,Yes,,Yes
+WO78263PAN,Café Crème - Zenitude (Diva 139) 1019168,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Matt Lacquer,139,495 – 1992,37.65,58.33,70.00,,Yes,,Yes
+WO15293PAN,Café Crème - Zenitude (Diva 184) 1019171,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO48625PAN,Café Crème - Zenitude (Sonate 140) 1019819,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Matt Lacquer,140,400 – 1300,57.43,80.00,96.00,,Yes,,Yes
+WO99957PAN,Carmen No 2 - Classic (Panel) 1005714,Panaget,Wood,Design Panel,14/3.2,1.23,European Oak,Matt Lacquer,392,392,94.10,122.50,147.00,Yes,,,Yes
+WO63925PAN,Carmen No 5 - Classic (Panel) 1005712,Panaget,Wood,Design Panel,14/3.2,1.23,European Oak,Matt Lacquer,392,392,94.10,122.50,147.00,,Yes,,Yes
+WO44955PAN,Cuir - Authentic (Diva 184) 1014166,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,56.10,78.33,94.00,,Yes,,Yes
+WO94576PAN,Cuir - Authentic (Diva 184) 1014182,Panaget,Wood,Plank,15/4.5,1.84,European Oak,Oil,184,500 – 2000,77.23,108.33,130.00,,Yes,,Yes
+WO73015PAN,Cuir - Origine (Diva 184) 1006550,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,57.75,80.83,97.00,Yes,,,Yes
+WO65687PAN,Fauve - Zenitude (Diva 139) 1019709,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Satin Lacquer,139,495 – 1992,40.85,61.67,74.00,Yes,,,Yes
+WO39020PAN,Fauve - Zenitude (Diva 184) 1016472,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Satin Lacquer,184,500 – 2000,52.75,74.17,89.00,,Yes,,Yes
+WO60809PAN,Flamed Beech Cuivre (Diva 139) 1019714,Panaget,Wood,Plank,14/3.4,1.38,Beech,Oil,139,495 – 1992,42.00,63.33,76.00,,Yes,,Yes
+WO42149PAN,Flamed Beech Satine (Diva 139) 1019711,Panaget,Wood,Plank,14/3.4,1.38,Beech,Satin Lacquer,139,495 – 1992,42.00,63.33,76.00,Yes,Yes,,Yes
+WO89103PAN,Flanelle - Authentic (Diva 184) 1014183,Panaget,Wood,Plank,15/4.5,1.84,European Oak,Oil,184,500 – 2000,77.23,108.33,130.00,,Yes,,Yes
+WO49935PAN,Flanelle - Zenitude (Diva 184) 1007324,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,52.75,74.17,89.00,Yes,,,Yes
+WO66224PAN,Grey Oil - Zenitude (Diva 184) 1007332,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO96565PAN,Habano - Classic/Authentic (Herringbone 90) 1016742,Panaget,Wood,Herringbone,12/2.5,1.91,European Oak,Matt Lacquer,90,590,44.20,66.67,80.00,,Yes,,Yes
+WO36594PAN,Linen - Authentic (Diva 139) 1000299,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Matt Lacquer,139,495 – 1992,40.15,60.00,72.00,,Yes,,Yes
+WO98998PAN,Linen - Classic (Diva 139) 1019702,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Matt Lacquer,139,495 – 1992,45.95,69.17,83.00,,Yes,,Yes
+WO16279PAN,Linen - Classic/Authentic (Herringbone 90) 1005924,Panaget,Wood,Herringbone,12/2.5,1.91,European Oak,Matt Lacquer,90,590,44.20,66.67,80.00,,Yes,,Yes
+WO44391PAN,Linen - Zenitude (Diva 184) 1007314,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO40805PAN,Linen - Zenitude (Sonate 140) 1007268,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Matt Lacquer,140,400 – 1300,57.43,80.00,96.00,,Yes,,Yes
+WO60706PAN,Miel - Authentic (Diva 139 Click) 1019705,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Matt Lacquer,139,495 – 1992,41.40,62.50,75.00,,Yes,,Yes
+WO21964PAN,Miel - Authentic (Diva 184) 1019170,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,56.10,78.33,94.00,Yes,Yes,,Yes
+WO13133PAN,Natural Oil - Authentic (Sonate 90) 1000026,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Oil,90,400 – 1300,60.54,85.00,102.00,,Yes,,Yes
+WO99719PAN,Natural Oil - Salvaggio (Diva 139) 1014172,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Oil,139,500 – 2000,60.15,84.17,101.00,Yes,Yes,,Yes
+WO94446PAN,Opale - Authentic (Diva 184) 1000060,Panaget,Wood,Plank,12/2.5,2.2,European Oak,Satin Lacquer,184,495 – 1992,51.30,71.67,86.00,,Yes,,Yes
+WO99698PAN,Opale - Classic (Diva 139) 1006162,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Satin Lacquer,139,495 – 1992,45.95,69.17,83.00,,Yes,,Yes
+WO19963PAN,Rafia - Zenitude (Diva 184) 1007325,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,500 – 2000,500 – 2000,52.75,74.17,89.00,Yes,Yes,,Yes
+WO47556PAN,Sable - Authentic (Diva 223) 1017302,Panaget,Wood,Plank,15/4.5,1.78,European Oak,Oil,223,700 – 2000,72.85,101.67,122.00,,Yes,,Yes
+WO74187PAN,Sable - Origine (Diva 184) 1016635,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,57.75,80.83,97.00,Yes,,,Yes
+WO14989PAN,Sable - Zenitude (Diva 139) 1016633,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Oil,139,495 – 1992,48.00,71.67,86.00,,Yes,,Yes
+WO32944PAN,Sable - Zenitude (Diva 139) 1017898,Panaget,Wood,Plank,12/2.5,1.38,European Oak,Oil,139,495 – 1992,37.65,58.33,70.00,,Yes,,Yes
+WO86817PAN,Saphir - Authentic (Diva 139) 1019706,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Matt Lacquer,139,495 – 1992,41.40,62.50,75.00,,Yes,,Yes
+WO55092PAN,Saphir - Authentic (Diva 184) 1000069,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,56.10,78.33,94.00,Yes,Yes,,Yes
+WO89971PAN,Satin - Authentic (Sonate 90) 1000027,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Satin Lacquer,90,400 – 1300,60.54,85.00,102.00,,Yes,,Yes
+WO33441PAN,Satin - Classic (Diva 139) 1005748,Panaget,Wood,Plank,14/3.4,1.39,European Oak,Satin Lacquer,139,500 – 2000,68.00,95.00,114.00,,Yes,,Yes
+WO35992PAN,Satin - Classic (Diva 90) 1005768,Panaget,Wood,Plank,12/2.5,1.47,European Oak,Satin Lacquer,90,385 – 1180,48.00,71.67,86.00,,Yes,,Yes
+WO83439PAN,Shabi Chaux - Zenitude (Alto 139) 1017702,Panaget,Wood,Plank,12/2.5,1.85,European Oak,Oil,139,1210,46.52,70.00,84.00,,Yes,,Yes
+WO47702PAN,Topaze - Authentic (Diva 139) 1000297,Panaget,Wood,Plank,14/3.4,1.39,European Oak,Matt Lacquer,139,500 – 2000,45.45,68.33,82.00,,Yes,,Yes
+WO78511PAN,Topaze - Authentic (Diva 184) 1000070,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,56.10,78.33,94.00,Yes,,,Yes
+WO37940PAN,Topaze - Authentic (Diva 223) 1016986,Panaget,Wood,Plank,15/4.5,1.78,European Oak,Matt Lacquer,223,700 – 2000,72.85,101.67,122.00,,Yes,,Yes
+WO46287PAN,Topaze - Authentic (Herringbone 139) 1016618,Panaget,Wood,Herringbone,14/3.4,2.22,European Oak,Matt Lacquer,139,800,58.90,82.50,99.00,Yes,,,Yes
+WO80712PAN,Topaze - Authentic (Sonate 140) 1000034,Panaget,Wood,Plank,14 (Solid),1.64,European Oak,Matt Lacquer,140,400 – 1300,65.82,92.50,111.00,,Yes,,Yes
+WO73772PAN,Topaze - Classic (Chevron 90) 1005735,Panaget,Wood,Chevron,14/3.4,1.26,European Oak,Matt Lacquer,90,500,69.95,98.33,118.00,,Yes,,Yes
+WO77551PAN,Topaze - Classic (Diva 184) 1006158,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,59.00,82.50,99.00,,Yes,,Yes
+WO11235PAN,Topaze - Classic/Authentic (Herringbone 90) 1020644,Panaget,Wood,Herringbone,12/2.5,1.91,European Oak,Matt Lacquer,90,590,44.20,66.67,80.00,,Yes,,Yes
+WO29524PAN,Topaze - Tradition (Alto 139) 1017700,Panaget,Wood,Plank,12/2.5,1.85,European Oak,Matt Lacquer,139,1210,46.52,70.00,84.00,,Yes,,Yes
+WO62056PAN,Tourbe - Zenitude (Diva 184) 1014165,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Matt Lacquer,184,500 – 2000,52.75,74.17,89.00,Yes,,,Yes
+WO86987PAN,Tourbe - Zenitude/Origine (Diva 184) 1006552,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,57.75,80.83,97.00,,Yes,,Yes
+WO96380PAN,Tufeau - Authentic (Diva 139) 1019707,Panaget,Wood,Plank,14/3.4,1.38,European Oak,Oil,139,495 – 1992,41.40,62.50,75.00,,Yes,,Yes
+WO75688PAN,Tufeau - Authentic (Diva 184) 1014185,Panaget,Wood,Plank,15/4.5,1.84,European Oak,Oil,184,500 – 2000,77.23,108.33,130.00,,Yes,,Yes
+WO88305PAN,Tufeau - Authentic (Herringbone 90) 1016743,Panaget,Wood,Herringbone,12/2.5,1.91,European Oak,Oil,90,590,44.20,66.67,80.00,Yes,Yes,,Yes
+WO73968PAN,Tufeau - Zenitude (Diva 184) 1006551,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,57.75,80.83,97.00,,Yes,,Yes
+WO31883PAN,Tufeau - Zenitude (Diva 184) 1007326,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,184,500 – 2000,52.75,74.17,89.00,Yes,,,Yes
+WO91511PAN,Tufeau - Zenitude/Origine (Herringbone 139) 1007658,Panaget,Wood,Herringbone,14/3.4,2.22,European Oak,Oil,139,800,52.75,74.17,89.00,,Yes,,Yes
+WO28556PAN,White Oil - Zenitude (Diva 184) 1007644,Panaget,Wood,Plank,14/3.4,1.84,European Oak,Oil,139,495 – 1992,37.65,58.33,70.00,Yes,,,Yes
+WO82868PAR,Classic 3025 - Brushed & Matt Lacquer 1744854,Parador,Wood,Plank,13/2.5,3.663,European Oak,Lacquer,2200,185,36.39,61.67,74.00,,✓,,Yes
+WO55496PAR,Classic 3025 - Oak Matt Lacquer 1744847,Parador,Wood,Plank,13/2.5,1.685,European Oak,Lacquer,2200,185,34.80,59.17,71.00,,✓,,Yes
+WO35589PAR,Classic 3025 - Oak Soft Texture 1744846,Parador,Wood,Plank,13/2.5,3.663,European Oak,Oil,2200,185,38.70,62.50,75.00,,✓,,Yes
+WO54207PAR,Classic 3025 - Oak White Natural Oil 1744853,Parador,Wood,Plank,13/2.5,3.663,European Oak,Oil,2200,185,36.72,61.67,74.00,,✓,,Yes
+WO85242PAR,Classic 3060 - Graphite 3-Strip 1739901,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,25.35,50.00,60.00,,✓,,Yes
+WO93824PAR,Classic 3060 - Indian Breeze 1744434,Parador,Wood,Plank,13/3.6,3.663,European Oak,Lacquer,2200,185,86.47,120.83,145.00,,✓,,Yes
+WO58768PAR,Classic 3060 - Oak 3-Strip 1247126,Parador,Wood,Plank,13/3.6,3.663,European Oak,Lacquer,2200,185,24.99,49.17,59.00,,✓,,Yes
+WO97693PAR,Classic 3060 - Oak Brushed & Natural Oil 1739910,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,36.86,60.00,72.00,,✓,,Yes
+WO48778PAR,Classic 3060 - Oak Pure 1739912,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,36.86,60.00,72.00,,✓,,Yes
+WO35313PAR,Classic 3060 - Oak Smoked 1518242,Parador,Wood,Plank,13/3.6,3.663,European Oak,Lacquer,2200,185,50.75,75.83,91.00,,✓,,Yes
+WO61251PAR,Classic 3060 - Oak Soft Texture 1739902,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,36.69,61.67,74.00,,✓,,Yes
+WO65243PAR,Classic 3060 - Oak White 1518128,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,38.08,61.67,74.00,,✓,,Yes
+WO95455PAR,Classic 3060 - Sanded Extra Matt 1744433,Parador,Wood,Plank,13/3.6,3.663,European Oak,Lacquer,2200,185,44.48,71.67,86.00,,✓,,Yes
+WO85513PAR,Classic 3060 - Thermo Oak 1739924,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,2200,185,50.96,75.83,91.00,,✓,,Yes
+WO37770PAR,Trendtime 3 (Herringbone) - Black 1601584,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,44.19,70.83,85.00,,✓,,Yes
+WO13996PAR,Trendtime 3 (Herringbone) - Castle Extra Matt 1744422,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,44.19,70.83,85.00,,✓,,Yes
+WO87654PAR,Trendtime 3 (Herringbone) - Chalet Extra Matt 1744423,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,44.19,70.83,85.00,,✓,,Yes
+WO59748PAR,Trendtime 3 (Herringbone) - Nougat 1739933,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,44.19,70.83,85.00,,✓,,Yes
+WO97263PAR,Trendtime 3 (Herringbone) - Oak Cream 1739932,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,44.19,70.83,85.00,,✓,,Yes
+WO38690PAR,Trendtime 3 (Herringbone) - Oak Matt 1601582,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,43.54,70.00,84.00,,✓,,Yes
+WO80284PAR,Trendtime 3 (Herringbone) - Oak Natural Oil 1739935,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Oil,570,95,44.19,70.83,85.00,,✓,,Yes
+WO58036PAR,Trendtime 3 (Herringbone) - Oak Pure 1601580,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,43.54,70.00,84.00,,✓,,Yes
+WO67729PAR,Trendtime 3 (Herringbone) - Oak Smoked 1744419,Parador,Wood,Herringbone,10.5/2.5,1.083,European Oak,Lacquer,570,95,48.83,72.50,87.00,,✓,,Yes
+WO17279PAR,Trendtime 3 (Herringbone) - Walnut 1743195,Parador,Wood,Herringbone,10.5/2.5,1.083,American Walnut,Lacquer,570,95,57.75,85.00,102.00,,✓,,Yes
+WO45983PAR,Trendtime 4 - Askada Extra Matt 1744426,Parador,Wood,Plank,13/3.6,2.894,European Oak,Lacquer,160,2010,40.13,65.00,78.00,,✓,,Yes
+WO19732PAR,Trendtime 4 - Castle Extra Matt 1744425,Parador,Wood,Plank,13/3.6,2.894,European Oak,Lacquer,160,2010,40.13,65.00,78.00,,✓,,Yes
+WO12123PAR,Trendtime 4 - Chalet Extra Matt 1744427,Parador,Wood,Plank,13/3.6,2.894,European Oak,Lacquer,160,2010,40.13,65.00,78.00,,✓,,Yes
+WO86088PAR,Trendtime 4 - Nougat 1739938,Parador,Wood,Plank,13/3.6,2.894,European Oak,Lacquer,160,2010,40.13,65.00,78.00,,✓,,Yes
+WO44870PAR,Trendtime 4 - Oak Cream 1739937,Parador,Wood,Plank,13/3.6,2.894,European Oak,Lacquer,160,2010,40.13,65.00,78.00,,✓,,Yes
+WO78742PAR,Trendtime 4 - Walnut Antique 1518200,Parador,Wood,Plank,13/3.6,2.894,American Walnut,Lacquer,160,2010,71.78,105.00,126.00,,✓,,Yes
+WO83554PAR,Trendtime 4 - Walnut Matt 1257369,Parador,Wood,Plank,13/3.6,2.894,American Walnut,Lacquer,160,2010,81.60,114.17,137.00,,✓,,Yes
+WO84219PAR,Trendtime 6 - Beech White Sawn 1739940,Parador,Wood,Plank,13/3.6,3.663,Beech,Lacquer,185,2200,28.88,53.33,64.00,,✓,,Yes
+WO28696PAR,Trendtime 6 - Maple 3-Strip Vintage Sawn 1744428,Parador,Wood,Plank,13/3.6,3.663,Maple,Lacquer,185,2200,24.99,49.17,59.00,,✓,,Yes
+WO84087PAR,Trendtime 6 - Noir Sawn 1739943,Parador,Wood,Plank,13/3.6,3.663,European Oak,Oil,185,2200,44.55,71.67,86.00,,✓,,Yes
+WO42824PAR,Trendtime 8 - Elephant Skin 1739952,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,43.48,70.00,84.00,,✓,,Yes
+WO65782PAR,Trendtime 8 - Handscraped & Brushed 1739953,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,42.44,68.33,82.00,,✓,,Yes
+WO49160PAR,Trendtime 8 - Limed Handcrafted 1739950,Parador,Wood,Plank,14/3.0,3.218,European Oak,Oil,190,1882,36.65,61.67,74.00,,✓,,Yes
+WO68083PAR,Trendtime 8 - Multiplank 1744429,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,43.48,70.00,84.00,,✓,,Yes
+WO86852PAR,Trendtime 8 - Natural Oil Handcrafted 1739944,Parador,Wood,Plank,14/3.0,3.218,European Oak,Oil,190,1882,36.65,61.67,74.00,,✓,,Yes
+WO79651PAR,Trendtime 8 - Pinot Loft Plank 1744430,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,43.48,70.00,84.00,,✓,,Yes
+WO32931PAR,Trendtime 8 - Smoked Elephant Skin 1739954,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,47.17,70.83,85.00,,✓,,Yes
+WO70582PAR,Trendtime 8 - Smoked Grey Handcrafted 1739951,Parador,Wood,Plank,14/3.0,3.218,European Oak,Oil,190,1882,37.49,60.83,73.00,,✓,,Yes
+WO23978PAR,Trendtime 8 - Smoked Handscraped 1739955,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,45.45,73.33,88.00,,✓,,Yes
+WO14785PAR,Trendtime 8 - Smoked Natural Oil 1739945,Parador,Wood,Plank,14/3.0,3.218,European Oak,Oil,190,1882,37.49,60.83,73.00,,✓,,Yes
+WO25683PAR,Trendtime 8 - Smoked Stone Handcrafted 1744432,Parador,Wood,Plank,14/3.0,3.218,European Oak,Oil,190,1882,37.49,60.83,73.00,,✓,,Yes
+WO72228PAR,Trendtime 8 - Smoked Trre Plank 1739956,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,47.35,70.83,85.00,,✓,,Yes
+WO34247PAR,Trendtime 8 - Tree Plank 1739957,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,43.48,70.00,84.00,,✓,,Yes
+WO14044PAR,Trendtime 8 - White Oil Handscraped 1739959,Parador,Wood,Plank,15/4.0,2.861,European Oak,Oil,190,1882,42.96,69.17,83.00,,✓,,Yes
+WO93390STA,Asphalt Grey Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,58.15,79.17,95.00,,,,
+WO60261STA,Asphalt Grey Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,68.16,90.83,109.00,Yes,,,
+WO93210STA,Brushed & Basalt Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,51.05,71.67,86.00,,,,
+WO70399STA,Brushed & Basalt Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,61.07,81.67,98.00,Yes,,,
+WO80279STA,Blanc Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,49.42,70.83,85.00,,,,
+WO82490STA,Blanc Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,59.42,80.83,97.00,Yes,,,
+WO60875STA,BP Lacquered (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,49.96,70.83,85.00,,,,
+WO18557STA,BP Lacquered (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,59.97,80.83,97.00,Yes,,,
+WO22752STA,Cuba Lacquered (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,52.15,72.50,87.00,,,,
+WO98207STA,Cuba Lacquered (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,62.16,85.00,102.00,Yes,,,
+WO62884STA,Grey Stone Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,53.79,74.17,89.00,,,,
+WO36299STA,Grey Stone Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,63.79,85.83,103.00,Yes,,,
+WO85322STA,Oak Natural Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,48.87,69.17,83.00,,,,
+WO44228STA,Oak Natural Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,58.88,80.00,96.00,Yes,,,
+WO86114STA,Smoked & Oiled (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,51.05,71.67,86.00,,,,
+WO80362STA,Smoked & Oiled (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,61.07,82.50,99.00,Yes,,,
+WO94611STA,Tobacco Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,55.42,76.67,92.00,,,,
+WO91371STA,Tobacco Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,65.43,87.50,105.00,Yes,,,
+WO95414STA,Walnut Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,49.42,70.00,84.00,Yes,,,
+WO84048STA,Walnut Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,59.42,80.00,96.00,,,,
+WO66710STA,Brushed & White Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,51.05,71.67,86.00,,,,
+WO85810STA,Brushed & White Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,61.07,82.50,99.00,Yes,,,
+WO22814STA,Ebony Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,49.42,70.00,84.00,,,,
+WO24894STA,Ebony Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,59.42,80.83,97.00,,,,
+WO11760STA,Rosewood Oil (180),Staki,Wood,Plank,15/4,2.59,European Oak,Oil,180,2000 – 2400,49.42,70.00,84.00,,,,
+WO31622STA,Rosewood Oil (220),Staki,Wood,Plank,20/6,2.11,European Oak,Oil,220,2000 – 2400,59.42,80.00,96.00,,,,
+WO42740STA,Unfinished (180),Staki,Wood,Plank,15/4,2.59,European Oak,Unfinished,180,2000 – 2400,44.51,65.00,78.00,,,,
+WO57840STA,Unfinished (220),Staki,Wood,Plank,20/6,2.11,European Oak,Unfinished,220,2000 – 2400,49.42,70.00,84.00,,,,
+WO75456TED,Glenariff Herringbone (70 mm),Ted Todd,Wood,Herringbone,10.00,1.72,European Oak,Lacquer,70.00,490,34.64,57.50,69.00,Yes,,,Yes
+WO51060TED,Selborne Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.00,European Oak,Lacquer,220.00,2400,85.30,115.00,138.00,,Yes,,Yes
+WO46865TED,Kielder Herringbone (100 mm),Ted Todd,Wood,Herringbone,20.00,0.90,European Oak,Oil,100.00,500,71.98,100.83,121.00,Yes,,,Yes
+WO72096TED,Kielder Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,69.30,96.67,116.00,Yes,,,Yes
+WO38387TED,Arundel Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,1.66,European Oak,Oil,90.00,540,63.98,89.17,107.00,Yes,,,Yes
+WO90991TED,Arundel Plank (190 mm),Ted Todd,Wood,Plank,20.00,2.17,European Oak,Oil,190.00,1900,58.64,82.50,99.00,Yes,,,Yes
+WO68987TED,Attingham Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,0.78,European Oak,Oil,90.00,360,60.24,84.17,101.00,Yes,,,Yes
+WO56210TED,Attingham Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.94,European Oak,Oil,220.00,2200,58.64,82.50,99.00,Yes,,,Yes
+WO47933TED,Bembridge Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,0.78,European Oak,Oil,90.00,360,60.24,84.17,101.00,Yes,,,Yes
+WO75586TED,Bembridge Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.94,European Oak,Oil,220.00,2200,58.64,82.50,99.00,Yes,,,Yes
+WO67533TED,Dunham Plank (190 mm),Ted Todd,Wood,Plank,20.00,2.17,European Oak,Oil,190.00,1900,66.64,93.33,112.00,,Yes,,Yes
+WO92008TED,Holton Plank (220 mm),Ted Todd,Wood,Plank,20.00,2.42,European Oak,Oil,220.00,2200,74.64,104.17,125.00,,Yes,,Yes
+WO97117TED,Netley Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,0.78,European Oak,Oil,90.00,360,60.24,84.17,101.00,Yes,,,Yes
+WO11680TED,Netley Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.94,European Oak,Oil,220.00,2200,58.64,82.50,99.00,Yes,,,Yes
+WO34593TED,Standen Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,1.17,European Oak,Oil,90.00,540,63.98,89.17,107.00,Yes,,,Yes
+WO40733TED,Standen Plank (190 mm),Ted Todd,Wood,Plank,20.00,2.17,European Oak,Oil,190.00,1900,58.64,82.50,99.00,Yes,,,Yes
+WO81506TED,Swinley Herringbone (90 mm),Ted Todd,Wood,Herringbone,20.00,0.78,European Oak,Oil,90.00,360,60.24,84.17,101.00,Yes,,,Yes
+WO88273TED,Swinley Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.94,European Oak,Oil,220.00,2200,58.64,82.50,99.00,Yes,,,Yes
+WO68477TED,Sheringham Plank (220 mm),Ted Todd,Wood,Plank,20.00,2.17,European Oak,Oil,220.00,2200,66.64,93.33,112.00,,Yes,,Yes
+WO81254TED,Cashmere Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,Yes,Yes,,Yes
+WO42422TED,Cashmere Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,55.98,78.33,94.00,Yes,Yes,,Yes
+WO76155TED,Cashmere Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,50.64,70.83,85.00,Yes,Yes,,Yes
+WO40446TED,Cortado Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,55.98,78.33,94.00,Yes,,,Yes
+WO49518TED,Cortado Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,53.30,75.00,90.00,Yes,Yes,,Yes
+WO68419TED,Fawn Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,,Yes,,Yes
+WO65624TED,Fawn Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,55.98,78.33,94.00,Yes,Yes,,Yes
+WO84012TED,Fawn Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,50.64,70.83,85.00,Yes,Yes,,Yes
+WO47829TED,Jute Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,Yes,,,Yes
+WO99076TED,Jute Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,58.64,82.50,99.00,Yes,Yes,,Yes
+WO14329TED,Jute Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,50.66,70.83,85.00,Yes,Yes,,Yes
+WO38056TED,Liquorice Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,53.30,75.00,90.00,Yes,Yes,,Yes
+WO35939TED,Liquorice Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,45.30,68.33,82.00,Yes,Yes,,Yes
+WO47863TED,Paperback Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,55.98,78.33,94.00,Yes,Yes,,Yes
+WO69740TED,Paperback Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,50.64,70.83,85.00,Yes,Yes,,Yes
+WO59071TED,Sandbank Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,,Yes,,Yes
+WO74211TED,Sandbank Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,55.98,78.33,94.00,Yes,Yes,,Yes
+WO68927TED,Sandbank Plank (180mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,50.64,70.83,85.00,,Yes,,Yes
+WO14232TED,Satchel Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,47.98,71.67,86.00,Yes,Yes,,Yes
+WO64529TED,Satchel Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,45.30,68.33,82.00,,Yes,,Yes
+WO24351TED,Smoke Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,Yes,Yes,,Yes
+WO45919TED,Smoke Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,58.64,82.50,99.00,Yes,Yes,,Yes
+WO27314TED,Smoke Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,53.30,75.00,90.00,,Yes,,Yes
+WO23072TED,Stonewash Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,0.52,European Oak,Oil,90.00,480,61.30,85.83,103.00,,Yes,,Yes
+WO11980TED,Stonewash Herringbone (127 mm),Ted Todd,Wood,Herringbone,15.00,0.39,European Oak,Oil,127.00,508,53.30,75.00,90.00,Yes,,,Yes
+WO82672TED,Stonewash Plank (180 mm),Ted Todd,Wood,Plank,15.00,2.38,European Oak,Oil,180.00,2200,48.00,71.67,86.00,,Yes,,Yes
+WO12926TED,Alabaster Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,38.90,60.00,72.00,Yes,,,Yes
+WO14698TED,Almond Narrow Plank (150 mm) [Max 1.2 M Long],Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,150.00,1200,28.24,49.17,59.00,,,,
+WO46862TED,Almond Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,39.98,61.67,74.00,Yes,Yes,,Yes
+WO55663TED,Almond Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,34.64,57.50,69.00,Yes,Yes,,Yes
+WO93885TED,Almond Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,53.30,75.00,90.00,Yes,Yes,,Yes
+WO40237TED,Brindle Narrow Plank (150 mm) [Max 1.2 M Long],Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,150.00,1200,29.30,51.67,62.00,,,,
+WO76374TED,Brindle Plank (190 mm),Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,190.00,1900,39.98,61.67,74.00,,,,Yes
+WO63466TED,Brindle Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,42.64,64.17,77.00,,,,Yes
+WO72056TED,Brindle Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,55.98,78.33,94.00,,,,Yes
+WO15016TED,Bourne Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,37.30,57.50,69.00,Yes,Yes,,Yes
+WO30962TED,Calico Narrow Plank (150 mm) [Max 1.2 M Long],Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,150.00,1200,28.24,49.17,59.00,,,,
+WO54636TED,Calico Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,41.58,62.50,75.00,Yes,Yes,,
+WO97374TED,Calico Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,36.24,55.83,67.00,Yes,Yes,,Yes
+WO23165TED,Calico Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,53.30,75.00,90.00,Yes,Yes,,Yes
+WO56964TED,Caramel Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,41.60,62.50,75.00,Yes,Yes,,Yes
+WO44956TED,Caramel Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,38.90,60.00,72.00,Yes,Yes,,Yes
+WO86609TED,Creech Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,37.30,57.50,69.00,Yes,,,Yes
+WO73838TED,Haling Plank (Prime) (Absolute Matt Lacq.) (190 mm) ,Ted Todd,Wood,Plank,14.00,2.89,European Oak,Matt Lacquer,190.00,1900,47.98,71.67,86.00,,,,Yes
+WO25969TED,Kennet Narrow Plank (150 mm) [Max 1.2 M Long],Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,150.00,1200,28.24,49.17,59.00,,,,
+WO31877TED,Kennet Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,41.58,62.50,75.00,Yes,,,Yes
+WO17099TED,Kennet Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,38.90,60.00,72.00,Yes,Yes,,Yes
+WO21889TED,Kinsley Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,38.90,60.00,72.00,Yes,Yes,,Yes
+WO71343TED,Linton Plank (Absolute Matt Lacquer) (190 mm) ,Ted Todd,Wood,Plank,14.00,2.89,European Oak,Matt Lacquer,190.00,1900,37.30,57.50,69.00,,,,Yes
+WO54511TED,Ollerton Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,2.89,European Oak,Oil,90.00,450,41.58,62.50,75.00,Yes,Yes,,Yes
+WO25996TED,Ollerton Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,38.90,60.00,72.00,Yes,Yes,,Yes
+WO42324TED,Petworth Narrow Plank (150 mm) [Max 1.2 M Long],Ted Todd,Wood,Plank,14.00,1.44,European Oak,Oil,150.00,1200,29.30,51.67,62.00,,,,
+WO55706TED,Petworth Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,41.58,62.50,75.00,Yes,Yes,,Yes
+WO76622TED,Petworth Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,39.98,61.67,74.00,Yes,,,Yes
+WO41684TED,Petworth Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,54.90,76.67,92.00,Yes,Yes,,Yes
+WO87221TED,Porcelain Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,37.30,57.50,69.00,Yes,Yes,,Yes
+WO78962TED,Ryhill Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,42.64,64.17,77.00,,,,Yes
+WO53629TED,Ryhill Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,44.24,66.67,80.00,,,,Yes
+WO69655TED,Ryhill Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,58.64,82.50,99.00,,,,Yes
+WO51896TED,Tattenhall Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,41.58,62.50,75.00,Yes,Yes,,Yes
+WO58003TED,Tattenhall Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,39.98,61.67,74.00,Yes,Yes,,Yes
+WO85664TED,Tattenhall Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,15.00,3.43,European Oak,Oil,260.00,2200,54.90,76.67,92.00,Yes,Yes,,Yes
+WO21793TED,Clevedon Herringbone (90 mm),Ted Todd,Wood,Herringbone,14.00,1.30,European Oak,Oil,90.00,450,29.95,52.50,63.00,Yes,Yes,,Yes
+WO87938TED,Clevedon Plank (190 mm),Ted Todd,Wood,Plank,14.00,2.89,European Oak,Oil,190.00,1900,28.95,49.17,59.00,Yes,Yes,,Yes
+WO44786TED,Torelli Herringbone (100 mm),Ted Todd,Wood,Herringbone,20.00,0.90,European Oak,Satin Lacquer,100.00,500,63.98,89.17,107.00,Yes,,,Yes
+WO74685TED,Torelli Plank (180 mm),Ted Todd,Wood,Plank,20.00,1.00,European Oak,Satin Lacquer,180.00,2200,58.64,82.50,99.00,Yes,,,Yes
+WO43101TED,Darwin Plank (Morado) (135 mm),Ted Todd,Wood,Plank,19.00,1.00,Morado,Satin Lacquer,135.00,1400,117.30,152.50,183.00,,Yes,,Yes
+WO67197TED,Birnham Narrow Plank (135 mm),Ted Todd,Wood,Plank,19.00,1.70,Tajibo,Satin Lacquer,135.00,1400,101.30,131.67,158.00,,Yes,,Yes
+WO43923TED,Blackmuir Unfinished Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,2.09,American Walnut,Unfinished,220.00,1860,79.98,111.67,134.00,,Yes,,Yes
+WO33013TED,Ibis Douglas Fir Extra Wide Plank (260 mm),Ted Todd,Wood,Plank,30.00,1.00,Douglas Fir,Satin Lacquer,260.00,600 – 3000,105.56,137.50,165.00,,Yes,,Yes
+WO34223TED,Neckar Herringbone (70 mm),Ted Todd,Wood,Herringbone,20.00,0.78,European Oak,Unfinished,100.00,500,74.64,104.17,125.00,,,,Yes
+WO13883TED,Flax Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,47.98,71.67,86.00,Yes,,,Yes
+WO47072TED,Fleece Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,1.17,European Oak,Oil,90.00,540,54.90,76.67,92.00,,Yes,,Yes
+WO71146TED,Fleece Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Oil,90.00,450,52.24,73.33,88.00,Yes,Yes,,Yes
+WO70649TED,Fleece Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Oil,190.00,1900,44.24,66.67,80.00,Yes,Yes,,Yes
+WO35496TED,Fleece Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,60.24,84.17,101.00,Yes,Yes,,Yes
+WO50501TED,Flint Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Matt Lacquer,190.00,1900,44.24,66.67,80.00,,,,Yes
+WO45769TED,Flint Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Matt Lacquer,90.00,450,52.24,73.33,88.00,Yes,,,Yes
+WO45904TED,Furrow Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,1.17,European Oak,Oil,90.00,540,57.58,80.83,97.00,Yes,Yes,,Yes
+WO66392TED,Furrow Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Oil,90.00,450,54.90,76.67,92.00,Yes,Yes,,Yes
+WO31092TED,Furrow Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Oil,190.00,1900,46.90,70.00,84.00,Yes,Yes,,Yes
+WO34001TED,Furrow Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,61.30,85.83,103.00,Yes,Yes,,Yes
+WO22405TED,Husk Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,1.17,European Oak,Oil,90.00,540,54.90,76.67,92.00,Yes,Yes,,Yes
+WO95484TED,Husk Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Oil,90.00,450,52.24,73.33,88.00,Yes,Yes,,Yes
+WO74303TED,Husk Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Oil,190.00,1900,44.24,66.67,80.00,Yes,Yes,,Yes
+WO81085TED,Husk Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,60.24,84.17,101.00,Yes,Yes,,Yes
+WO50726TED,Malting Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Lacquer,190.00,1900,44.24,66.67,80.00,Yes,Yes,,Yes
+WO86933TED,Raw Cotton Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,1.17,European Oak,Oil,90.00,540,54.90,76.67,92.00,Yes,Yes,,Yes
+WO95774TED,Raw Cotton Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Oil,90.00,450,52.24,73.33,88.00,Yes,Yes,,Yes
+WO34913TED,Raw Cotton Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Oil,190.00,1900,44.24,66.67,80.00,Yes,Yes,,Yes
+WO19334TED,Raw Cotton Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,60.24,84.17,101.00,Yes,,,Yes
+WO52614TED,Strand Plank (190 mm),Ted Todd,Wood,Plank,15.00,2.89,European Oak,Oil,190.00,1900,44.24,66.67,80.00,Yes,Yes,,Yes
+WO90329TED,Sugar Cane Chevron (90 mm),Ted Todd,Wood,Chevron,15.00,1.17,European Oak,Oil,90.00,540,54.90,76.67,92.00,,Yes,,Yes
+WO80226TED,Sugar Cane Herringbone (90 mm),Ted Todd,Wood,Herringbone,15.00,1.30,European Oak,Oil,90.00,450,52.24,73.33,88.00,Yes,Yes,,Yes
+WO76071TED,Sugar Cane Plank (190 mm),Ted Todd,Wood,Plank,20.00,2.89,European Oak,Oil,190.00,1900,44.24,66.67,80.00,Yes,,,Yes
+WO80688TED,Sugar Cane Extra Wide Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.45,European Oak,Oil,220.00,2200,60.24,84.17,101.00,Yes,Yes,,Yes
+WO73419TED,Woodworks Lauzes Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.00,European Oak,Oil,220.00,2200,105.53,137.50,165.00,Yes,,,Yes
+WO98764TED,Woodworks Quissac Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.00,European Oak,Oil,220.00,2200,105.53,137.50,165.00,Yes,,,Yes
+WO17234TED,Woodworks Tolland Plank (220 mm),Ted Todd,Wood,Plank,20.00,1.00,European Oak,Oil,220.00,2200,133.30,173.33,208.00,Yes,,,Yes
+WO94948VFX,Alpine Broad Oak,V4,Wood,Plank,20,2.42,European Oak,Oil,220,2200,44.20,66.67,80.00,,Yes,,Yes
+WO35967VFX,Alpine Brushed Oak,V4,Wood,Plank,14,2.508,European Oak,Lacquer,190,300 – 1200,28.99,50.83,61.00,,Yes,,Yes
+WO72218VFX,Alpine Canyon Oak,V4,Wood,Plank,18,1.805,European Oak,Oil,190,1900,41.25,61.67,74.00,,Yes,,Yes
+WO19040VFX,Alpine Forest Oak,V4,Wood,Plank,18,1.65,European Oak,Oil,150,300 – 1200,35.35,55.00,66.00,,Yes,,Yes
+WO41238VFX,Alpine Glade Oak,V4,Wood,Plank,14,2.166,European Oak,Lacquer,190,1900,36.99,57.50,69.00,,Yes,,Yes
+WO47891VFX,Alpine Golden Oak,V4,Wood,Plank,18,2.2,European Oak,Oil,125,300 – 1200,34.50,56.67,68.00,,Yes,,Yes
+WO35895VFX,Alpine Hillside Oak,V4,Wood,Plank,18,1.805,European Oak,Lacquer,190,1900,39.70,61.67,74.00,,Yes,,Yes
+WO24681VFX,Alpine Sunlit Oak,V4,Wood,Plank,18,2.2,European Oak,Satin Lacquer,125,300 – 1200,32.40,53.33,64.00,,Yes,,Yes
+WO63914VFX,Alpine Upland Oak,V4,Wood,Plank,14,1.71,European Oak,Oil,150,1900,35.50,55.00,66.00,,Yes,,Yes
+WO26491VFX,Alpine Vale Oak,V4,Wood,Plank,14,1.71,European Oak,Oil,150,1900,35.50,55.00,66.00,,Yes,,Yes
+WO44992VFX,Baristi Herringbone Baba Buden,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO25551VFX,Baristi Herringbone Blue Mountain,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO58918VFX,Baristi Herringbone Catuai,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO78532VFX,Baristi Herringbone Caturra,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO59466VFX,Baristi Herringbone Geisha,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO51249VFX,Baristi Herringbone Mandheling,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO83461VFX,Baristi Herringbone Pacamera,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO38311VFX,Baristi Herringbone Sidamo,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,74.55,104.17,125.00,,Yes,,Yes
+WO32047VFX,Baristi Herringbone Smoked Villalobos,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,87.05,117.50,141.00,,Yes,,Yes
+WO30547VFX,Baristi Herringbone Smoked Yunnan,V4,Wood,Herringbone,15,0.6,European Oak,Oil,100,600,87.05,117.50,141.00,,Yes,,Yes
+WO85876VFX,Baristi Plank Baba Buden,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO91778VFX,Baristi Plank Blue Mountain,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO81514VFX,Baristi Plank Catuai,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO82988VFX,Baristi Plank Caturra,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO77459VFX,Baristi Plank Geisha,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO74133VFX,Baristi Plank Mandheling,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO34462VFX,Baristi Plank Pacamera,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO24371VFX,Baristi Plank Sidamo,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,74.55,104.17,125.00,,Yes,,Yes
+WO61606VFX,Baristi Plank Smoked Villalobos,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,87.05,117.50,141.00,,Yes,,Yes
+WO75482VFX,Baristi Plank Smoked Yunnan,V4,Wood,Plank,15,2.322,European Oak,Oil,180,600 - 2300,87.05,117.50,141.00,,Yes,,Yes
+WO48167VFX,Bjelin® Earth Grey Ash,V4,Wood,Plank,14,1.8128,Ash,Lacquer,206,2200,44.99,67.50,81.00,,Yes,,Yes
+WO53407VFX,Bjelin® Earth Grey Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO38944VFX,Bjelin® Mineral Grey Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO26358VFX,Bjelin® Misty White Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO39244VFX,Bjelin® Natural Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO28546VFX,Bjelin® Powder White Ash,V4,Wood,Plank,14,1.8128,Ash,Lacquer,206,2200,44.99,67.50,81.00,,Yes,,Yes
+WO70997VFX,Bjelin® Powder White Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO11389VFX,Bjelin® Terra Brown Oak,V4,Wood,Plank,14,1.8128,European Oak,Lacquer,206,2200,39.99,61.67,74.00,,Yes,,Yes
+WO70859VFX,Deco Herringbone Black Walnut,V4,Wood,Herringbone,14,1.44,American Walnut,Oil,90,400,43.00,64.17,77.00,,Yes,,Yes
+WO51437VFX,Deco Herringbone Brushed Matt,V4,Wood,Herringbone,14,1.44,European Oak,Lacquer,90,400,38.50,60.00,72.00,,Yes,,Yes
+WO73647VFX,Deco Herringbone Frozen Umber,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,39.50,60.83,73.00,,Yes,,Yes
+WO58736VFX,Deco Herringbone Natural,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,38.50,60.00,72.00,,Yes,,Yes
+WO88462VFX,Deco Herringbone Nordic Beach,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,39.50,60.83,73.00,,Yes,,Yes
+WO97742VFX,Deco Herringbone Shore Drift Oak,V4,Wood,Herringbone,14,1.44,European Oak,Lacquer,90,400,42.10,63.33,76.00,,Yes,,Yes
+WO39971VFX,Deco Herringbone Silver Haze,V4,Wood,Herringbone,14,1.8144,European Oak,Oil,90,400,39.50,60.83,73.00,,Yes,,Yes
+WO36566VFX,Deco Herringbone Smoked Oak,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,42.10,63.33,76.00,,Yes,,Yes
+WO90568VFX,Deco Herringbone Smoked White Oak,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,42.10,63.33,76.00,,Yes,,Yes
+WO31306VFX,Deco Herringbone Tannery Brown,V4,Wood,Herringbone,14,1.44,European Oak,Oil,90,400,42.10,63.33,76.00,,Yes,,Yes
+WO11418VFX,Deco Plank Black Walnut,V4,Wood,Plank,14,2.888,American Walnut,Oil,190,1900,45.99,69.17,83.00,,Yes,,Yes
+WO68306VFX,Deco Plank Brushed Matt,V4,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,38.99,60.83,73.00,,Yes,,Yes
+WO74464VFX,Deco Plank Frozen Umber,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,41.70,62.50,75.00,,Yes,,Yes
+WO73470VFX,Deco Plank Natural,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,38.50,60.00,72.00,,Yes,,Yes
+WO57763VFX,Deco Plank Nordic Beach,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,41.70,62.50,75.00,,Yes,,Yes
+WO74809VFX,Deco Plank Shore Drift Oak,V4,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,42.35,63.33,76.00,,Yes,,Yes
+WO44011VFX,Deco Plank Silver Haze,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,41.70,62.50,75.00,,Yes,,Yes
+WO42041VFX,Deco Plank Smoked Oak,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,42.35,63.33,76.00,,Yes,,Yes
+WO96805VFX,Deco Plank Smoked White Oak,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,42.35,63.33,76.00,,Yes,,Yes
+WO53340VFX,Deco Plank Tannery Brown,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,42.35,63.33,76.00,,Yes,,Yes
+WO95455VFX,Driftwood Brushed Oak,V4,Wood,Plank,14,2.77,European Oak,Lacquer,180,2200,33.90,55.83,67.00,,Yes,,Yes
+WO50482VFX,Driftwood Burnt Bracken,V4,Wood,Plank,14,2.77,European Oak,Lacquer,180,2200,34.95,57.50,69.00,,Yes,,Yes
+WO63066VFX,Driftwood Deckboard Oak,V4,Wood,Plank,14,3.18,European Oak,Satin Lacquer,207,2200,25.25,44.17,53.00,,Yes,,Yes
+WO70709VFX,Driftwood Embered Oak,V4,Wood,Plank,14,3.18,European Oak,Lacquer,207,2200,42.65,64.17,77.00,,Yes,,Yes
+WO25286VFX,Driftwood Fjordic Shore,V4,Wood,Plank,14,2.77,European Oak,Lacquer,180,2200,34.80,57.50,69.00,,Yes,,Yes
+WO18003VFX,Driftwood Jetsam Oak,V4,Wood,Plank,14,2.77,European Oak,Lacquer,180,2200,34.80,57.50,69.00,,Yes,,Yes
+WO21954VFX,Driftwood Lichen White Oak,V4,Wood,Plank,14,3.18,European Oak,Lacquer,207,2200,42.65,64.17,77.00,,Yes,,Yes
+WO88331VFX,Driftwood Marsh Grey,V4,Wood,Plank,14,3.18,European Oak,Lacquer,207,2200,42.65,64.17,77.00,,Yes,,Yes
+WO11940VFX,Driftwood Pebble Grey,V4,Wood,Plank,14,2.38,European Oak,Lacquer,155,2200,33.65,55.83,67.00,,Yes,,Yes
+WO45369VFX,Driftwood Silver Sands,V4,Wood,Plank,14,2.77,European Oak,Oil,180,2200,39.45,60.83,73.00,,Yes,,Yes
+WO50527VFX,Heritage Bisham,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO16986VFX,Heritage Brampton,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO51448VFX,Heritage Cairngorns,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO26247VFX,Heritage Delamere,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO97710VFX,Heritage Enbourne,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO19171VFX,Heritage Grasmere,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO93610VFX,Heritage Kingswood,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO34129VFX,Heritage Lomond,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO36621WOO,York White Washed Oak,Woodpecker,Wood,Plank,18,1.98,European Oak,Oil,150,700,47.50,71.67,86.00,,Yes,,Yes
+WO54599WOO,York Select Oak,Woodpecker,Wood,Plank,18,1.98,European Oak,Oil,150,700,62.50,87.50,105.00,,Yes,,Yes
+WO60794WOO,York Rustic Oak (Oiled),Woodpecker,Wood,Plank,18,1.98,European Oak,Oil,150,700,45.00,67.50,81.00,,Yes,,Yes
+WO59243WOO,York Rustic Oak (Lacquered),Woodpecker,Wood,Plank,18,1.98,European Oak,Lacquer,150,700,45.00,67.50,81.00,,Yes,,Yes
+WO78935WOO,York Tawny Oak,Woodpecker,Wood,Plank,18,1.98,European Oak,Oil,150,700,47.50,71.67,86.00,,Yes,,Yes
+WO95354WOO,York Antique Oak,Woodpecker,Wood,Plank,18,1.98,European Oak,Oil,150,700,55.00,76.67,92.00,,Yes,,Yes
+WO64272WOO,Salcombe Pearl Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,,,Yes
+WO58650WOO,Salcombe Seashore Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,Yes,,Yes
+WO65009WOO,Salcombe Natural Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,Yes,,Yes
+WO25204WOO,Salcombe Riviero Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,,,Yes
+WO13458WOO,Salcombe Sandora Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,,,Yes
+WO49373WOO,Salcombe Headland Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,,,Yes
+WO39131WOO,Salcombe Dune Oak,Woodpecker,Wood,Plank,14,2.888,European Oak,Lacquer,190,1900,37.50,58.33,70.00,,Yes,,Yes
+WO71389WOO,Harlech White Oiled Oak (190),Woodpecker,Wood,Plank,15,2.166,European Oak,Oil,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO85915WOO,Harlech White Smoked Oak (190),Woodpecker,Wood,Plank,15,1.71,European Oak,Lacquer,190,1900,49.00,73.33,88.00,,,,Yes
+WO52828WOO,Harlech White Smoked Oak (240),Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,240,2200,60.50,85.00,102.00,Yes,Yes,,Yes
+WO38137WOO,Harlech Feather Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO51730WOO,Harlech Ecru Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,,,,Yes
+WO48596WOO,Harlech Raw Oak (190),Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO75497WOO,Harlech Raw Oak (240),Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,240,2200,60.50,85.00,102.00,Yes,Yes,,Yes
+WO42981WOO,Harlech Rustic Oak (Oiled) (150),Woodpecker,Wood,Plank,15,1.71,European Oak,Oil,150,1900,45.00,67.50,81.00,Yes,Yes,,Yes
+WO28372WOO,Harlech Rustic Oak (Oiled) (190),Woodpecker,Wood,Plank,15,2.166,European Oak,Oil,190,1900,47.00,70.83,85.00,Yes,Yes,,Yes
+WO20881WOO,Harlech Rustic Oak (Oiled) (240),Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,240,2200,59.00,82.50,99.00,,,,Yes
+WO18297WOO,Harlech Rustic Oak (Brushed & Lacq.) (150),Woodpecker,Wood,Plank,15,1.71,European Oak,Lacquer,150,1900,45.00,67.50,81.00,Yes,Yes,,Yes
+WO53653WOO,Harlech Rustic Oak (Brushed & Lacq.) (190),Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,47.00,70.83,85.00,,,,Yes
+WO85462WOO,Harlech Rustic Oak (Brushed & Lacq.) (240),Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,240,2200,59.00,82.50,99.00,Yes,Yes,,Yes
+WO43461WOO,Harlech Select Oak (Oiled),Woodpecker,Wood,Plank,15,2.166,European Oak,Oil,190,1900,63.50,89.17,107.00,Yes,Yes,,Yes
+WO95378WOO,Harlech Select Oak (Lacq.),Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,63.50,89.17,107.00,Yes,Yes,,Yes
+WO19484WOO,Harlech Smoked Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO68453WOO,Harlech Biscotti Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO40045WOO,Harlech Coffee Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,,,,Yes
+WO94140WOO,Harlech Cognac Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO98332WOO,Harlech Chocolate Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO75708WOO,Harlech Stormy Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,59.00,82.50,99.00,Yes,Yes,,Yes
+WO68715WOO,Goodrich Whitened Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,54.50,76.67,92.00,Yes,Yes,,Yes
+WO72878WOO,Goodrich Feather Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,Yes,Yes,,Yes
+WO19400WOO,Goodrich Feather Oak (Chevron),Woodpecker,Wood,Chevron,15,1.296,European Oak,Lacquer,90,400,66.50,93.33,112.00,,,,Yes
+WO80021WOO,Goodrich Biscotti Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,Yes,Yes,,Yes
+WO83762WOO,Goodrich Ecru Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,54.50,76.67,92.00,Yes,Yes,,Yes
+WO42241WOO,Goodrich Raw Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,,,,Yes
+WO50391WOO,Goodrich Raw Oak (Chevron),Woodpecker,Wood,Chevron,15,1.296,European Oak,Lacquer,90,400,66.50,93.33,112.00,,,,Yes
+WO51433WOO,Goodrich White Smoked Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,,,,Yes
+WO67960WOO,Goodrich Natural Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,50.00,70.00,84.00,Yes,Yes,,Yes
+WO78355WOO,Goodrich Coffee Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,54.50,76.67,92.00,Yes,Yes,,Yes
+WO78074WOO,Goodrich Smoked Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,Yes,Yes,,Yes
+WO14635WOO,Goodrich Espresso Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,56.50,79.17,95.00,Yes,Yes,,Yes
+WO21246WOO,Goodrich Salted Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,64.50,90.00,108.00,Yes,Yes,,Yes
+WO68873WOO,Goodrich Barn Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Lacquer,90,400,66.50,93.33,112.00,Yes,Yes,,Yes
+WO77974WOO,Goodrich Charred Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Oil,90,400,66.50,93.33,112.00,Yes,Yes,,Yes
+WO36973WOO,Goodrich Spiced Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Oil,90,400,66.50,93.33,112.00,,,,Yes
+WO15674WOO,Goodrich Foundry Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Oil,90,400,66.50,93.33,112.00,,,,Yes
+WO52821WOO,Goodrich Cathedral Oak,Woodpecker,Wood,Herringbone,15,1.296,European Oak,Oil,90,400,66.50,93.33,112.00,,,,Yes
+WO64162WOO,Highclere Feather Oak,Woodpecker,Wood,Herringbone,15,1.44,European Oak,Lacquer,120,600,59.00,82.50,99.00,,,,Yes
+WO14546WOO,Highclere Natural Oak,Woodpecker,Wood,Herringbone,15,1.44,European Oak,Lacquer,120,600,54.50,76.67,92.00,,,,Yes
+WO70230WOO,Highclere Coffee Oak,Woodpecker,Wood,Herringbone,15,1.44,European Oak,Lacquer,120,600,59.00,82.50,99.00,,,,Yes
+WO73955WOO,Highclere Biscotti Oak,Woodpecker,Wood,Herringbone,15,1.44,European Oak,Lacquer,120,600,59.00,82.50,99.00,,,,Yes
+WO79535WOO,Chepstow Planed Grey Oak,Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,189,1860,67.00,94.17,113.00,,Yes,,Yes
+WO93485WOO,Chepstow Rustic Oak (Unfinished),Woodpecker,Wood,Plank,21,2.11,European Oak,Unfinished,189,1860,60.50,85.00,102.00,,Yes,,Yes
+WO62110WOO,Chepstow Rustic Oak (Lacq.),Woodpecker,Wood,Plank,21,2.11,European Oak,Lacquer,189,1860,61.50,85.83,103.00,,Yes,,Yes
+WO72433WOO,Chepstow Rustic Oak (Oiled),Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,189,1860,61.50,85.83,103.00,,Yes,,Yes
+WO55781WOO,Chepstow Rustic Oak (240),Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,240,2200,71.50,100.00,120.00,,Yes,,Yes
+WO85946WOO,Chepstow Washed Oak (190),Woodpecker,Wood,Plank,21,2.166,European Oak,Oil,190,1900,67.00,94.17,113.00,,Yes,,Yes
+WO17510WOO,Chepstow Washed Oak (240),Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,240,2200,77.50,108.33,130.00,,Yes,,Yes
+WO57551WOO,Chepstow Antique Oak (190),Woodpecker,Wood,Plank,21,2.166,European Oak,Oil,190,1900,67.00,94.17,113.00,,Yes,,Yes
+WO21724WOO,Chepstow Antique Oak (240),Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,240,2200,76.00,106.67,128.00,,Yes,,Yes
+WO19999WOO,Chepstow Flaxen Oak,Woodpecker,Wood,Plank,21,2.166,European Oak,Oil,190,1900,76.00,106.67,128.00,,,,Yes
+WO95338WOO,Chepstow Shale Oak,Woodpecker,Wood,Plank,21,2.166,European Oak,Oil,190,1900,76.00,106.67,128.00,,,,Yes
+WO48054WOO,Chepstow Silverglade Oak,Woodpecker,Wood,Plank,21,2.166,European Oak,Oil,190,1900,76.00,106.67,128.00,,,,Yes
+WO66768WOO,Chepstow Distressed Charcoal Oak (190),Woodpecker,Wood,Plank,21,1.444,European Oak,Oil,190,1900,76.00,106.67,128.00,,Yes,,Yes
+WO99050WOO,Chepstow Distressed Charcoal Oak (240),Woodpecker,Wood,Plank,21,2.11,European Oak,Oil,240,2200,86.00,115.83,139.00,,Yes,,Yes
+WO84516WOO,Berkeley White Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,190,1860,61.50,85.83,103.00,Yes,Yes,,Yes
+WO18566WOO,Berkeley Grey Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,190,1860,61.50,85.83,103.00,Yes,Yes,,Yes
+WO26409WOO,Berkeley Smoked Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1860,61.50,85.83,103.00,Yes,Yes,,Yes
+WO92791WOO,Berkeley Cathedral Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO92659WOO,Berkeley Archway Oak,Woodpecker,Wood,Plank,16,2.166,European Oak,Lacquer,190,1860,75.00,105.00,126.00,,,,Yes
+WO59348WOO,Berkeley Burnt Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,190,1860,61.50,85.83,103.00,Yes,Yes,,Yes
+WO56911WOO,Berkeley Cottage Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO14846WOO,Berkeley Calico Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Lacquer,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO84822WOO,Berkeley Classic Walnut,Woodpecker,Wood,Plank,15,2.11,American Walnut,Lacquer,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO41191WOO,Berkeley Rugged Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO61203WOO,Berkeley Charterhouse Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,190,1860,75.00,105.00,126.00,,,,Yes
+WO68468WOO,Berkeley Priory Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,190,1860,75.00,105.00,126.00,,,,Yes
+WO16233WOO,Berkeley Cellar Oak,Woodpecker,Wood,Plank,15,2.11,European Oak,Oil,190,1860,75.00,105.00,126.00,Yes,Yes,,Yes
+WO45851WOO,Design Panels (750 X 750) Sandringham Limed Oak Multi Micro Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,Yes,,Yes
+WO28160WOO,Design Panels (750 X 750) Sandringham Royal Oak Multi Micro Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,,,Yes
+WO77318WOO,Design Panels (750 X 750) Sandringham Aged Oak Multi Micro Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,,,Yes
+WO85448WOO,Design Panels (750 X 750) Highgrove Limed Oak No Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,,,Yes
+WO62907WOO,Design Panels (750 X 750) Highgrove Royal Oak No Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,,,Yes
+WO80640WOO,Design Panels (750 X 750) Highgrove Aged Oak No Bevel,Woodpecker,Wood,Panel,15,0.56,European Oak,Oil,750,750,125.00,208.33,250.00,,,,Yes
+WO67612VFX,Heritage Rockingham,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO71853VFX,Heritage Toridan,V4,Wood,Plank,14,2.888,European Oak,Oil,190,1900,45.50,68.33,82.00,,Yes,,Yes
+WO64794VFX,StripWall Panels Light Grey,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO32078VFX,StripWall Panels Natural Oak Light,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO36439VFX,StripWall Panels Natutal Oak,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO68476VFX,StripWall Panels Solid Grey,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO21573VFX,StripWall Panels Teak,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO15544VFX,StripWall Panels Walnut,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO62967VFX,StripWall Panels Washy Grey,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO89220VFX,StripWall Panels Washy Natural,V4,Wood,Cladding,21,1.44,Spruce,Digital Foil Veneer,600,2400,30.30,50.00,60.00,,Yes,,
+WO95621VFX,Tundra Chevron Misty Grey,V4,Wood,Chevron,9,L&R 5.06,European Oak,Oil,90,610,61.05,85.83,103.00,,Yes,,Yes
+WO36045VFX,Tundra Chevron Natural,V4,Wood,Chevron,9,L&R 5.06,European Oak,Oil,90,610,59.75,83.33,100.00,,Yes,,Yes
+WO66013VFX,Tundra Chevron Seashell,V4,Wood,Chevron,9,L&R 5.06,European Oak,Oil,90,610,61.05,85.83,103.00,,Yes,,Yes
+WO20441VFX,Tundra Chevron Smoked,V4,Wood,Chevron,10,L&R 4.62,European Oak,Oil,90,610,70.35,98.33,118.00,,Yes,,Yes
+WO51598VFX,Tundra Chevron Thermo,V4,Wood,Chevron,10,L&R 4.62,European Oak,Oil,90,610,65.70,91.67,110.00,,Yes,,Yes
+WO93934VFX,Tundra Herringbone Misty Grey,V4,Wood,Herringbone,11,L&R 4.12,European Oak,Oil,70,490,35.35,55.00,66.00,,Yes,,Yes
+WO14281VFX,Tundra Herringbone Natural,V4,Wood,Herringbone,11,L&R 4.12,European Oak,Oil,70,490,33.99,55.83,67.00,,Yes,,Yes
+WO24358VFX,Tundra Herringbone Seashell,V4,Wood,Herringbone,11,L&R 4.12,European Oak,Oil,70,490,35.35,55.00,66.00,,Yes,,Yes
+WO40437VFX,Tundra Herringbone Smoked,V4,Wood,Herringbone,11,L&R 4.12,European Oak,Oil,70,490,41.95,63.33,76.00,,Yes,,Yes
+WO64023VFX,Tundra Herringbone Thermo,V4,Wood,Herringbone,11,L&R 4.12,European Oak,Oil,70,490,37.99,59.17,71.00,,Yes,,Yes
+WO82587VFX,Tundra Plank Misty Grey,V4,Wood,Plank,14,1*,European Oak,Oil,190,1700 – 2000,59.60,83.33,100.00,,Yes,,Yes
+WO33031VFX,Tundra Plank Natural,V4,Wood,Plank,14,1*,European Oak,Oil,190,1700 – 2000,57.75,80.83,97.00,,Yes,,Yes
+WO32205VFX,Tundra Plank Seashell,V4,Wood,Plank,14,1*,European Oak,Oil,190,1700 – 2000,59.60,83.33,100.00,,Yes,,Yes
+WO90033VFX,Tundra Plank Smoked,V4,Wood,Plank,14,1*,European Oak,Oil,190,1700 – 2000,66.40,93.33,112.00,,Yes,,Yes
+WO16957VFX,Tundra Plank Thermo,V4,Wood,Plank,14,1*,European Oak,Oil,190,1700 – 2000,63.60,89.17,107.00,,Yes,,Yes
+WO52803VFX,Unfinished Herringbone,V4,Wood,Herringbone,14,1.44,European Oak,Unfinished,90,400,33.50,55.00,66.00,,Yes,,
+WO12963VFX,Unfinished Plank,V4,Wood,Plank,14,2.888,European Oak,Unfinished,190,1900,35.50,55.00,66.00,,Yes,,
+WO62203VFX,Unfinished Versailles Panel,V4,Wood,Panel,20,0.64,European Oak,Unfinished,800,800,54.00,75.83,91.00,,Yes,,
+WO17682WOO ,Harlech Espresso Oak,Woodpecker,Wood,Plank,15,2.166,European Oak,Lacquer,190,1900,49.00,73.33,88.00,Yes,Yes,,Yes
+WO76304BES,Bridlington Buff (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO27971BES,Gateholm Grey (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO22834BES,Fistral Fawn (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,48.00,71.67,86.00,,Yes,,Yes
+WO77525BES,Barleycove Beige (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO87053BES,Tawnyard Tan (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO46884BES,Woolacombe White (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,48.00,71.67,86.00,,Yes,,Yes
+WO95786BES,Clevedon Cream (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO62246BES,Bempton Brown (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO70899BES,Cogley Carob (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,48.00,71.67,86.00,,Yes,,Yes
+WO83520BES,Mealt Loch Mocha (Solid Parquet),Bespoke by Woven & Woods,Wood,Herringbone,10,2.16,European Oak,Oil,70,280,52.00,72.50,87.00,,Yes,,Yes
+WO55607BES,Bridlington Buff (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO77963BES,Gateholm Grey (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO54192BES,Fistral Fawn (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO83994BES,Barleycove Beige (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO15562BES,Tawnyard Tan (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO85318BES,Woolacombe White (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO30388BES,Clevedon Cream (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO48311BES,Bempton Brown (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO54522BES,Cogley Carob (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO23516BES,Mealt Loch Mocha (Engineered),Bespoke by Woven & Woods,Wood,Herringbone,15/4,1,European Oak,Oil,70,350,75.00,105.00,126.00,,Yes,,
+WO26206BES,Sardinia Villamar (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,Yes,,Yes
+WO67432BES,Sardinia Soelli (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,Yes,,Yes
+WO26164BES,Sardinia Guspini (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,Yes,,Yes
+WO57957BES,Sardinia Posada (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,,,Yes
+WO60019BES,Sardinia Pula (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,56.95,80.00,96.00,,,,Yes
+WO17541BES,Sardinia Neoneli (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,,,Yes
+WO17192BES,Sardinia Pietra (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,56.95,80.00,96.00,,,,Yes
+WO24030BES,Sardinia Florinas (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,56.95,80.00,96.00,,,,Yes
+WO48666BES,Sardinia Loceri (180),Bespoke by Woven & Woods,Wood,Plank,12/3,2.592,European Oak,Oil,180,600 – 2400,61.95,86.67,104.00,,,,Yes
+WO89232BES,Sardinia Villamar (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,65.95,92.50,111.00,,,,Yes
+WO94970BES,Sardinia Soelli (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,65.95,92.50,111.00,,,,Yes
+WO34975BES,Sardinia Guspini (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,65.95,92.50,111.00,,,,Yes
+WO46369BES,Sardinia Posada (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,60.95,85.00,102.00,,Yes,,Yes
+WO74227BES,Sardinia Pula (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,60.95,85.00,102.00,,Yes,,Yes
+WO63918BES,Sardinia Neoneli (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,65.95,92.50,111.00,,Yes,,Yes
+WO62371BES,Sardinia Pietra (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,60.95,85.00,102.00,,Yes,,Yes
+WO74194BES,Sardinia Florinas (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,60.95,85.00,102.00,,Yes,,Yes
+WO68765BES,Sardinia Loceri (Herringbone),Bespoke by Woven & Woods,Wood,Herringbone,12/3,1.44,European Oak,Oil,120,600,65.95,92.50,111.00,,Yes,,Yes
+WO87225BES,Richmond Clarence (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,56.95,80.00,96.00,,Yes,,Yes
+WO85789BES,Richmond Wick (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,51.95,72.50,87.00,,Yes,,Yes
+WO42665BES,Richmond Ormeley (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,56.95,80.00,96.00,,,,Yes
+WO25476BES,Richmond Pembroke (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,51.95,72.50,87.00,,Yes,,Yes
+WO70467BES,Richmond Sandycombe (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,51.95,72.50,87.00,,Yes,,Yes
+WO98828BES,Richmond Syon (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,56.95,80.00,96.00,,Yes,,Yes
+WO61570BES,Richmond Temperate (Herringbone) Rustic,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,46.00,69.17,83.00,,Yes,,Yes
+WO38758BES,Richmond Clarence (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,59.95,84.17,101.00,,Yes,,Yes
+WO46511BES,Richmond Wick (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,54.95,76.67,92.00,,,,Yes
+WO96711BES,Richmond Ormeley (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,59.95,84.17,101.00,,Yes,,Yes
+WO36268BES,Richmond Pembroke (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,54.95,76.67,92.00,,,,Yes
+WO49101BES,Richmond Sandycombe (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,54.95,76.67,92.00,,,,Yes
+WO68884BES,Richmond Syon (Herringbone) Prime,Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,59.95,84.17,101.00,,,,Yes
+WO66861BES,"Richmond Temperate (Herringbone, Prime)",Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,49.00,73.33,88.00,,,,Yes
+WO24553BES,"Richmond Garrick (Herringbone, Prime)",Bespoke by Woven & Woods,Wood,Herringbone,10/4,2.47,European Oak,Oil,70,490,61.00,85.00,102.00,,,,Yes
+WO43923BES,Richmond Clarence (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,77.95,109.17,131.00,,,,Yes
+WO91342BES,Richmond Wick (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,72.95,102.50,123.00,,,,Yes
+WO25174BES,Richmond Ormeley (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,77.95,109.17,131.00,,,,Yes
+WO38994BES,Richmond Pembroke (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,72.95,102.50,123.00,,Yes,,Yes
+WO38448BES,Richmond Sandycombe (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,72.95,102.50,123.00,,,,Yes
+WO73643BES,Richmond Syon (Chevron) Rustic,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,77.95,109.17,131.00,,,,Yes
+WO20267BES,"Richmond Temperate (Chevron, Rustic)",Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,67.00,94.17,113.00,,,,Yes
+WO48837BES,Richmond Clarence (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,76.95,107.50,129.00,,,,Yes
+WO73387BES,Richmond Wick (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,76.95,107.50,129.00,,,,Yes
+WO62962BES,Richmond Ormeley (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,76.95,107.50,129.00,,,,Yes
+WO32632BES,Richmond Pembroke (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,76.95,107.50,129.00,,,,Yes
+WO40860BES,Richmond Sandycombe (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,76.95,107.50,129.00,,,,Yes
+WO77719BES,Richmond Syon (Chevron) Prime,Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,81.95,110.83,133.00,,,,Yes
+WO57081BES,"Richmond Temperate (Chevron, Prime)",Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,71.00,99.17,119.00,,,,Yes
+WO91831BES,"Richmond Garrick (Chevron, Prime)",Bespoke by Woven & Woods,Wood,Chevron,10/4,0.9,European Oak,Oil,90,500,61.00,85.00,102.00,,,,Yes
+WO51087BES,Century Matt,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,74.00,103.33,124.00,,,,Yes
+WO25865BES,Century Natural,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,70.00,98.33,118.00,,,,Yes
+WO59407BES,Century Light Smoked,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,74.00,103.33,124.00,,,,Yes
+WO33978BES,Century Medium Smoked,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,74.00,103.33,124.00,,,,Yes
+WO12340BES,Century Dark Smoked,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,74.00,103.33,124.00,,,,Yes
+WO57856BES,Century Black,Bespoke by Woven & Woods,Wood,Plank,15/3,2.64,European Oak,Oil,200,500 – 2200,74.00,103.33,124.00,,,,Yes
