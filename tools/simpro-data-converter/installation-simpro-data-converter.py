@@ -5,31 +5,10 @@ wj@wovenandwoods.com
 
 This script will take an XLSX file as an input, and generate a CSV file (installation-simpro-data.csv) which can
 be uploaded directly with simPRO's catalogue import module.
-
-Installation Item -> Description
-SKU -> Part Number
-[Blank] -> Manufacturer
-Cost -> Cost Price
-Cost -> Trade Price
-Sell (Exc.) -> Sell Price (Tier 1 (Buy))
-"Installation" -> Group (Ignored for Updates)
-[Blank] -> Subgroup 1 (Ignored for Updates)
-[Blank] -> Search Terms
-[Blank] -> Notes
 """
 
 import pandas as pd
 import sys
-import argparse
-from tkinter import filedialog
-from tkinter import Tk
-
-parser = argparse.ArgumentParser(
-    prog='Installation simPRO Data Converter',
-    description="This program will take an XLSX file as an input, and generate a CSV file ("
-                "installation-simpro-data.csv) which can be uploaded directly with simPRO's prebuilt import module."
-)
-
 
 def process_xlsx_to_csv(input_xlsx):
     """
