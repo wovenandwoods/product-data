@@ -1,5 +1,5 @@
 """
-Rakata to simPRO Carpet Data Converter
+simPRO Carpet Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
@@ -8,8 +8,7 @@ importing into simPRO using the catalogue import module.
 
 The script performs the following transformations on the data:
 1.  Retrieves carpet colours from the 'Colours' column to create new product variations.
-2.  Retrieves widths from the 'Widths' column to
-    create new product variations.
+2.  Retrieves widths from the 'Widths' column to create new product variations.
 3.  Generates a new product code for variations, combining the original product
     range product number with a hash of the colour, and width.
 4.  Converts the 'Cost Price ex VAT' and 'Sell Price ex VAT' values from SQM to LM by multiplying them by the width.
@@ -32,8 +31,6 @@ import pandas as pd
 import hashlib
 import re
 import datetime
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
 
 
 def remove_double_spaces(text):
@@ -69,13 +66,11 @@ def note_field(sell_price, twickenham, richmond):
     """
     update_date = datetime.datetime.now().strftime("%d-%b-%Y")
     location_data = [loc for loc, flag in zip(["Twickenham", "Richmond"], [twickenham, richmond]) if flag == "Yes"]
-    if len(location_data) > 0:
-        return (f"Price per SQM: £{sell_price}0 inc VAT; Locations: {', '.join(location_data)}; "
-                f"Updated: {update_date}; Data synced from Rakata")
-    else:
-        return (f"Price per SQM: £{sell_price}0 inc VAT; Locations: None; "
-                f"Updated: {update_date}; Data synced from Rakata")
-
+    return (f"<div>Price per SQM: £{"{0:.2f}".format(sell_price)} inc VAT</div>"
+            f"<div>Locations: {', '.join(location_data) if len(location_data) > 0 else 'None'}</div>"
+            f"<div>Updated: {update_date}</div>"
+            f"<br>"
+            f"<div><em>Data synced from Rakata</em></div>")
 
 def sku_field(sku, colour, width):
     """
@@ -110,7 +105,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
     discontinued_ranges = [
         f"{row['Manufacturer']} {row['Product']}" for _, row in df.iterrows() if row['Discontinued?'] == 'Yes'
     ]
-    
+
     for _, row in df.iterrows():
         if row['Discontinued?'] == 'Yes':
             continue
@@ -129,7 +124,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                         "Manufacturer": [row['Manufacturer']],
                         "Cost Price": [lm_price(row['Cost ex VAT'], width)],
                         "Trade Price": [lm_price(row['Cost ex VAT'], width)],
-                        "Sell Price (Tier 1 (Buy))": [lm_price(row['Sell ex VAT'], width)], 
+                        "Sell Price (Tier 1 (Buy))": [lm_price(row['Sell ex VAT'], width)],
                         "Group (Ignored for Updates)": [row['Category']],
                         "Subgroup 1 (Ignored for Updates)": [row['Type']],
                         "Search Terms": f"{row['Manufacturer']} {row['Product']} {colour} {width}",
@@ -137,7 +132,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                     })
                     transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                                   new_data.astype(transformed_data.dtypes)])
-        
+
         else:  # if there are no colour variations
             for width in width_list:
                 new_data = pd.DataFrame({
@@ -155,7 +150,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                 transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                               new_data.astype(transformed_data.dtypes)])
 
-    print("\nRakata to simPRO Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nsimPRO Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         print('\n'.join(discontinued_ranges))
@@ -174,19 +169,6 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
     export_manufacturer_data(transformed_data)
 
 
-'''
-This section uses Tkinter to prompt the user to select the Rakata-formatted XLSX file
-and specifies where the master file will be saved. 
-
-This file cannot be imported into simPRO and is for reference only. 
-
-Handling of manufacturer-specific CSV files is done by the 'export_manufacturer_data' function.
-'''
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = "./processed-data/carpet_simpro_data.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+input_xlsx_file = "../../data/carpet.xlsx"
+output_csv_file = "./processed-data/carpet_simpro_data.csv"
+process_xlsx_to_csv(input_xlsx_file, output_csv_file)

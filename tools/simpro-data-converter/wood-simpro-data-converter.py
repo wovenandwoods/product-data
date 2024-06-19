@@ -39,19 +39,18 @@ def export_manufacturer_data(df):
     print("CSV files created successfully for all manufacturers in ./processed-data/wood/\n")
 
 
-def note_field(sell_price, twickenham, richmond):
+def note_field(sell_price, pack_qty, twickenham, richmond):
     """
     Populates the simPRO notes field using the existing sell price and location data.
     """
     update_date = datetime.datetime.now().strftime("%d-%b-%Y")
     location_data = [loc for loc, flag in zip(["Twickenham", "Richmond"], [twickenham, richmond]) if flag == "Yes"]
-    if len(location_data) > 0:
-        return (f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; "
-                f"Locations: {', '.join(location_data)}; Updated: {update_date}; "
-                f"Data synced from Rakata")
-    else:
-        return (f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None; "
-                f"Data synced from Rakata")
+    return (f"<div>Price per SQM: £{"{0:.2f}".format(sell_price)} inc VAT</div>"
+            f"<div>Pack Quantity: {pack_qty}</div>"
+            f"<div>Locations: {', '.join(location_data) if len(location_data) > 0 else 'None'}</div>"
+            f"<div>Updated: {update_date}</div>"
+            f"<br>"
+            f"<div><em>Data synced from Rakata</em></div>")
 
 
 def process_xlsx_to_csv(input_xlsx, output_csv):
@@ -93,7 +92,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
             "Group (Ignored for Updates)": [row['Category']],
             "Subgroup 1 (Ignored for Updates)": [row['Type']],
             "Search Terms": f"{row['Manufacturer']} {row['Product']}",
-            "Notes": [note_field(row['Sell inc VAT'], row['Twickenham'], row['Richmond'])]
+            "Notes": [note_field(row['Sell inc VAT'], row['Pack Quantity'], row['Twickenham'], row['Richmond'])]
         })
         transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                       new_data.astype(transformed_data.dtypes)])
@@ -117,19 +116,6 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
     export_manufacturer_data(transformed_data)
 
 
-'''
-This section uses Tkinter to prompt the user to select the Rakata-formatted XLSX file
-and specifies where the master file will be saved. 
-
-This file cannot be imported into simPRO and is for reference only. 
-
-Handling of manufacturer-specific CSV files is done by the 'export_manufacturer_data' function.
-'''
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = "./processed-data/wood_simpro_data.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+input_xlsx_file = "../../data/wood.xlsx"
+output_csv_file = "./processed-data/wood-simpro-data.csv"
+process_xlsx_to_csv(input_xlsx_file, output_csv_file)

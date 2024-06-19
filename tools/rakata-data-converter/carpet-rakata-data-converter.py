@@ -1,5 +1,5 @@
 """
-Rakata Wood Data Converter
+Rakata Carpet Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
@@ -17,9 +17,9 @@ import datetime
 
 def export_supplier_data(df):
     for supplier in df['Default Supplier'].unique():
-        df[df['Default Supplier'] == supplier].to_csv(f"./processed-data/wood/{supplier.lower().replace(' ', '-')}"
-                                                      f"-wood-rakata-data.csv", index=False)
-    print("CSV files created successfully for all suppliers in ./processed-data/wood/\n")
+        df[df['Default Supplier'] == supplier].to_csv(f"./processed-data/carpet/{supplier.lower().replace(' ', '-')}"
+                                                      f"-carpet-rakata-data.csv", index=False)
+    print("CSV files created successfully for all suppliers in ./processed-data/carpet/\n")
 
 
 def note_field(sell_price, twickenham, richmond):
@@ -29,7 +29,7 @@ def note_field(sell_price, twickenham, richmond):
         return (f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; "
                 f"Locations: {', '.join(location_data)}; Updated: {update_date}")
     else:
-        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None"
+        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None; Updated: {update_date}"
 
 
 def remove_accented_characters(input_string):
@@ -96,11 +96,6 @@ def process_data(input_xlsx):
         except AttributeError:
             product_status = 'Active'
 
-        # Set wastage
-        if row['Type'].lower() == 'plank':
-            wastage = '5'
-        else:
-            wastage = '10'
 
         new_data = pd.DataFrame({
             'SKU': [row['SKU']],
@@ -111,17 +106,17 @@ def process_data(input_xlsx):
             'Price (Ex VAT)': [row['Sell ex VAT']],
             'Product Type': ['Standard'],
             'VAT Rate': ['20'],
-            'Pack Coverage': [row['Pack Quantity']],
+            'Pack Coverage': [''],
             'Pack Linear Meterage': [''],
             'Available Stock Quantity': ['0'],
             'Active / Inactive': [product_status],
             'Product Range': [remove_accented_characters(row['Product'])],
             'Quote Script': [remove_accented_characters(row['Product'])],
-            'Available Widths': [''],
-            'Colours': [''],
-            'Flooring Type': ['Wood'],
-            'Calculation Type': ['Per m2'],
-            'Wastage %': [wastage],
+            'Available Widths': [row['Widths']],
+            'Colours': [row['Colours']],
+            'Flooring Type': ['Carpet'],
+            'Calculation Type': ['Per m2: Fixed Width'],
+            'Wastage %': [0],
             'Outgoing Labour Cost (per m2)': ['0'],
             'Labour Retail Price (per m2)': ['0'],
             'Default Supplier': [remove_accented_characters(row['Supplier'])],
@@ -131,7 +126,7 @@ def process_data(input_xlsx):
         transformed_data = pd.concat(
             [transformed_data.astype(transformed_data.dtypes), new_data.astype(transformed_data.dtypes)])
 
-    # Export individual CSV files for each supplier. These are saved to ./processed-data/wood/
+    # Export individual CSV files for each supplier. These are saved to ./processed-data/carpet/
     export_supplier_data(transformed_data)
 
     return transformed_data
@@ -139,7 +134,7 @@ def process_data(input_xlsx):
 
 # File locations
 supplier_xlsx_file = "../../data/suppliers.xlsx"
-input_xlsx_file = "../../data/wood.xlsx"
-output_csv_file = "./processed-data/wood-rakata-data.csv"
+input_xlsx_file = "../../data/carpet.xlsx"
+output_csv_file = "./processed-data/carpet-rakata-data.csv"
 
 process_data(input_xlsx_file).to_csv(output_csv_file, index=False)

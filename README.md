@@ -14,6 +14,7 @@ converted into a variety of CSV formats.
 These formats include:
 * simPRO Catalogue import
 * simPRO Pre Build import
+* Rakata product import
 * Website import (via WooCommerce)
 * Ticket import (via Brother P-touch Editor)
 
