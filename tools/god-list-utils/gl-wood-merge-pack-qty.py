@@ -1,7 +1,21 @@
 import pandas as pd
 from fuzzywuzzy import fuzz
 import os
+import re
 
+
+def format_price(df, col):
+    # Use regular expression to match only digits, decimals (.) and negative sign (-)
+    pattern = r"[^\d\-.]"
+    # Replace non-numeric characters with empty string
+    df[col] = df[col].replace(pattern, "", regex=True)
+    # Try converting to float (handles cases with only digits) and format as string with 2 decimals
+    df[col] = df[col].astype(float).apply(lambda x: f"{x:.2f}")
+    return df
+
+def create_sell_ex_vat(df, col_name, new_col_name):
+  df[new_col_name] = df[col_name].astype(float).apply(lambda x: x / 6 * 5)
+  return df
 
 def merge_gl(file_list):
     """
@@ -25,20 +39,32 @@ def merge_gl(file_list):
         else:
             raise ValueError(f"File {filename} has no 'Name' or 'W&W Name' column")
 
+        # Combine 'Cost (exc.) (SQM)' and 'Trade (exc.) (SQM)'
+        if 'Trade (exc.) (SQM)' in df.columns:
+            df.rename(columns={'Trade (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
+        elif 'Cost (exc.) (SQM)' in df.columns:
+            df.rename(columns={'Cost (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
+        else:
+            df['Cost ex VAT'] = "CHECK"
+
+        if 'Price (inc.) (SQM)' in df.columns:
+            df.rename(columns={'Price (inc.) (SQM)': 'Sell inc VAT'}, inplace=True)
+
         # Create 'Supplier' column with filename
         df['Supplier'] = os.path.basename(filename).replace('.xlsx', '').replace(' (Wood)', '')
 
         # Select only 'Name' and 'Supplier' columns
         if 'Pack Quantity (SQM)' in df.columns:
-            df = df[['Name', 'Supplier', 'Pack Quantity (SQM)']]
+            df = df[['Name', 'Supplier', 'Pack Quantity (SQM)', 'Cost ex VAT', 'Sell inc VAT']]
         else:
-            df = df[['Name', 'Supplier']]
+            df = df[['Name', 'Supplier', 'Cost ex VAT', 'Sell inc VAT']]
 
         # Append data to merged dataframe
         if merged_df is None:
             merged_df = df.copy()
         else:
             merged_df = merged_df._append(df, ignore_index=True)
+
     return merged_df
 
 
@@ -79,15 +105,31 @@ def merge_pack_qty(gl_data, wood_data_file, output_file):
 
     # Create a mapping of matched names to Pack Quantity (SQM)
     name_to_pack_qty = dict(zip(gl_data['Name'], gl_data['Pack Quantity (SQM)']))
+    name_to_cost = dict(zip(gl_data['Name'], gl_data['Cost ex VAT']))
+    name_to_sell = dict(zip(gl_data['Name'], gl_data['Sell inc VAT']))
 
     # Update 'Pack Quantity' in wood_data with matching values from gl_data
     wood_data['Pack Quantity'] = [name_to_pack_qty.get(name) for name in matched_names]
+    wood_data['Cost ex VAT'] = [name_to_cost.get(name) for name in matched_names]
+    wood_data['Sell inc VAT'] = [name_to_sell.get(name) for name in matched_names]
 
     # Add a new column 'Product Match' with the matched gl_data names
     wood_data.insert(2, 'GOD List Match', matched_gl_names)
 
+    # Sync and fix the prices
+    wood_data = format_price(wood_data.copy(), 'Cost ex VAT')
+    wood_data = format_price(wood_data.copy(), 'Sell inc VAT')
+
+    wood_data = create_sell_ex_vat(wood_data.copy(), 'Sell inc VAT', 'Sell ex VAT')
+
+    # Clean up
+    cols_to_keep = ['Product', 'GOD List Match', 'Supplier', 'Pack Quantity', 'Cost ex VAT', 'Sell ex VAT', 'Sell inc VAT']
+
+    empty_god_list_match = wood_data['GOD List Match'].isna()
+    wood_data.loc[empty_god_list_match, wood_data.columns.difference(['Product', 'Supplier'])] = None
+
     # Export to excel
-    wood_data.to_excel(output_file, index=False)
+    wood_data[cols_to_keep].to_csv(output_file, index=False)
 
     print(f"Merged data saved to: {output_file}")
     print("\nFAILED MATCHES\n--------------------")
@@ -112,7 +154,7 @@ gl_data_files = [
 ]
 
 wood_data_xlsx = "../../data/wood.xlsx"
-output_xlsx = "./processed-data/gl-wood-data-pack-qty-merge.xlsx"
+output_csv = "./processed-data/gl-wood-data-pack-qty-merge.csv"
 
 # Run the merge function
-merge_pack_qty(merge_gl(gl_data_files), wood_data_xlsx, output_xlsx)
+merge_pack_qty(merge_gl(gl_data_files), wood_data_xlsx, output_csv)

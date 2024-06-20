@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2fb72c69-3732-4a07-a716-915e6947ab65" name="Changes" comment="Minor fixes">
-      <change afterPath="$PROJECT_DIR$/tools/god-list-utils/gl-merge-wood-data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tools/rakata-data-converter/carpet-rakata-data-converter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/carpet.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/carpet.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/suppliers.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/suppliers.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/data/wood.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/wood.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/rakata-data-converter/wood-rakata-data-converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/rakata-data-converter/wood-rakata-data-converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/simpro-data-converter/carpet-simpro-data-converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/simpro-data-converter/carpet-simpro-data-converter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/simpro-data-converter/wood-simpro-data-converter.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/simpro-data-converter/wood-simpro-data-converter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
