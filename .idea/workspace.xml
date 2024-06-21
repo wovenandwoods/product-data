@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2fb72c69-3732-4a07-a716-915e6947ab65" name="Changes" comment="Minor fixes. Updated wood.xlsx." />
+    <list default="true" id="2fb72c69-3732-4a07-a716-915e6947ab65" name="Changes" comment="Minor fixes. Updated wood.xlsx.">
+      <change beforePath="$PROJECT_DIR$/data/csv/wood.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/csv/wood.csv" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
