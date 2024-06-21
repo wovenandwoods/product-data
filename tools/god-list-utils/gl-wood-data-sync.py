@@ -1,7 +1,49 @@
+"""
+GOD List Wood Data Sync
+(c) 2024 Woven & Woods
+wj@wovenandwoods.com
+
+This script will attempt to synchronise data from multiple GOD Lists with the master wood data file.
+
+The data fields currently supported are:
+'Pack Quantity (SQM)' -> 'Pack Quantity'
+'Cost/Trade (exc.) (SQM)' -> 'Cost ex VAT'
+'Price (inc.) (SQM)' -> 'Sell inc VAT'
+
+It will also use the value of 'Price (inc.) (SQM)' to calculate the field 'Sell ex VAT'
+
+Due to discrepancies between how products are named in the GOD Lists and the master data file,
+the script uses a fuzzy search to attempt to match the items. This search will only accept a
+match with a score of at least 100, however it is still important to manually check all
+matches before the data is pushed through.
+
+PROCESS
+----------
+1.  Import the GOD Lists from a set list and attempt to merge them, taking into account
+    various difference between different versions of the GOD List format.
+2.  Take the master wood data file and use the merged GOD List data to perform a fuzzy search,
+    to attempt to match up the product names.
+3.  Create a new column in the master data file called 'GOD List Match'. If a match is found,
+    copy the name of the matched item from the GOD List into this field.
+4.  If a match is found, update the 'Pack Quantity', 'Cost ex VAT', 'Sell ex VAT' and 'Sell inc VAT' fields
+    using the data from the GOD List.
+5.  Strip out any fields which weren't updated.
+5.  Export the merged data in csv format to ./processed-data/gl-wood-data-synced.csv
+6.  Print a list of any products from the wood master data file that the script failed to match.
+
+The resulting CSV can then be manually checked for accuracy and then used to copy the updated data
+into the master wood data file.
+
+TO DO
+----------
+1.  Create versions that can also sync data from carpets, vinyl, runners and ancillaries.
+2.  Fix all the warnings
+3.  Improve reliability.
+"""
+
 import pandas as pd
 from fuzzywuzzy import fuzz
 import os
-import re
 
 
 def format_price(df, col):
@@ -13,9 +55,11 @@ def format_price(df, col):
     df[col] = df[col].astype(float).apply(lambda x: f"{x:.2f}")
     return df
 
+
 def create_sell_ex_vat(df, col_name, new_col_name):
-  df[new_col_name] = df[col_name].astype(float).apply(lambda x: x / 6 * 5)
-  return df
+    df[new_col_name] = df[col_name].astype(float).apply(lambda x: x / 6 * 5)
+    return df
+
 
 def merge_gl(file_list):
     """
@@ -33,7 +77,7 @@ def merge_gl(file_list):
 
         # Combine 'Name' and 'W&W Name' (if both exist)
         if 'Name' in df.columns:
-            df.rename(columns={'Name': 'Name'}, inplace=True)
+            pass
         elif 'W&W Name' in df.columns:
             df.rename(columns={'W&W Name': 'Name'}, inplace=True)
         else:
@@ -68,7 +112,7 @@ def merge_gl(file_list):
     return merged_df
 
 
-def merge_pack_qty(gl_data, wood_data_file, output_file):
+def sync_data(gl_data, wood_data_file, output_file):
     """
     This function merges 'Pack Quantity (SQM)' data from gl-data to 'Pack Quantity' in wood-data based on fuzzy
     matching of product names and suppliers.
@@ -113,31 +157,27 @@ def merge_pack_qty(gl_data, wood_data_file, output_file):
     wood_data['Cost ex VAT'] = [name_to_cost.get(name) for name in matched_names]
     wood_data['Sell inc VAT'] = [name_to_sell.get(name) for name in matched_names]
 
-    # Add a new column 'Product Match' with the matched gl_data names
+    # Add a new column 'GOD List Match' with the matched gl_data names
     wood_data.insert(2, 'GOD List Match', matched_gl_names)
 
     # Sync and fix the prices
     wood_data = format_price(wood_data.copy(), 'Cost ex VAT')
     wood_data = format_price(wood_data.copy(), 'Sell inc VAT')
-
     wood_data = create_sell_ex_vat(wood_data.copy(), 'Sell inc VAT', 'Sell ex VAT')
 
     # Clean up
-    cols_to_keep = ['Product', 'GOD List Match', 'Supplier', 'Pack Quantity', 'Cost ex VAT', 'Sell ex VAT', 'Sell inc VAT']
-
+    cols_to_keep = ['Product', 'GOD List Match', 'Supplier', 'Pack Quantity', 'Cost ex VAT', 'Sell ex VAT',
+                    'Sell inc VAT']
     empty_god_list_match = wood_data['GOD List Match'].isna()
     wood_data.loc[empty_god_list_match, wood_data.columns.difference(['Product', 'Supplier'])] = None
 
-    # Export to excel
+    # Export
     wood_data[cols_to_keep].to_csv(output_file, index=False)
 
     print(f"Merged data saved to: {output_file}")
     print("\nFAILED MATCHES\n--------------------")
     print(*failed_matches, sep="\n")
 
-
-# Replace these paths with your actual file paths
-# gl_data_file = "./processed-data/gl-merge-wood-data.csv"
 
 # List of XLSX files to merge
 gl_path = "/Users/willjackson/Library/CloudStorage/GoogleDrive-wj@wovenandwoods.com/Shared drives/Showroom/GOD Lists"
@@ -154,7 +194,7 @@ gl_data_files = [
 ]
 
 wood_data_xlsx = "../../data/wood.xlsx"
-output_csv = "./processed-data/gl-wood-data-pack-qty-merge.csv"
+output_csv = "./processed-data/gl-wood-data-synced.csv"
 
 # Run the merge function
-merge_pack_qty(merge_gl(gl_data_files), wood_data_xlsx, output_csv)
+sync_data(merge_gl(gl_data_files), wood_data_xlsx, output_csv)

@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2fb72c69-3732-4a07-a716-915e6947ab65" name="Changes" comment="Minor fixes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/wood.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/data/wood.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-merge-pack-qty.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/god-list-utils/gl-wood-data-sync.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tools/god-list-utils/god-list-compiler.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/god-list-utils/god-list-compiler.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +53,7 @@
     "Python.carpet-rakata-data-converter.executor": "Run",
     "Python.carpet-simpro-data-converter.executor": "Run",
     "Python.gl-merge-wood-data.executor": "Run",
+    "Python.gl-wood-data-sync.executor": "Run",
     "Python.gl-wood-merge-pack-qty.executor": "Run",
     "Python.god-list-compiler.executor": "Run",
     "Python.god-list-wood-converter.executor": "Run",
