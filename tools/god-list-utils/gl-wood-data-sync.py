@@ -7,7 +7,7 @@ This script will attempt to synchronise data from multiple GOD Lists with the ma
 
 The data fields currently supported are:
 'Pack Quantity (SQM)' -> 'Pack Quantity'
-'Cost/Trade (exc.) (SQM)' -> 'Cost ex VAT'
+'Cost (exc.) (SQM)'/Trade (exc.) (SQM)' -> 'Cost ex VAT'
 'Price (inc.) (SQM)' -> 'Sell inc VAT'
 
 It will also use the value of 'Price (inc.) (SQM)' to calculate the field 'Sell ex VAT'
@@ -83,13 +83,26 @@ def merge_gl(file_list):
         else:
             raise ValueError(f"File {filename} has no 'Name' or 'W&W Name' column")
 
+        # Merge Range and Name, if applicable
+        if 'Range' in df.columns and 'V4' in filename:
+            df['Name'] = df['Range'] + ' ' + df['Name']
+
+        # Merge Name and SKU
+        if 'Panaget SKU' in df.columns:
+            df['Name'] = df['Name'] + ' ' + df['Panaget SKU'].astype(str)
+        elif 'Parador SKU' in df.columns:
+            df['Name'] = df['Name'] + ' ' + df['Parador SKU'].astype(str)
+
+
         # Combine 'Cost (exc.) (SQM)' and 'Trade (exc.) (SQM)'
-        if 'Trade (exc.) (SQM)' in df.columns:
+        if 'Inc. Surcharge (< 1 Pallet) & Admin (exc.) (SQM)' in df.columns:
+            df.rename(columns={'Inc. Surcharge (< 1 Pallet) & Admin (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
+        elif 'Trade (exc.) (SQM)' in df.columns:
             df.rename(columns={'Trade (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
         elif 'Cost (exc.) (SQM)' in df.columns:
             df.rename(columns={'Cost (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
         else:
-            df['Cost ex VAT'] = "CHECK"
+            df['Cost ex VAT'] = "CHECK PRICE"
 
         if 'Price (inc.) (SQM)' in df.columns:
             df.rename(columns={'Price (inc.) (SQM)': 'Sell inc VAT'}, inplace=True)
@@ -136,15 +149,15 @@ def sync_data(gl_data, wood_data_file, output_file):
         best_match = None
         best_score = 0
         for gl_product, gl_supplier in zip(gl_data['Name'], gl_data['Supplier']):
-            name_score = fuzz.partial_ratio(wood_product, gl_product)
-            supplier_score = fuzz.partial_ratio(wood_supplier, gl_supplier)
+            name_score = fuzz.ratio(wood_product, gl_product)  # Use fuzz.ratio for stricter matching
+            supplier_score = fuzz.ratio(wood_supplier, gl_supplier)  # Use fuzz.ratio for stricter matching
             total_score = (name_score + supplier_score) / 2  # Average of name and supplier scores
             if total_score > best_score:
                 best_score = total_score
                 best_match = gl_product
         matched_names.append(best_match)
         matched_gl_names.append(
-            best_match if best_score >= 100 else failed_matches.append(wood_product))  # Only include if score >= 100
+            best_match if best_score >= 90 else failed_matches.append(wood_product))  # Only include if score >= 90
         match_scores.append(best_score)  # Store the match score
 
     # Create a mapping of matched names to Pack Quantity (SQM)
