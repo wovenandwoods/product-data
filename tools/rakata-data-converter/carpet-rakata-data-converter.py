@@ -15,10 +15,14 @@ import unicodedata
 import datetime
 
 
+def remove_alpha(string):
+    modified_string = ''.join(c for c in str(string) if c in "0123456789.")
+    return modified_string
+
 def export_supplier_data(df):
     for supplier in df['Default Supplier'].unique():
         df[df['Default Supplier'] == supplier].to_csv(f"./processed-data/carpet/{supplier.lower().replace(' ', '-')}"
-                                                      f"-carpet-rakata-data.csv", index=False)
+                                                      f"-rakata-data.csv", index=False)
     print("CSV files created successfully for all suppliers in ./processed-data/carpet/\n")
 
 
@@ -29,7 +33,7 @@ def note_field(sell_price, twickenham, richmond):
         return (f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; "
                 f"Locations: {', '.join(location_data)}; Updated: {update_date}")
     else:
-        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None; Updated: {update_date}"
+        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None"
 
 
 def remove_accented_characters(input_string):
@@ -62,7 +66,6 @@ def process_data(input_xlsx):
     transformed_data = pd.DataFrame(columns=[
         'SKU',
         'Product Name',
-        'Manufacturer',
         'Description',
         'Cost (Ex VAT)',
         'Price (Ex VAT)',
@@ -100,7 +103,6 @@ def process_data(input_xlsx):
         new_data = pd.DataFrame({
             'SKU': [row['SKU']],
             'Product Name': [remove_accented_characters(row['Product'])],
-            'Manufacturer': [row['Manufacturer']],
             'Description': [note_field(row['Sell inc VAT'], row['Twickenham'], row['Richmond'])],
             'Cost (Ex VAT)': [row['Cost ex VAT']],
             'Price (Ex VAT)': [row['Sell ex VAT']],
@@ -110,13 +112,13 @@ def process_data(input_xlsx):
             'Pack Linear Meterage': [''],
             'Available Stock Quantity': ['0'],
             'Active / Inactive': [product_status],
-            'Product Range': [remove_accented_characters(row['Product'])],
-            'Quote Script': [remove_accented_characters(row['Product'])],
-            'Available Widths': [row['Widths']],
-            'Colours': [row['Colours']],
+            'Product Range': [remove_accented_characters(f"{row['Manufacturer']} - {row['Product']}")],
+            'Quote Script': [remove_accented_characters(f"{row['Manufacturer']} - {row['Product']}")],
+            'Available Widths': [str(row['Widths']).replace(',', ';')],
+            'Colours': [str(row['Colours']).replace(',', ';')],
             'Flooring Type': ['Carpet'],
             'Calculation Type': ['Per m2: Fixed Width'],
-            'Wastage %': [0],
+            'Wastage %': ['0'],
             'Outgoing Labour Cost (per m2)': ['0'],
             'Labour Retail Price (per m2)': ['0'],
             'Default Supplier': [remove_accented_characters(row['Supplier'])],

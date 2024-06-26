@@ -9,9 +9,6 @@ CSV file which can be imported into the Brother label software.
 
 import pandas as pd
 import sys
-import datetime
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
 
 # Create lists of products which have been skipped because they are discontinued
 discontinued_ranges = []
@@ -88,12 +85,9 @@ def generate_widths(widths):
 def generate_price(price):
     return f"£{price:.2f} per SQM"
 
+# Set file locations
+input_xlsx_file = "../../data/carpet.xlsx"
+output_csv_file = f"./processed-data/Carpet Ticket Data.csv"
 
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = f"./processed_data/Carpet Ticket Data {str(datetime.datetime.today()).split()[0]}.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+# Make it work
+process_xlsx_to_csv(input_xlsx_file, output_csv_file)

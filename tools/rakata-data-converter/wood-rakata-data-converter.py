@@ -15,10 +15,14 @@ import unicodedata
 import datetime
 
 
+def remove_alpha(string):
+    modified_string = ''.join(c for c in str(string) if c in "0123456789.")
+    return modified_string
+
 def export_supplier_data(df):
     for supplier in df['Default Supplier'].unique():
         df[df['Default Supplier'] == supplier].to_csv(f"./processed-data/wood/{supplier.lower().replace(' ', '-')}"
-                                                      f"-wood-rakata-data.csv", index=False)
+                                                      f"-rakata-data.csv", index=False)
     print("CSV files created successfully for all suppliers in ./processed-data/wood/\n")
 
 
@@ -62,7 +66,6 @@ def process_data(input_xlsx):
     transformed_data = pd.DataFrame(columns=[
         'SKU',
         'Product Name',
-        'Manufacturer',
         'Description',
         'Cost (Ex VAT)',
         'Price (Ex VAT)',
@@ -105,18 +108,17 @@ def process_data(input_xlsx):
         new_data = pd.DataFrame({
             'SKU': [row['SKU']],
             'Product Name': [remove_accented_characters(row['Product'])],
-            'Manufacturer': [row['Manufacturer']],
             'Description': [note_field(row['Sell inc VAT'], row['Twickenham'], row['Richmond'])],
             'Cost (Ex VAT)': [row['Cost ex VAT']],
             'Price (Ex VAT)': [row['Sell ex VAT']],
             'Product Type': ['Standard'],
             'VAT Rate': ['20'],
-            'Pack Coverage': [row['Pack Quantity']],
+            'Pack Coverage': [remove_alpha(row['Pack Quantity'])],
             'Pack Linear Meterage': [''],
             'Available Stock Quantity': ['0'],
             'Active / Inactive': [product_status],
-            'Product Range': [remove_accented_characters(row['Product'])],
-            'Quote Script': [remove_accented_characters(row['Product'])],
+            'Product Range': [remove_accented_characters(f"{row['Manufacturer']} - {row['Product']}")],
+            'Quote Script': [remove_accented_characters(f"{row['Manufacturer']} - {row['Product']}")],
             'Available Widths': [''],
             'Colours': [''],
             'Flooring Type': ['Wood'],

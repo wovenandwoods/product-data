@@ -94,13 +94,17 @@ def merge_gl(file_list):
             df['Name'] = df['Name'] + ' ' + df['Parador SKU'].astype(str)
 
 
-        # Combine 'Cost (exc.) (SQM)' and 'Trade (exc.) (SQM)'
-        if 'Inc. Surcharge (< 1 Pallet) & Admin (exc.) (SQM)' in df.columns:
-            df.rename(columns={'Inc. Surcharge (< 1 Pallet) & Admin (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
-        elif 'Trade (exc.) (SQM)' in df.columns:
-            df.rename(columns={'Trade (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
-        elif 'Cost (exc.) (SQM)' in df.columns:
-            df.rename(columns={'Cost (exc.) (SQM)': 'Cost ex VAT'}, inplace=True)
+        # Set cost column names to 'Cost ex VAT'
+        cost_col_names = ['Inc. Surcharge (< 1 Pallet) & Admin (exc.) (SQM)',
+                          'Trade (exc.) (SQM)',
+                          'Cost (exc.) (SQM)']
+
+        potential_cost_cols = set(cost_col_names)
+        if potential_cost_cols.intersection(df.columns):
+            for col in df.columns:
+                if col in potential_cost_cols:
+                    df.rename(columns={col: 'Cost ex VAT'}, inplace=True)
+                    break  # Exit the loop after the first match
         else:
             df['Cost ex VAT'] = "CHECK PRICE"
 
@@ -157,7 +161,8 @@ def sync_data(gl_data, wood_data_file, output_file):
                 best_match = gl_product
         matched_names.append(best_match)
         matched_gl_names.append(
-            best_match if best_score >= 90 else failed_matches.append(wood_product))  # Only include if score >= 90
+            best_match if best_score >= 90 else failed_matches.append(
+                f"{wood_supplier} - {wood_product}"))  # Only include if score >= 90
         match_scores.append(best_score)  # Store the match score
 
     # Create a mapping of matched names to Pack Quantity (SQM)
@@ -208,6 +213,7 @@ gl_data_files = [
 
 wood_data_xlsx = "../../data/wood.xlsx"
 output_csv = "./processed-data/gl-wood-data-synced.csv"
+output_xlsx = "./processed-data/gl-wood-data-synced.xlsx"
 
 # Run the merge function
 sync_data(merge_gl(gl_data_files), wood_data_xlsx, output_csv)
