@@ -1,25 +1,25 @@
 """
-Rakata to simPRO Ancillaries Data Converter
+Rakata to legacy-simpro-data Ancillaries Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
-This script converts an XSLX file formatted for Rakata into a CSV file suitable for importing into simPRO using the
+This script converts an XSLX file formatted for Rakata into a CSV file suitable for importing into legacy-simpro-data using the
 catalogue import module.
 
 The script performs the following transformations on the data:
 1.  Populates the 'Search Terms' and 'Notes' fields by concatenating data from existing fields.
-2.  Renames all other fields to their simPRO equivalents.
+2.  Renames all other fields to their legacy-simpro-data equivalents.
 
 Additionally, the script:
 1.  Flags any discontinued ranges and prints a list for the user.
-    This list can be used to manually archive those ranges on simPRO.
+    This list can be used to manually archive those ranges on legacy-simpro-data.
 2.  Flags any products with duplicate Product Numbers.
 
 The script generates a master CSV containing all products from all suppliers, saved in the 'processed-data' folder.
-This file is for reference only and cannot be imported into simPRO.
+This file is for reference only and cannot be imported into legacy-simpro-data.
 
 The script also creates a separate CSV for each supplier, containing all of their current products,
-saved in the 'processed-data/wood' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/wood' folder. These CSVs can be imported directly into legacy-simpro-data.
 """
 
 import pandas as pd
@@ -86,7 +86,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                       new_data.astype(transformed_data.dtypes)])
 
-    print("\nRakata to simPRO Ancillaries Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nRakata to legacy-simpro-data Ancillaries Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         print('\n'.join(discontinued_ranges))
@@ -109,7 +109,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
 This section uses Tkinter to prompt the user to select the Rakata-formatted XLSX file
 and specifies where the master file will be saved. 
 
-This file cannot be imported into simPRO and is for reference only. 
+This file cannot be imported into legacy-simpro-data and is for reference only. 
 
 Handling of supplier-specific CSV files is done by the 'export_supplier_data' function.
 '''

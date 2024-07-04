@@ -1,13 +1,13 @@
 """
-simPRO Carpet Data Modifier
+legacy-simpro-data Carpet Data Modifier
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
-This script will take a CSV exported from simPRO and allow the user to update the data
+This script will take a CSV exported from legacy-simpro-data and allow the user to update the data
 for importing.
 
 1. Ask the user to select a CSV file
-2. Check that it is a valid simPRO export
+2. Check that it is a valid legacy-simpro-data export
 3. Sort items by Manufacturer and then Description
 4. Export a unified master CSV of all products
 5. Export an individual CSV for each manufacturer

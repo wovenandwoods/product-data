@@ -1,10 +1,10 @@
 """
-simPRO Carpet Data Converter
+legacy-simpro-data Carpet Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
 This script converts an XSLX file formatted for Rakata into a CSV file suitable for
-importing into simPRO using the catalogue import module.
+importing into legacy-simpro-data using the catalogue import module.
 
 The script performs the following transformations on the data:
 1.  Retrieves carpet colours from the 'Colours' column to create new product variations.
@@ -13,18 +13,18 @@ The script performs the following transformations on the data:
     range product number with a hash of the colour, and width.
 4.  Converts the 'Cost Price ex VAT' and 'Sell Price ex VAT' values from SQM to LM by multiplying them by the width.
 5.  Populates the 'Search Terms' and 'Notes' fields by concatenating data from existing fields.
-6.  Renames all other fields to their simPRO equivalents.
+6.  Renames all other fields to their legacy-simpro-data equivalents.
 
 Additionally, the script:
 1.  Flags any discontinued ranges and prints a list for the user.
-    This list can be used to manually archive those ranges on simPRO.
+    This list can be used to manually archive those ranges on legacy-simpro-data.
 2.  Flags any products with duplicate Product Numbers.
 
 The script generates a master CSV containing all products from all manufacturers, saved in the 'processed-data' folder.
-This file is for reference only and cannot be imported into simPRO.
+This file is for reference only and cannot be imported into legacy-simpro-data.
 
 The script also creates a separate CSV for each manufacturer, containing all of their current products,
-saved in the 'processed-data/carpet' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/carpet' folder. These CSVs can be imported directly into legacy-simpro-data.
 """
 
 import pandas as pd
@@ -62,15 +62,14 @@ def export_manufacturer_data(df):
 
 def note_field(sell_price, twickenham, richmond):
     """
-    Populates the simPRO notes field using the existing sell price and location data.
+    Populates the legacy-simpro-data notes field using the existing sell price and location data.
     """
     update_date = datetime.datetime.now().strftime("%d-%b-%Y")
     location_data = [loc for loc, flag in zip(["Twickenham", "Richmond"], [twickenham, richmond]) if flag == "Yes"]
     return (f"<div>Price per SQM: £{"{0:.2f}".format(sell_price)} inc VAT</div>"
             f"<div>Locations: {', '.join(location_data) if len(location_data) > 0 else 'None'}</div>"
-            f"<div>Updated: {update_date}</div>"
             f"<br>"
-            f"<div><em>Data synced from Rakata</em></div>")
+            f"<div>Updated: {update_date}</div>")
 
 def sku_field(sku, colour, width):
     """
@@ -150,7 +149,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                 transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                               new_data.astype(transformed_data.dtypes)])
 
-    print("\nsimPRO Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nlegacy-simpro-data Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         print('\n'.join(discontinued_ranges))
