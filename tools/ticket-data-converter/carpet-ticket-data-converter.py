@@ -36,8 +36,11 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         product_name = row["Product"]
         discontinued = row["Discontinued?"]
 
+        # Use the Width column to check if this is a carpet
+        not_carpet = pd.isna(row['Widths'])
+
         # Check if product has been assigned to the website and not discontinued
-        if not discontinued == "Yes":
+        if not discontinued == "Yes" and not not_carpet:
             # Create a new DataFrame with the desired structure
             new_data = pd.DataFrame({
                 "Product": [product_name],
@@ -53,7 +56,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
             transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                           new_data.astype(transformed_data.dtypes)])
 
-        else:
+        elif discontinued == "Yes":
             discontinued_ranges.append(f"{row["Manufacturer"]} {product_name}")
 
     # Print some information to the screen and a list of skipped products
@@ -66,7 +69,8 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    transformed_data.to_csv(output_csv, index=False)
+    sorted_data = transformed_data.sort_values(by=["Manufacturer", "Product"])
+    sorted_data.to_csv(output_csv, index=False)
     print(f"CSV file '{output_csv}' created successfully!\n")
 
 
