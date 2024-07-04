@@ -1,10 +1,10 @@
 """
-Rakata to simPRO Vinyl Data Converter
+Rakata to legacy-simpro-data Vinyl Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
 This script converts an XSLX file formatted for Rakata into a CSV file suitable
-for importing into simPRO using the catalogue import module.
+for importing into legacy-simpro-data using the catalogue import module.
 
 The script performs the following transformations on the data:
 1.  Retrieves vinyl colours from the 'Colours' column to create new product variations.
@@ -13,25 +13,24 @@ The script performs the following transformations on the data:
 3.  Generates a new product code for variations, combining the original product range product number with a hash of the
     colour, and width.
 4.  Populates the 'Search Terms' and 'Notes' fields by concatenating data from existing fields.
-5.  Renames all other fields to their simPRO equivalents.
+5.  Renames all other fields to their legacy-simpro-data equivalents.
 
 Additionally, the script:
 1.  Flags any discontinued ranges and prints a list for the user. This list can be used to manually archive those ranges
-    on simPRO.
+    on legacy-simpro-data.
 2.  Flags any products with duplicate Product Numbers.
 
 The script generates a master CSV containing all products from all manufacturers, saved in the 'processed-data' folder.
-This file is for reference only and cannot be imported into simPRO.
+This file is for reference only and cannot be imported into legacy-simpro-data.
 
 The script also creates a separate CSV for each manufacturer, containing all of their current products,
-saved in the 'processed-data/vinyl' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/vinyl' folder. These CSVs can be imported directly into legacy-simpro-data.
 """
 
 import pandas as pd
 import hashlib
 import re
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
+import datetime
 
 
 def remove_double_spaces(text):
@@ -52,17 +51,17 @@ def export_manufacturer_data(df):
     print("CSV files created successfully for all manufacturers in ./processed-data/vinyl/\n")
 
 
-def note_field(sell_price, twickenham, richmond):
+def note_field(sell_price, pack_qty, twickenham, richmond):
     """
-    Populates the simPRO notes field using the existing sell price and location data.
+    Populates the legacy-simpro-data notes field using the existing sell price and location data.
     """
+    update_date = datetime.datetime.now().strftime("%d-%b-%Y")
     location_data = [loc for loc, flag in zip(["Twickenham", "Richmond"], [twickenham, richmond]) if flag == "Yes"]
-    if len(location_data) > 0:
-        return (f"Price per SQM: £{sell_price}0 inc VAT; Locations: {', '.join(location_data)}; "
-                f"Data synced from Rakata")
-    else:
-        return (f"Price per SQM: £{sell_price}0 inc VAT; Locations: None; "
-                f"Data synced from Rakata")
+    return (f"<div>Price per SQM: £{"{0:.2f}".format(sell_price)} inc VAT</div>"
+            f"Pack quantity: {pack_qty} SQM"
+            f"<div>Locations: {', '.join(location_data) if len(location_data) > 0 else 'None'}</div>"
+            f"<br>"
+            f"<div>Updated: {update_date}</div>")
 
 
 def sku_field(sku, colour):
@@ -116,7 +115,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                     "Group (Ignored for Updates)": [row['Category']],
                     "Subgroup 1 (Ignored for Updates)": [row['Type']],
                     "Search Terms": f"{row['Manufacturer']} {row['Product']} {colour}",
-                    "Notes": [note_field(row['Sell inc VAT'], row['Twickenham'], row['Richmond'])]
+                    "Notes": [note_field(row['Sell inc VAT'], row['Pack Quantity'], row['Twickenham'], row['Richmond'])]
                 })
                 transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                               new_data.astype(transformed_data.dtypes)])
@@ -132,12 +131,12 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                 "Group (Ignored for Updates)": [row['Category']],
                 "Subgroup 1 (Ignored for Updates)": [row['Type']],
                 "Search Terms": f"{row['Manufacturer']} {row['Product']}",
-                "Notes": [note_field(row['Sell inc VAT'], row['Twickenham'], row['Richmond'])]
+                "Notes": [note_field(row['Sell inc VAT'], row['Pack Quantity'], row['Twickenham'], row['Richmond'])]
             })
             transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                           new_data.astype(transformed_data.dtypes)])
 
-    print("\nRakata to simPRO Vinyl Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nRakata to legacy-simpro-data Vinyl Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         print('\n'.join(discontinued_ranges))
@@ -156,19 +155,6 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
     export_manufacturer_data(transformed_data)
 
 
-'''
-This section uses Tkinter to prompt the user to select the Rakata-formatted XLSX file
-and specifies where the master file will be saved. 
-
-This file cannot be imported into simPRO and is for reference only. 
-
-Handling of manufacturer-specific CSV files is done by the 'export_manufacturer_data' function.
-'''
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = "./processed-data/vinyl_simpro_data.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+input_xlsx_file = "../../data/vinyl.xlsx"
+output_csv_file = "./processed-data/vinyl_simpro_data.csv"
+process_xlsx_to_csv(input_xlsx_file, output_csv_file)

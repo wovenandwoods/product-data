@@ -9,7 +9,6 @@ CSV file which can be imported into the Brother label software.
 
 import pandas as pd
 import sys
-import datetime
 
 # Create lists of products which have been skipped because they are discontinued
 discontinued_ranges = []
@@ -47,7 +46,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                 "Manufacturer": [row["Manufacturer"]],
                 "Species": [row["Species"]],
                 "Finish": [row["Finish"]],
-                "Width & Length": [generate_widthlength(row["Width"], row["Thickness"])],
+                "Width & Length": [generate_width_length(row["Width"], row["Thickness"])],
                 "Thickness": [generate_thickness(row["Thickness"])],
                 "Price": [generate_price(row["Sell inc VAT"])],
                 "Twickenham": row["Twickenham"],
@@ -71,11 +70,12 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    transformed_data.to_csv(output_csv, index=False)
+    sorted_data = transformed_data.sort_values(by=["Manufacturer", "Product"])
+    sorted_data.to_csv(output_csv, index=False)
     print(f"CSV file '{output_csv}' created successfully!\n")
 
 
-def generate_widthlength(width, length):
+def generate_width_length(width, length):
     return f"{width} (w) x {length} (l)"
 
 

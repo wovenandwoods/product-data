@@ -67,7 +67,8 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    transformed_data.to_csv(output_csv, index=False)
+    sorted_data = transformed_data.sort_values(by=["Manufacturer", "Product"])
+    sorted_data.to_csv(output_csv, index=False)
     print(f"CSV file '{output_csv}' created successfully!\n")
 
 

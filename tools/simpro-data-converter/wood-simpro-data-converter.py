@@ -1,31 +1,29 @@
 """
-Rakata to simPRO Wood Data Converter
+Rakata to legacy-simpro-data Wood Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 
-This script converts an XSLX file formatted for Rakata into a CSV file suitable for importing into simPRO using the
+This script converts an XSLX file formatted for Rakata into a CSV file suitable for importing into legacy-simpro-data using the
 catalogue import module.
 
 The script performs the following transformations on the data:
 1.  Populates the 'Search Terms' and 'Notes' fields by concatenating data from existing fields.
-2.  Renames all other fields to their simPRO equivalents.
+2.  Renames all other fields to their legacy-simpro-data equivalents.
 
 Additionally, the script:
 1.  Flags any discontinued ranges and prints a list for the user.
-    This list can be used to manually archive those ranges on simPRO.
+    This list can be used to manually archive those ranges on legacy-simpro-data.
 2.  Flags any products with duplicate Product Numbers.
 
 The script generates a master CSV containing all products from all manufacturers, saved in the 'processed-data' folder.
-This file is for reference only and cannot be imported into simPRO.
+This file is for reference only and cannot be imported into legacy-simpro-data.
 
 The script also creates a separate CSV for each manufacturer, containing all of their current products,
-saved in the 'processed-data/wood' folder. These CSVs can be imported directly into simPRO.
+saved in the 'processed-data/wood' folder. These CSVs can be imported directly into legacy-simpro-data.
 """
 
 import pandas as pd
 import datetime
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
 
 
 def export_manufacturer_data(df):
@@ -41,16 +39,15 @@ def export_manufacturer_data(df):
 
 def note_field(sell_price, pack_qty, twickenham, richmond):
     """
-    Populates the simPRO notes field using the existing sell price and location data.
+    Populates the legacy-simpro-data notes field using the existing sell price and location data.
     """
     update_date = datetime.datetime.now().strftime("%d-%b-%Y")
     location_data = [loc for loc, flag in zip(["Twickenham", "Richmond"], [twickenham, richmond]) if flag == "Yes"]
     return (f"<div>Price per SQM: £{"{0:.2f}".format(sell_price)} inc VAT</div>"
-            f"<div>Pack Quantity: {pack_qty}</div>"
+            f"Pack quantity: {pack_qty} SQM"
             f"<div>Locations: {', '.join(location_data) if len(location_data) > 0 else 'None'}</div>"
-            f"<div>Updated: {update_date}</div>"
             f"<br>"
-            f"<div><em>Data synced from Rakata</em></div>")
+            f"<div>Updated: {update_date}</div>")
 
 
 def process_xlsx_to_csv(input_xlsx, output_csv):
@@ -78,7 +75,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
 
     discontinued_ranges = [f"{row['Manufacturer']} {row['Product']}" for _, row in df.iterrows() if row['Discontinued?']
                            == 'Yes']
-    
+
     for _, row in df.iterrows():
         if row['Discontinued?'] == 'Yes':
             continue
@@ -88,7 +85,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
             "Manufacturer": [row['Manufacturer']],
             "Cost Price": [row['Cost ex VAT']],
             "Trade Price": [row['Cost ex VAT']],
-            "Sell Price (Tier 1 (Buy))": [row['Sell ex VAT']], 
+            "Sell Price (Tier 1 (Buy))": [row['Sell ex VAT']],
             "Group (Ignored for Updates)": [row['Category']],
             "Subgroup 1 (Ignored for Updates)": [row['Type']],
             "Search Terms": f"{row['Manufacturer']} {row['Product']}",
@@ -97,7 +94,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                       new_data.astype(transformed_data.dtypes)])
 
-    print("\nRakata to simPRO Wood Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nRakata to legacy-simpro-data Wood Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         print('\n'.join(discontinued_ranges))

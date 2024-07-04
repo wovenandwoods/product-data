@@ -33,7 +33,7 @@ def note_field(sell_price, twickenham, richmond):
         return (f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; "
                 f"Locations: {', '.join(location_data)}; Updated: {update_date}")
     else:
-        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None"
+        return f"Price per SQM: £{format(sell_price, ',.2f')} inc VAT; Locations: None; Updated: {update_date}"
 
 
 def remove_accented_characters(input_string):
