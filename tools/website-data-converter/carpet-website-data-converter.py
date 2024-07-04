@@ -16,8 +16,7 @@ import sys
 import datetime
 import string
 import unicodedata
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
+
 
 # Create lists of products which have been skipped because they are either
 # discontinued or not marked for addition to the website
@@ -25,7 +24,7 @@ discontinued_ranges = []
 not_on_website = []
 
 
-def process_xlsx_to_csv(input_xlsx, output_csv):
+def process_data(input_xlsx):
     # Read the XLSX file into a DataFrame
     try:
         df = pd.read_excel(input_xlsx)
@@ -63,7 +62,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                     "SKU": [row["SKU"]],
                     "Product": [product_name],
                     "Manufacturer": [row["Manufacturer"]],
-                    "Category": [row["Category"]],
+                    "Category": [f"{row["Category"]} > {row["Sub-Category"]}"],
                     "Material": [row["Material"]],
                     "Widths": [str(row["Widths"]).replace(", ", " | ")],
                     "Sell ex VAT": [row["Sell ex VAT"]],
@@ -86,7 +85,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                         "SKU": [row["SKU"]],
                         "Product": [product_name],
                         "Manufacturer": [row["Manufacturer"]],
-                        "Category": [row["Category"]],
+                        "Category": [f"{row["Category"]} > {row["Sub-Category"]}"],
                         "Material": [row["Material"]],
                         "Widths": [str(row["Widths"]).replace(", ", " | ")],
                         "Sell ex VAT": [row["Sell ex VAT"]],
@@ -98,7 +97,6 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                     })
 
                     # Concatenate the new data with the existing DataFrame
-                    # transformed_data = pd.concat([transformed_data.dropna(axis=1), new_data.dropna(axis=1)], ignore_index=True)
                     transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                                   new_data.astype(transformed_data.dtypes)])
 
@@ -118,8 +116,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    transformed_data.to_csv(output_csv, index=False)
-    print(f"CSV file '{output_csv}' created successfully!\n")
+    return transformed_data
 
 
 def generate_slug(product_name, colour):
@@ -172,11 +169,10 @@ def compress_dashes(text):
     return compressed_text
 
 
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = f"./processed_data/Carpet Website Data {str(datetime.datetime.today()).split()[0]}.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+# File locations
+supplier_xlsx_file = "../../data/suppliers.xlsx"
+input_xlsx_file = "../../data/carpet.xlsx"
+output_csv_file = "./processed-data/carpet_website_data.csv"
+
+process_data(input_xlsx_file).to_csv(output_csv_file, index=False)
+print(f"CSV file '{output_csv_file}' created successfully!\n")

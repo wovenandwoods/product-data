@@ -10,11 +10,8 @@ via WP All Import.
 
 import pandas as pd
 import sys
-import datetime
 import string
 import unicodedata
-from tkinter import Tk
-from tkinter.filedialog import askopenfilename
 
 # Create lists of products which have been skipped because they are either
 # discontinued or not marked for addition to the website
@@ -22,12 +19,12 @@ discontinued_ranges = []
 not_on_website = []
 
 
-def process_xlsx_to_csv(input_xlsx, output_csv):
+def process_data(input_xlsx):
     # Read the XLSX file into a DataFrame
     try:
         df = pd.read_excel(input_xlsx)
     except FileNotFoundError:
-        sys.exit(print("\nThe system doesn't work!\n"))
+        sys.exit(print(f"\nFile not found. Check the location: {input_xlsx_file}\n"))
 
     # Create a new DataFrame to store the transformed data
     transformed_data = pd.DataFrame(columns=[
@@ -113,8 +110,7 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    transformed_data.to_csv(output_csv, index=False)
-    print(f"CSV file '{output_csv}' created successfully!\n")
+    return transformed_data
 
 
 def generate_slug(product_name, colour):
@@ -170,11 +166,10 @@ def compress_dashes(text):
     return compressed_text
 
 
-Tk().withdraw()
-input_xlsx_file = askopenfilename()
-if input_xlsx_file:
-    print(f"Selected file: {input_xlsx_file}")
-    output_csv_file = f"./processed_data/Runner Website Data {str(datetime.datetime.today()).split()[0]}.csv"
-    process_xlsx_to_csv(input_xlsx_file, output_csv_file)
-else:
-    print("No file selected.")
+# File locations
+supplier_xlsx_file = "../../data/suppliers.xlsx"
+input_xlsx_file = "../../data/runners.xlsx"
+output_csv_file = "./processed-data/runner_website_data.csv"
+
+process_data(input_xlsx_file).to_csv(output_csv_file, index=False)
+print(f"CSV file '{output_csv_file}' created successfully!\n")
