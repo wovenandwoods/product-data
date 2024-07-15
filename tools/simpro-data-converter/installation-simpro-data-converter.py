@@ -22,7 +22,7 @@ def generate_notes(cost_price, sell_price):
 
 def adjust_for_vat(price):
     """
-    legacy-simpro-data will automatically add VAT to the cost price when an installation item is imported as pre-build.
+    This will automatically add VAT to the cost price when an installation item is imported as a pre-build.
     While the labour price is already ex VAT, this function will reduce that figure by a further 20%
     (or whatever the current rate of VAT is) to compensate for this behaviour.
     """

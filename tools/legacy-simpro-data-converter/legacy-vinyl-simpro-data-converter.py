@@ -1,5 +1,5 @@
 """
-Legacy simPRO Carpet Data Converter
+Legacy simPRO Vinyl Data Converter
 (c) 2024 Woven & Woods
 wj@wovenandwoods.com
 """
@@ -39,7 +39,7 @@ def process_data(input_data, output_data):
     ])
 
     discontinued_ranges = [
-        f"{row['Part Number']},{row['Manufacturer']},{row['Description']}" for _, row in df.iterrows() if
+        f"{row['Part Number']},{row['Description']}" for _, row in df.iterrows() if
         row['Discontinued?'] == 'Yes'
     ]
 
@@ -66,7 +66,7 @@ def process_data(input_data, output_data):
                                        new_data.astype(transformed_data.dtypes)])
                             .sort_values(by=["Description"], ascending=[True]))
 
-    print("\nLegacy simPRO Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
+    print("\nLegacy simPRO Vinyl Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
         for d_range in discontinued_ranges:
@@ -74,7 +74,7 @@ def process_data(input_data, output_data):
         print("\nAny ranges marked as discontinued have been skipped.")
         disc_file = f"{output_dir}/discontinued-{input_file.split('/')[-1].replace('.xlsx', '')}.csv"
         with open(disc_file, 'w') as fp:
-            fp.write("Part Number, Manufacturer, Product\n")
+            fp.write("Part Number, Product\n")
             for item in discontinued_ranges:
                 fp.write(f"{item}\n")
     else:
@@ -83,7 +83,7 @@ def process_data(input_data, output_data):
     duplicates = transformed_data[transformed_data.duplicated(subset=['Part Number'])]
     if not duplicates.empty:
         print("\nWarning: Duplicate entries found in the 'Part Number' column.\n")
-        print(duplicates[['Part Number', 'Manufacturer', 'Description']])
+        print(duplicates[['Part Number', 'Description']])
         print("\n")
     else:
         print("\nNo duplicate Part Numbers detected.")
