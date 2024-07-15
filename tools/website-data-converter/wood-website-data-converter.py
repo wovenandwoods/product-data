@@ -10,19 +10,16 @@ via WP All Import.
 
 import pandas as pd
 import sys
-import string
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 import unicodedata
-
-# Create lists of products which have been skipped because they are either
-# discontinued or not marked for addition to the website
-discontinued_ranges = []
-not_on_website = []
+import string
 
 
-def process_data(input_xlsx):
+def process_data(input_data, output_data):
     # Read the XLSX file into a DataFrame
     try:
-        df = pd.read_excel(input_xlsx)
+        df = pd.read_excel(input_data)
     except FileNotFoundError:
         sys.exit(print("\nThe system doesn't work!\n"))
 
@@ -38,15 +35,19 @@ def process_data(input_xlsx):
         "Width",
         "Length",
         "Thickness",
-        # "Pack Quantity",
+        "Pack Quantity",
         "Sell ex VAT",
-        # "Sell inc VAT",
         "Slug",
         "Image URL"])
 
+    # Create lists of products which have been skipped because they are either
+    # discontinued or not marked for addition to the website
+    discontinued_ranges = []
+    not_on_website = []
+
     # Iterate through each row in the original DataFrame
     for _, row in df.iterrows():
-        product_name = row["Product"]
+        product_name = row["Description"]
         on_website = row["Show on Website?"]
         discontinued = row["Discontinued?"]
 
@@ -54,21 +55,20 @@ def process_data(input_xlsx):
         if on_website == "Yes" and discontinued != "Yes":
             # Create a new DataFrame with the desired structure
             new_data = pd.DataFrame({
-                "SKU": [row["SKU"]],
+                "SKU": [row["Part Number"]],
                 "Product": [product_name],
                 "Manufacturer": [row["Manufacturer"]],
-                "Category": [f"{row["Category"]} > {row['Type']}"],
-                "Type": [row["Type"]],
+                "Category": [f"{row["Group"]} > {row['Subgroup 1']}"],
+                "Type": [row["Subgroup 1"]],
                 "Species": [row["Species"]],
                 "Finish": [row["Finish"]],
                 "Length": [row["Length"]],
                 "Width": [str(row["Width"])],
                 "Thickness": [row["Thickness"]],
-                # "Pack Quantity": [row["Pack Quantity"]],
-                "Sell ex VAT": [row["Sell ex VAT"]],
-                # "Sell inc VAT": [row["Sell inc VAT"]],
+                "Pack Quantity": [row["Pack Quantity"]],
+                "Sell ex VAT": [generate_ex_vat(row["SQM sell inc VAT"])],
                 "Slug": [generate_slug(product_name)],
-                "Image URL": [generate_image_url(row["Category"], row["Manufacturer"], product_name)]
+                "Image URL": [generate_image_url(row["Group"], row["Manufacturer"], product_name)]
             })
 
             # Concatenate the new data with the existing DataFrame
@@ -91,7 +91,9 @@ def process_data(input_xlsx):
         print("None\n")
 
     # Write the transformed data to a CSV file
-    return transformed_data
+    sorted_data = transformed_data.sort_values(by=["Manufacturer", "Product"])
+    sorted_data.to_csv(output_data, index=False)
+    print(f"CSV file '{output_data}' created successfully!\n")
 
 
 def generate_slug(product_name):
@@ -129,10 +131,17 @@ def compress_dashes(text):
     return compressed_text
 
 
-# File locations
-supplier_xlsx_file = "../../data/suppliers.xlsx"
-input_xlsx_file = "../../data/wood.xlsx"
-output_csv_file = "./processed-data/wood_website_data.csv"
+def generate_ex_vat(sell_inc_vat):
+    return sell_inc_vat / 1.2
 
-process_data(input_xlsx_file).to_csv(output_csv_file, index=False)
-print(f"CSV file '{output_csv_file}' created successfully!\n")
+
+# Make stuff happen
+Tk().withdraw()
+input_file = askopenfilename()
+output_dir = "./processed-data"
+if input_file:
+    print(f"Selected file: {input_file}")
+    output_file = f"{output_dir}/simpro-{input_file.split('/')[-1].replace('.xlsx', '')}-website-data.csv"
+    process_data(input_file, output_file)
+else:
+    print("No file selected.")
