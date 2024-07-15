@@ -9,12 +9,21 @@ CSV file which can be imported into the Brother label software.
 
 import pandas as pd
 import sys
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
+import re
 
 # Create lists of products which have been skipped because they are discontinued
 discontinued_ranges = []
 
 
-def process_xlsx_to_csv(input_xlsx, output_csv):
+def export_supplier_data(df):
+    for supplier in df['Manufacturer'].unique():
+        df[df['Manufacturer'] == supplier].to_csv(f"./processed-data/wood/{supplier.lower().replace(' ', '-')}"
+                                                      f"-ticket-data.csv", index=False)
+    print("CSV files created successfully for all suppliers in ./processed-data/wood/\n")
+
+def process_data(input_xlsx, output_csv):
     # Read the XLSX file into a DataFrame
     try:
         df = pd.read_excel(input_xlsx)
@@ -35,8 +44,15 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
 
     # Iterate through each row in the original DataFrame
     for _, row in df.iterrows():
-        product_name = row["Product"]
+        # Capture the product name and remove anything inside [square brackets]
+        product_name = re.sub(r"\[.*?\]|\(.*?\)", "", row["Description"])
         discontinued = row["Discontinued?"]
+
+        # Check locations
+        if isinstance(row['Location'], str):
+            location_list = row['Location']
+        else:
+            location_list = ""
 
         # Check if product has been assigned to the website and not discontinued
         if not discontinued == "Yes":
@@ -46,11 +62,11 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
                 "Manufacturer": [row["Manufacturer"]],
                 "Species": [row["Species"]],
                 "Finish": [row["Finish"]],
-                "Width & Length": [generate_width_length(row["Width"], row["Thickness"])],
+                "Width & Length": [generate_width_length(row["Width"], row["Length"])],
                 "Thickness": [generate_thickness(row["Thickness"])],
-                "Price": [generate_price(row["Sell inc VAT"])],
-                "Twickenham": row["Twickenham"],
-                "Richmond": row["Richmond"]
+                "Price": [generate_price(row["SQM sell inc VAT"])],
+                "Twickenham": "Yes" if "Twickenham" in location_list else None,
+                "Richmond": "Yes" if "Richmond" in location_list else None,
             })
 
             # Concatenate the new data with the existing DataFrame
@@ -69,10 +85,14 @@ def process_xlsx_to_csv(input_xlsx, output_csv):
     else:
         print("None\n")
 
+
+
     # Write the transformed data to a CSV file
     sorted_data = transformed_data.sort_values(by=["Manufacturer", "Product"])
     sorted_data.to_csv(output_csv, index=False)
     print(f"CSV file '{output_csv}' created successfully!\n")
+
+    export_supplier_data(transformed_data)
 
 
 def generate_width_length(width, length):
@@ -87,9 +107,13 @@ def generate_price(price):
     return f"£{price:.2f} per SQM"
 
 
-# Set file locations
-input_xlsx_file = "../../data/wood.xlsx"
-output_csv_file = f"./processed-data/Wood Ticket Data.csv"
-
-# Make it work
-process_xlsx_to_csv(input_xlsx_file, output_csv_file)
+# Make stuff happen
+Tk().withdraw()
+input_file = askopenfilename()
+output_dir = "./processed-data"
+if input_file:
+    print(f"Selected file: {input_file}")
+    output_file = f"{output_dir}/simpro-{input_file.split('/')[-1].replace('.xlsx', '')}-ticket-data.csv"
+    process_data(input_file, output_file)
+else:
+    print("No file selected.")
