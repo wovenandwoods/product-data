@@ -57,12 +57,12 @@ def process_data(input_data, output_data):
             "Description": [row['Description']],
             "Part Number": [row['Part Number']],
             "Manufacturer": [row['Manufacturer']],
-            "Cost Price": [lm_price(row['SQM cost ex VAT'], row['Width'])],
-            "Trade Price": [lm_price(row['SQM cost ex VAT'], row['Width'])],
-            "Sell Price (Tier 1 (Buy))": [(lm_price(row['SQM sell inc VAT'], row['Width'])) / 6 * 5],
+            "Cost Price": [lm_price(row['SQM Cost ex VAT'], row['Width'])],
+            "Trade Price": [lm_price(row['SQM Cost ex VAT'], row['Width'])],
+            "Sell Price (Tier 1 (Buy))": [(lm_price(row['SQM Sell inc VAT'], row['Width'])) / 6 * 5],
             "Group (Ignored for Updates)": [row['Group']],
             "Search Terms": f"{row['Manufacturer']} {row['Description']}",
-            "Notes": [note_field(row['SQM sell inc VAT'], loc_twickenham, loc_richmond)]
+            "Notes": [note_field(row['SQM Sell inc VAT'], loc_twickenham, loc_richmond)]
         })
         transformed_data = pd.concat([transformed_data.astype(transformed_data.dtypes),
                                       new_data.astype(transformed_data.dtypes)])
@@ -70,8 +70,8 @@ def process_data(input_data, output_data):
     print("\nLegacy simPRO Carpet Data Converter\n(c) 2024 Woven & Woods\nwj@wovenandwoods.com")
     print("\nDiscontinued Ranges\n---------------------")
     if len(discontinued_ranges) > 0:
-        for range in discontinued_ranges:
-            print(range.replace(",", " "))
+        for product_range in discontinued_ranges:
+            print(product_range.replace(",", " "))
         print("\nAny ranges marked as discontinued have been skipped.")
         disc_file = f"{output_dir}/discontinued-{input_file.split('/')[-1].replace('.xlsx', '')}.csv"
         with open(disc_file, 'w') as fp:
